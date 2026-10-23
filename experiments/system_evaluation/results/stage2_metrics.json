@@ -1,0 +1,118 @@
+{
+  "pill_primary_eval": {
+    "set_name": "Set 1A Established External 23 Benchmark",
+    "total_set_count": 23,
+    "retained_by_stage1": 23,
+    "accuracy": 0.9130434782608695,
+    "macro_f1": 0.9130844645550528,
+    "macro_p": 0.9259259259259259,
+    "macro_r": 0.9153439153439153,
+    "per_class": {
+      "Scratch": {
+        "p": 1.0,
+        "r": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "support": 9
+      },
+      "Crack": {
+        "p": 1.0,
+        "r": 0.8571428571428571,
+        "f1": 0.9230769230769231,
+        "support": 7
+      },
+      "Discoloration": {
+        "p": 0.7777777777777778,
+        "r": 1.0,
+        "f1": 0.875,
+        "support": 7
+      }
+    },
+    "confusion_matrix": {
+      "Scratch": {
+        "Scratch": 8,
+        "Crack": 0,
+        "Discoloration": 1
+      },
+      "Crack": {
+        "Scratch": 0,
+        "Crack": 6,
+        "Discoloration": 1
+      },
+      "Discoloration": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 7
+      }
+    }
+  },
+  "metal_nut_cross_domain": {
+    "evaluation_role": "Cross-domain stress test / domain-mismatch diagnostic",
+    "active_classes": [
+      "Discoloration",
+      "Scratch"
+    ],
+    "total_supported": 45,
+    "retained_by_stage1": 31,
+    "accuracy": 0.5161290322580645,
+    "macro_f1": 0.42026578073089704,
+    "per_class": {
+      "Discoloration": {
+        "p": 1.0,
+        "r": 0.07692307692307693,
+        "f1": 0.14285714285714285,
+        "support": 13
+      },
+      "Scratch": {
+        "p": 0.6,
+        "r": 0.8333333333333334,
+        "f1": 0.6976744186046512,
+        "support": 18
+      }
+    },
+    "confusion_matrix": {
+      "Discoloration": {
+        "Discoloration": 1,
+        "Scratch": 10
+      },
+      "Scratch": {
+        "Discoloration": 0,
+        "Scratch": 15
+      }
+    }
+  },
+  "tile_cross_domain": {
+    "evaluation_role": "Cross-domain stress test / domain-mismatch diagnostic",
+    "active_classes": [
+      "Crack",
+      "Discoloration"
+    ],
+    "total_supported": 33,
+    "retained_by_stage1": 32,
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "per_class": {
+      "Crack": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "Discoloration": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 15
+      }
+    },
+    "confusion_matrix": {
+      "Crack": {
+        "Crack": 0,
+        "Discoloration": 0
+      },
+      "Discoloration": {
+        "Crack": 0,
+        "Discoloration": 0
+      }
+    }
+  }
+}

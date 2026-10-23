@@ -1,0 +1,2405 @@
+[
+  {
+    "sample_id": 42,
+    "filename": "012.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\38f339714456_012.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Crack",
+    "logits": [
+      -1.6268092393875122,
+      0.4143882095813751,
+      -1.0778441429138184
+    ],
+    "probs_raw": [
+      0.09586545825004578,
+      0.7381472587585449,
+      0.16598725318908691
+    ],
+    "msp_raw": 0.7381472587585449,
+    "probs_temp": [
+      0.11631346493959427,
+      0.6955322027206421,
+      0.18815438449382782
+    ],
+    "msp_temp": 0.6955322027206421,
+    "min_cos_dist": 0.18224716186523438,
+    "affinity_dist": 0.8177528381347656
+  },
+  {
+    "sample_id": 45,
+    "filename": "015.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\587aecd38103_015.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Crack",
+    "logits": [
+      0.07588830590248108,
+      0.628467857837677,
+      -1.703945517539978
+    ],
+    "probs_raw": [
+      0.3440687358379364,
+      0.5978984832763672,
+      0.05803275108337402
+    ],
+    "msp_raw": 0.5978984832763672,
+    "probs_temp": [
+      0.35297730565071106,
+      0.5728045701980591,
+      0.07421810925006866
+    ],
+    "msp_temp": 0.5728045701980591,
+    "min_cos_dist": 0.2008202075958252,
+    "affinity_dist": 0.7991797924041748
+  },
+  {
+    "sample_id": 47,
+    "filename": "017.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\db046c65c2a8_017.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Crack",
+    "logits": [
+      0.6033945083618164,
+      0.7166592478752136,
+      -3.1441268920898438
+    ],
+    "probs_raw": [
+      0.46652576327323914,
+      0.5224754214286804,
+      0.010998861864209175
+    ],
+    "msp_raw": 0.5224754214286804,
+    "probs_temp": [
+      0.46689072251319885,
+      0.5156002044677734,
+      0.01750902645289898
+    ],
+    "msp_temp": 0.5156002044677734,
+    "min_cos_dist": 0.2001916766166687,
+    "affinity_dist": 0.7998083233833313
+  },
+  {
+    "sample_id": 48,
+    "filename": "018.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\ceb5ca2cc4da_018.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.2814026176929474,
+      0.5113580226898193,
+      -1.2289296388626099
+    ],
+    "probs_raw": [
+      0.2779950797557831,
+      0.6142266392707825,
+      0.10777829587459564
+    ],
+    "msp_raw": 0.6142266392707825,
+    "probs_temp": [
+      0.2907964885234833,
+      0.5824238061904907,
+      0.1267797201871872
+    ],
+    "msp_temp": 0.5824238061904907,
+    "min_cos_dist": 0.21139979362487793,
+    "affinity_dist": 0.7886002063751221
+  },
+  {
+    "sample_id": 49,
+    "filename": "019.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f986d0a703c8_019.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.7055798768997192,
+      0.7948998808860779,
+      -3.0654733180999756
+    ],
+    "probs_raw": [
+      0.1792670637369156,
+      0.8038046956062317,
+      0.016928236931562424
+    ],
+    "msp_raw": 0.8038046956062317,
+    "probs_temp": [
+      0.2061898410320282,
+      0.7677296996116638,
+      0.026080414652824402
+    ],
+    "msp_temp": 0.7677296996116638,
+    "min_cos_dist": 0.19648957252502441,
+    "affinity_dist": 0.8035104274749756
+  },
+  {
+    "sample_id": 50,
+    "filename": "020.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\62a89037902a_020.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.6254075765609741,
+      -0.4109228849411011,
+      0.9992362260818481
+    ],
+    "probs_raw": [
+      0.055041179060935974,
+      0.18540938198566437,
+      0.7595494389533997
+    ],
+    "msp_raw": 0.7595494389533997,
+    "probs_temp": [
+      0.07210816442966461,
+      0.20897899568080902,
+      0.7189128398895264
+    ],
+    "msp_temp": 0.7189128398895264,
+    "min_cos_dist": 0.1491556167602539,
+    "affinity_dist": 0.8508443832397461
+  },
+  {
+    "sample_id": 51,
+    "filename": "021.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\c4cbc0d7a40a_021.png",
+    "is_supported": true,
+    "true_label": "Crack",
+    "predicted_class": "Crack",
+    "logits": [
+      0.34695395827293396,
+      0.5471281409263611,
+      -1.5692381858825684
+    ],
+    "probs_raw": [
+      0.4221579432487488,
+      0.515714704990387,
+      0.06212741509079933
+    ],
+    "msp_raw": 0.515714704990387,
+    "probs_temp": [
+      0.4204707145690918,
+      0.5010755062103271,
+      0.07845374941825867
+    ],
+    "msp_temp": 0.5010755062103271,
+    "min_cos_dist": 0.2135986089706421,
+    "affinity_dist": 0.7864013910293579
+  },
+  {
+    "sample_id": 52,
+    "filename": "012.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f8ba8e76b6d5_012.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.3959447145462036,
+      -0.7811924815177917,
+      0.36232203245162964
+    ],
+    "probs_raw": [
+      0.11558596044778824,
+      0.21374136209487915,
+      0.6706726551055908
+    ],
+    "msp_raw": 0.6706726551055908,
+    "probs_temp": [
+      0.1354912519454956,
+      0.23218169808387756,
+      0.6323270201683044
+    ],
+    "msp_temp": 0.6323270201683044,
+    "min_cos_dist": 0.21580231189727783,
+    "affinity_dist": 0.7841976881027222
+  },
+  {
+    "sample_id": 53,
+    "filename": "013.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\73547f2ea377_013.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.8946919441223145,
+      -1.4862730503082275,
+      0.9318400025367737
+    ],
+    "probs_raw": [
+      0.05156969651579857,
+      0.07758337259292603,
+      0.8708468079566956
+    ],
+    "msp_raw": 0.8708468079566956,
+    "probs_temp": [
+      0.06978728622198105,
+      0.09981182962656021,
+      0.830400824546814
+    ],
+    "msp_temp": 0.830400824546814,
+    "min_cos_dist": 0.16609126329421997,
+    "affinity_dist": 0.83390873670578
+  },
+  {
+    "sample_id": 55,
+    "filename": "015.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\9e90150e4ca0_015.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.4184285402297974,
+      0.05009137839078903,
+      0.8740063309669495
+    ],
+    "probs_raw": [
+      0.06560897827148438,
+      0.2849268913269043,
+      0.6494640707969666
+    ],
+    "msp_raw": 0.6494640707969666,
+    "probs_temp": [
+      0.08283086121082306,
+      0.29989710450172424,
+      0.6172720789909363
+    ],
+    "msp_temp": 0.6172720789909363,
+    "min_cos_dist": 0.26885342597961426,
+    "affinity_dist": 0.7311465740203857
+  },
+  {
+    "sample_id": 56,
+    "filename": "016.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\d4c57e3c2c81_016.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.9047636985778809,
+      -0.25696662068367004,
+      0.9616194367408752
+    ],
+    "probs_raw": [
+      0.04207184910774231,
+      0.21858520805835724,
+      0.739342987537384
+    ],
+    "msp_raw": 0.739342987537384,
+    "probs_temp": [
+      0.05695338919758797,
+      0.24127687513828278,
+      0.7017697095870972
+    ],
+    "msp_temp": 0.7017697095870972,
+    "min_cos_dist": 0.1859508752822876,
+    "affinity_dist": 0.8140491247177124
+  },
+  {
+    "sample_id": 58,
+    "filename": "018.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\122d4517c881_018.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.5361546277999878,
+      -1.1496771574020386,
+      1.0427800416946411
+    ],
+    "probs_raw": [
+      0.06387786567211151,
+      0.09401462972164154,
+      0.8421074748039246
+    ],
+    "msp_raw": 0.8421074748039246,
+    "probs_temp": [
+      0.08346172422170639,
+      0.11709660291671753,
+      0.7994416356086731
+    ],
+    "msp_temp": 0.7994416356086731,
+    "min_cos_dist": 0.18577653169631958,
+    "affinity_dist": 0.8142234683036804
+  },
+  {
+    "sample_id": 59,
+    "filename": "019.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\07ccb9dc6746_019.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -2.059020757675171,
+      -0.11253010481595993,
+      1.4384846687316895
+    ],
+    "probs_raw": [
+      0.024368247017264366,
+      0.17067678272724152,
+      0.8049549460411072
+    ],
+    "msp_raw": 0.8049549460411072,
+    "probs_temp": [
+      0.035811856389045715,
+      0.19709591567516327,
+      0.7670921683311462
+    ],
+    "msp_temp": 0.7670921683311462,
+    "min_cos_dist": 0.22359448671340942,
+    "affinity_dist": 0.7764055132865906
+  },
+  {
+    "sample_id": 60,
+    "filename": "020.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\732fe02d6c2b_020.png",
+    "is_supported": true,
+    "true_label": "Discoloration",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.461147665977478,
+      -1.8422346115112305,
+      2.66763973236084
+    ],
+    "probs_raw": [
+      0.015677494928240776,
+      0.010709588415920734,
+      0.973612904548645
+    ],
+    "msp_raw": 0.973612904548645,
+    "probs_temp": [
+      0.025668915361166,
+      0.01838238164782524,
+      0.9559487700462341
+    ],
+    "msp_temp": 0.9559487700462341,
+    "min_cos_dist": 0.1958019733428955,
+    "affinity_dist": 0.8041980266571045
+  },
+  {
+    "sample_id": 62,
+    "filename": "000.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\d436bf43e10b_000.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.879875898361206,
+      0.00884135439991951,
+      -2.533611297607422
+    ],
+    "probs_raw": [
+      0.8575761914253235,
+      0.13203611969947815,
+      0.010387701913714409
+    ],
+    "msp_raw": 0.8575761914253235,
+    "probs_temp": [
+      0.8230183720588684,
+      0.15976078808307648,
+      0.017220770940184593
+    ],
+    "msp_temp": 0.8230183720588684,
+    "min_cos_dist": 0.17362701892852783,
+    "affinity_dist": 0.8263729810714722
+  },
+  {
+    "sample_id": 63,
+    "filename": "001.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\424d0bc915dd_001.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.0320543050765991,
+      0.8082441091537476,
+      -2.607151508331299
+    ],
+    "probs_raw": [
+      0.547723114490509,
+      0.43788644671440125,
+      0.014390436932444572
+    ],
+    "msp_raw": 0.547723114490509,
+    "probs_temp": [
+      0.5367189645767212,
+      0.44114962220191956,
+      0.022131377831101418
+    ],
+    "msp_temp": 0.5367189645767212,
+    "min_cos_dist": 0.18452709913253784,
+    "affinity_dist": 0.8154729008674622
+  },
+  {
+    "sample_id": 64,
+    "filename": "002.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\1423430c3662_002.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.3723411560058594,
+      0.19096997380256653,
+      -1.9224522113800049
+    ],
+    "probs_raw": [
+      0.7440844774246216,
+      0.22832801938056946,
+      0.02758745662868023
+    ],
+    "msp_raw": 0.7440844774246216,
+    "probs_temp": [
+      0.708734393119812,
+      0.2517474591732025,
+      0.0395180806517601
+    ],
+    "msp_temp": 0.708734393119812,
+    "min_cos_dist": 0.18464040756225586,
+    "affinity_dist": 0.8153595924377441
+  },
+  {
+    "sample_id": 65,
+    "filename": "003.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\a754f7f6cff0_003.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.9737231731414795,
+      -0.12889492511749268,
+      -2.3851606845855713
+    ],
+    "probs_raw": [
+      0.7316494584083557,
+      0.24290814995765686,
+      0.025442413985729218
+    ],
+    "msp_raw": 0.7316494584083557,
+    "probs_temp": [
+      0.69769287109375,
+      0.26552891731262207,
+      0.036778148263692856
+    ],
+    "msp_temp": 0.69769287109375,
+    "min_cos_dist": 0.17582941055297852,
+    "affinity_dist": 0.8241705894470215
+  },
+  {
+    "sample_id": 67,
+    "filename": "012.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\de34068b2403_012.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      2.286940813064575,
+      -0.8474283814430237,
+      -2.4182591438293457
+    ],
+    "probs_raw": [
+      0.9500507712364197,
+      0.04135305434465408,
+      0.008596157655119896
+    ],
+    "msp_raw": 0.9500507712364197,
+    "probs_temp": [
+      0.9256018400192261,
+      0.05939896032214165,
+      0.014999225735664368
+    ],
+    "msp_temp": 0.9256018400192261,
+    "min_cos_dist": 0.1729101538658142,
+    "affinity_dist": 0.8270898461341858
+  },
+  {
+    "sample_id": 68,
+    "filename": "013.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\cac0dbb522fb_013.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      2.180987596511841,
+      -0.5481303930282593,
+      -2.5069515705108643
+    ],
+    "probs_raw": [
+      0.9306806325912476,
+      0.06075190380215645,
+      0.008567508310079575
+    ],
+    "msp_raw": 0.9306806325912476,
+    "probs_temp": [
+      0.9025434255599976,
+      0.08260820060968399,
+      0.014848430640995502
+    ],
+    "msp_temp": 0.9025434255599976,
+    "min_cos_dist": 0.15862834453582764,
+    "affinity_dist": 0.8413716554641724
+  },
+  {
+    "sample_id": 69,
+    "filename": "014.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\b987bf52f122_014.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.671844482421875,
+      -0.1705000102519989,
+      -3.023043155670166
+    ],
+    "probs_raw": [
+      0.8564669489860535,
+      0.13570335507392883,
+      0.007829730398952961
+    ],
+    "msp_raw": 0.8564669489860535,
+    "probs_temp": [
+      0.8227683305740356,
+      0.16377778351306915,
+      0.013453835621476173
+    ],
+    "msp_temp": 0.8227683305740356,
+    "min_cos_dist": 0.14587867259979248,
+    "affinity_dist": 0.8541213274002075
+  },
+  {
+    "sample_id": 70,
+    "filename": "015.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f9308a371770_015.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.3950870633125305,
+      0.3227241337299347,
+      -1.266822338104248
+    ],
+    "probs_raw": [
+      0.4717048704624176,
+      0.4387767016887665,
+      0.08951839804649353
+    ],
+    "msp_raw": 0.4717048704624176,
+    "probs_temp": [
+      0.4604652225971222,
+      0.43217769265174866,
+      0.10735711455345154
+    ],
+    "msp_temp": 0.4604652225971222,
+    "min_cos_dist": 0.20606344938278198,
+    "affinity_dist": 0.793936550617218
+  },
+  {
+    "sample_id": 71,
+    "filename": "016.png",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\978a46d6d2e0_016.png",
+    "is_supported": true,
+    "true_label": "Scratch",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.5503551959991455,
+      -0.09586638957262039,
+      0.8851194977760315
+    ],
+    "probs_raw": [
+      0.059867583215236664,
+      0.25637054443359375,
+      0.6837618947029114
+    ],
+    "msp_raw": 0.6837618947029114,
+    "probs_temp": [
+      0.07678400725126266,
+      0.27460727095603943,
+      0.6486086845397949
+    ],
+    "msp_temp": 0.6486086845397949,
+    "min_cos_dist": 0.15460121631622314,
+    "affinity_dist": 0.8453987836837769
+  },
+  {
+    "sample_id": "000.png",
+    "filename": "000.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\000.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.1389786005020142,
+      0.5592893958091736,
+      -2.1762208938598633
+    ],
+    "probs_raw": [
+      0.6264097690582275,
+      0.35083481669425964,
+      0.022755462676286697
+    ],
+    "msp_raw": 0.6264097690582275,
+    "probs_temp": [
+      0.6036705374717712,
+      0.36326611042022705,
+      0.03306341543793678
+    ],
+    "msp_temp": 0.6036705374717712,
+    "min_cos_dist": 0.12851452827453613,
+    "affinity_dist": 0.8714854717254639
+  },
+  {
+    "sample_id": "001.png",
+    "filename": "001.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\001.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.9432279467582703,
+      0.9251574873924255,
+      -1.081166386604309
+    ],
+    "probs_raw": [
+      0.11977509409189224,
+      0.7758825421333313,
+      0.10434234887361526
+    ],
+    "msp_raw": 0.7758825421333313,
+    "probs_temp": [
+      0.14233282208442688,
+      0.7315370440483093,
+      0.1261300891637802
+    ],
+    "msp_temp": 0.7315370440483093,
+    "min_cos_dist": 0.18377935886383057,
+    "affinity_dist": 0.8162206411361694
+  },
+  {
+    "sample_id": "002.png",
+    "filename": "002.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\002.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.044049620628357,
+      -0.5336111783981323,
+      2.4693357944488525
+    ],
+    "probs_raw": [
+      0.02760317735373974,
+      0.045987486839294434,
+      0.9264093637466431
+    ],
+    "msp_raw": 0.9264093637466431,
+    "probs_temp": [
+      0.04117916524410248,
+      0.06440243124961853,
+      0.8944184184074402
+    ],
+    "msp_temp": 0.8944184184074402,
+    "min_cos_dist": 0.19398415088653564,
+    "affinity_dist": 0.8060158491134644
+  },
+  {
+    "sample_id": "003.png",
+    "filename": "003.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\003.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.8756439685821533,
+      -0.8219739198684692,
+      1.8149973154067993
+    ],
+    "probs_raw": [
+      0.022758981212973595,
+      0.0652763620018959,
+      0.9119645953178406
+    ],
+    "msp_raw": 0.9119645953178406,
+    "probs_temp": [
+      0.0346180684864521,
+      0.08714255690574646,
+      0.8782392740249634
+    ],
+    "msp_temp": 0.8782392740249634,
+    "min_cos_dist": 0.22540497779846191,
+    "affinity_dist": 0.7745950222015381
+  },
+  {
+    "sample_id": "004.png",
+    "filename": "004.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\004.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      0.3687877357006073,
+      0.5538793206214905,
+      -2.336688756942749
+    ],
+    "probs_raw": [
+      0.4404962360858917,
+      0.5300617218017578,
+      0.029442092403769493
+    ],
+    "msp_raw": 0.5300617218017578,
+    "probs_temp": [
+      0.44062551856040955,
+      0.5182007551193237,
+      0.04117375239729881
+    ],
+    "msp_temp": 0.5182007551193237,
+    "min_cos_dist": 0.20499026775360107,
+    "affinity_dist": 0.7950097322463989
+  },
+  {
+    "sample_id": "005.png",
+    "filename": "005.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\005.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      0.0005831420421600342,
+      1.2493000030517578,
+      -2.1503336429595947
+    ],
+    "probs_raw": [
+      0.21728530526161194,
+      0.7574276328086853,
+      0.025287097319960594
+    ],
+    "msp_raw": 0.7574276328086853,
+    "probs_temp": [
+      0.2416466325521469,
+      0.7216467261314392,
+      0.03670664131641388
+    ],
+    "msp_temp": 0.7216467261314392,
+    "min_cos_dist": 0.18285095691680908,
+    "affinity_dist": 0.8171490430831909
+  },
+  {
+    "sample_id": "006.png",
+    "filename": "006.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\006.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      0.38087594509124756,
+      0.5480594038963318,
+      -3.073678493499756
+    ],
+    "probs_raw": [
+      0.4517584443092346,
+      0.5339654088020325,
+      0.014276189729571342
+    ],
+    "msp_raw": 0.5339654088020325,
+    "probs_temp": [
+      0.45326313376426697,
+      0.5247647166252136,
+      0.021972157061100006
+    ],
+    "msp_temp": 0.5247647166252136,
+    "min_cos_dist": 0.2355344295501709,
+    "affinity_dist": 0.7644655704498291
+  },
+  {
+    "sample_id": "007.png",
+    "filename": "007.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\007.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.22701355814933777,
+      -0.19102713465690613,
+      -0.9923531413078308
+    ],
+    "probs_raw": [
+      0.511835515499115,
+      0.33695948123931885,
+      0.15120501816272736
+    ],
+    "msp_raw": 0.511835515499115,
+    "probs_temp": [
+      0.4909430742263794,
+      0.3403801918029785,
+      0.1686767339706421
+    ],
+    "msp_temp": 0.4909430742263794,
+    "min_cos_dist": 0.25964874029159546,
+    "affinity_dist": 0.7403512597084045
+  },
+  {
+    "sample_id": "008.png",
+    "filename": "008.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\008.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Scratch",
+    "logits": [
+      -0.24260661005973816,
+      -0.25325921177864075,
+      -1.136163592338562
+    ],
+    "probs_raw": [
+      0.4169096052646637,
+      0.4124920070171356,
+      0.17059843242168427
+    ],
+    "msp_raw": 0.4169096052646637,
+    "probs_temp": [
+      0.4085310101509094,
+      0.40473583340644836,
+      0.1867331862449646
+    ],
+    "msp_temp": 0.4085310101509094,
+    "min_cos_dist": 0.2173556089401245,
+    "affinity_dist": 0.7826443910598755
+  },
+  {
+    "sample_id": "009.png",
+    "filename": "009.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\009.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -2.0088260173797607,
+      -1.4292984008789062,
+      3.3242721557617188
+    ],
+    "probs_raw": [
+      0.004764995537698269,
+      0.00850644800812006,
+      0.9867286086082458
+    ],
+    "msp_raw": 0.9867286086082458,
+    "probs_temp": [
+      0.009121212176978588,
+      0.015155352652072906,
+      0.9757235050201416
+    ],
+    "msp_temp": 0.9757235050201416,
+    "min_cos_dist": 0.14456820487976074,
+    "affinity_dist": 0.8554317951202393
+  },
+  {
+    "sample_id": "010.png",
+    "filename": "010.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\010.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.12678846716880798,
+      -0.8736666440963745,
+      -0.3415777087211609
+    ],
+    "probs_raw": [
+      0.5015708804130554,
+      0.18443366885185242,
+      0.31399551033973694
+    ],
+    "msp_raw": 0.5015708804130554,
+    "probs_temp": [
+      0.48085445165634155,
+      0.20014040172100067,
+      0.3190051317214966
+    ],
+    "msp_temp": 0.48085445165634155,
+    "min_cos_dist": 0.2637314200401306,
+    "affinity_dist": 0.7362685799598694
+  },
+  {
+    "sample_id": "011.png",
+    "filename": "011.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\011.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.574458122253418,
+      -0.5187544226646423,
+      -1.7845498323440552
+    ],
+    "probs_raw": [
+      0.6994709372520447,
+      0.23441936075687408,
+      0.06610976159572601
+    ],
+    "msp_raw": 0.6994709372520447,
+    "probs_temp": [
+      0.6621130108833313,
+      0.25407302379608154,
+      0.08381392806768417
+    ],
+    "msp_temp": 0.6621130108833313,
+    "min_cos_dist": 0.17472362518310547,
+    "affinity_dist": 0.8252763748168945
+  },
+  {
+    "sample_id": "012.png",
+    "filename": "012.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\012.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      0.3575596809387207,
+      1.461626648902893,
+      -2.129084348678589
+    ],
+    "probs_raw": [
+      0.24392637610435486,
+      0.7357816696166992,
+      0.02029191143810749
+    ],
+    "msp_raw": 0.7357816696166992,
+    "probs_temp": [
+      0.2670876979827881,
+      0.7026799917221069,
+      0.03023233264684677
+    ],
+    "msp_temp": 0.7026799917221069,
+    "min_cos_dist": 0.20190668106079102,
+    "affinity_dist": 0.798093318939209
+  },
+  {
+    "sample_id": "013.png",
+    "filename": "013.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\013.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      0.5650173425674438,
+      1.4229484796524048,
+      -3.0092413425445557
+    ],
+    "probs_raw": [
+      0.2953064441680908,
+      0.6964142918586731,
+      0.008279270492494106
+    ],
+    "msp_raw": 0.6964142918586731,
+    "probs_temp": [
+      0.3160361647605896,
+      0.6701691746711731,
+      0.01379465777426958
+    ],
+    "msp_temp": 0.6701691746711731,
+    "min_cos_dist": 0.26040440797805786,
+    "affinity_dist": 0.7395955920219421
+  },
+  {
+    "sample_id": "014.png",
+    "filename": "014.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\014.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      -2.890009880065918,
+      0.3426128029823303,
+      -0.3934688866138458
+    ],
+    "probs_raw": [
+      0.025983156636357307,
+      0.6585702300071716,
+      0.3154465854167938
+    ],
+    "msp_raw": 0.6585702300071716,
+    "probs_temp": [
+      0.037181489169597626,
+      0.6314778327941895,
+      0.3313407301902771
+    ],
+    "msp_temp": 0.6314778327941895,
+    "min_cos_dist": 0.24637985229492188,
+    "affinity_dist": 0.7536201477050781
+  },
+  {
+    "sample_id": "015.png",
+    "filename": "015.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\015.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -0.47415387630462646,
+      -0.9371593594551086,
+      0.38499072194099426
+    ],
+    "probs_raw": [
+      0.2505933344364166,
+      0.15772071480751038,
+      0.591685950756073
+    ],
+    "msp_raw": 0.591685950756073,
+    "probs_temp": [
+      0.2638983726501465,
+      0.17589782178401947,
+      0.5602038502693176
+    ],
+    "msp_temp": 0.5602038502693176,
+    "min_cos_dist": 0.2179654836654663,
+    "affinity_dist": 0.7820345163345337
+  },
+  {
+    "sample_id": "016.png",
+    "filename": "016.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\016.png",
+    "is_supported": false,
+    "true_label": "combined",
+    "predicted_class": "Crack",
+    "logits": [
+      0.4728967547416687,
+      0.4763175845146179,
+      -1.0578497648239136
+    ],
+    "probs_raw": [
+      0.4504908621311188,
+      0.4520345628261566,
+      0.09747456014156342
+    ],
+    "msp_raw": 0.4520345628261566,
+    "probs_temp": [
+      0.44158998131752014,
+      0.4429154694080353,
+      0.11549454927444458
+    ],
+    "msp_temp": 0.4429154694080353,
+    "min_cos_dist": 0.1808757781982422,
+    "affinity_dist": 0.8191242218017578
+  },
+  {
+    "sample_id": "000.png",
+    "filename": "000.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\000.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -1.3815280199050903,
+      0.53570157289505,
+      0.2697395980358124
+    ],
+    "probs_raw": [
+      0.07683044672012329,
+      0.5226075053215027,
+      0.4005620777606964
+    ],
+    "msp_raw": 0.5226075053215027,
+    "probs_temp": [
+      0.09421838074922562,
+      0.5054200291633606,
+      0.4003615975379944
+    ],
+    "msp_temp": 0.5054200291633606,
+    "min_cos_dist": 0.23992085456848145,
+    "affinity_dist": 0.7600791454315186
+  },
+  {
+    "sample_id": "001.png",
+    "filename": "001.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\001.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.9156227707862854,
+      -0.1607891023159027,
+      -0.750015139579773
+    ],
+    "probs_raw": [
+      0.6536433696746826,
+      0.2227722704410553,
+      0.12358434498310089
+    ],
+    "msp_raw": 0.6536433696746826,
+    "probs_temp": [
+      0.6165951490402222,
+      0.2401149719953537,
+      0.14328983426094055
+    ],
+    "msp_temp": 0.6165951490402222,
+    "min_cos_dist": 0.1908402442932129,
+    "affinity_dist": 0.8091597557067871
+  },
+  {
+    "sample_id": "002.png",
+    "filename": "002.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\002.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.8018635511398315,
+      2.4715211391448975,
+      -1.887305498123169
+    ],
+    "probs_raw": [
+      0.036051247268915176,
+      0.9517723917961121,
+      0.012176395393908024
+    ],
+    "msp_raw": 0.9517723917961121,
+    "probs_temp": [
+      0.052666161209344864,
+      0.9269860982894897,
+      0.020347675308585167
+    ],
+    "msp_temp": 0.9269860982894897,
+    "min_cos_dist": 0.13339519500732422,
+    "affinity_dist": 0.8666048049926758
+  },
+  {
+    "sample_id": "003.png",
+    "filename": "003.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\003.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -1.8900519609451294,
+      1.3579955101013184,
+      -1.251929521560669
+    ],
+    "probs_raw": [
+      0.03492479398846626,
+      0.8989652395248413,
+      0.06610996276140213
+    ],
+    "msp_raw": 0.8989652395248413,
+    "probs_temp": [
+      0.050090618431568146,
+      0.862296998500824,
+      0.08761239051818848
+    ],
+    "msp_temp": 0.862296998500824,
+    "min_cos_dist": 0.189125657081604,
+    "affinity_dist": 0.810874342918396
+  },
+  {
+    "sample_id": "004.png",
+    "filename": "004.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\004.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.5488507747650146,
+      0.30912792682647705,
+      -0.701294481754303
+    ],
+    "probs_raw": [
+      0.2371356338262558,
+      0.5592580437660217,
+      0.20360635221004486
+    ],
+    "msp_raw": 0.5592580437660217,
+    "probs_temp": [
+      0.2502748966217041,
+      0.5307415127754211,
+      0.21898359060287476
+    ],
+    "msp_temp": 0.5307415127754211,
+    "min_cos_dist": 0.2088613510131836,
+    "affinity_dist": 0.7911386489868164
+  },
+  {
+    "sample_id": "005.png",
+    "filename": "005.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\005.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.002757534384727478,
+      0.08049856871366501,
+      -0.6605095863342285
+    ],
+    "probs_raw": [
+      0.3839015066623688,
+      0.4172319173812866,
+      0.1988665759563446
+    ],
+    "msp_raw": 0.4172319173812866,
+    "probs_temp": [
+      0.37912508845329285,
+      0.40781381726264954,
+      0.21306107938289642
+    ],
+    "msp_temp": 0.40781381726264954,
+    "min_cos_dist": 0.1845981478691101,
+    "affinity_dist": 0.8154018521308899
+  },
+  {
+    "sample_id": "006.png",
+    "filename": "006.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\006.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.6770963072776794,
+      0.6342759728431702,
+      -2.3621113300323486
+    ],
+    "probs_raw": [
+      0.49851536750793457,
+      0.47761934995651245,
+      0.02386533096432686
+    ],
+    "msp_raw": 0.49851536750793457,
+    "probs_temp": [
+      0.4919005334377289,
+      0.4737878739833832,
+      0.03431163728237152
+    ],
+    "msp_temp": 0.4919005334377289,
+    "min_cos_dist": 0.1716061234474182,
+    "affinity_dist": 0.8283938765525818
+  },
+  {
+    "sample_id": "007.png",
+    "filename": "007.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\007.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.03886270523071289,
+      -0.02716689556837082,
+      -1.0990899801254272
+    ],
+    "probs_raw": [
+      0.4240627586841583,
+      0.42905163764953613,
+      0.14688560366630554
+    ],
+    "msp_raw": 0.42905163764953613,
+    "probs_temp": [
+      0.4157516658306122,
+      0.42003387212753296,
+      0.16421447694301605
+    ],
+    "msp_temp": 0.42003387212753296,
+    "min_cos_dist": 0.17374074459075928,
+    "affinity_dist": 0.8262592554092407
+  },
+  {
+    "sample_id": "008.png",
+    "filename": "008.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\008.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.4761427640914917,
+      -0.2866961658000946,
+      -0.16962234675884247
+    ],
+    "probs_raw": [
+      0.5023606419563293,
+      0.23427116870880127,
+      0.2633681893348694
+    ],
+    "msp_raw": 0.5023606419563293,
+    "probs_temp": [
+      0.48066213726997375,
+      0.24636292457580566,
+      0.2729748487472534
+    ],
+    "msp_temp": 0.48066213726997375,
+    "min_cos_dist": 0.20308524370193481,
+    "affinity_dist": 0.7969147562980652
+  },
+  {
+    "sample_id": "009.png",
+    "filename": "009.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\009.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -0.6611782908439636,
+      -0.37134477496147156,
+      -0.13439635932445526
+    ],
+    "probs_raw": [
+      0.24815873801708221,
+      0.3315909206867218,
+      0.4202502965927124
+    ],
+    "msp_raw": 0.4202502965927124,
+    "probs_temp": [
+      0.2580243647098541,
+      0.3326166868209839,
+      0.4093588888645172
+    ],
+    "msp_temp": 0.4093588888645172,
+    "min_cos_dist": 0.2301039695739746,
+    "affinity_dist": 0.7698960304260254
+  },
+  {
+    "sample_id": "010.png",
+    "filename": "010.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\010.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.5596292614936829,
+      1.2965316772460938,
+      -0.806140661239624
+    ],
+    "probs_raw": [
+      0.12223975360393524,
+      0.7822271585464478,
+      0.0955331027507782
+    ],
+    "msp_raw": 0.7822271585464478,
+    "probs_temp": [
+      0.14512480795383453,
+      0.7379406690597534,
+      0.11693450808525085
+    ],
+    "msp_temp": 0.7379406690597534,
+    "min_cos_dist": 0.28302937746047974,
+    "affinity_dist": 0.7169706225395203
+  },
+  {
+    "sample_id": "011.png",
+    "filename": "011.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\011.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.4176275134086609,
+      0.06850070506334305,
+      -1.3826286792755127
+    ],
+    "probs_raw": [
+      0.534599244594574,
+      0.37705478072166443,
+      0.08834601938724518
+    ],
+    "msp_raw": 0.534599244594574,
+    "probs_temp": [
+      0.5146667957305908,
+      0.3790368139743805,
+      0.1062963604927063
+    ],
+    "msp_temp": 0.5146667957305908,
+    "min_cos_dist": 0.18476200103759766,
+    "affinity_dist": 0.8152379989624023
+  },
+  {
+    "sample_id": "012.png",
+    "filename": "012.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\012.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.2804763615131378,
+      -0.111290343105793,
+      -0.31282949447631836
+    ],
+    "probs_raw": [
+      0.44876059889793396,
+      0.303300142288208,
+      0.24793924391269684
+    ],
+    "msp_raw": 0.44876059889793396,
+    "probs_temp": [
+      0.4340108335018158,
+      0.30791518092155457,
+      0.2580740451812744
+    ],
+    "msp_temp": 0.4340108335018158,
+    "min_cos_dist": 0.23819184303283691,
+    "affinity_dist": 0.7618081569671631
+  },
+  {
+    "sample_id": "013.png",
+    "filename": "013.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\013.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.2341376543045044,
+      0.4291037917137146,
+      -2.103398084640503
+    ],
+    "probs_raw": [
+      0.6744920015335083,
+      0.3015470504760742,
+      0.023960916325449944
+    ],
+    "msp_raw": 0.6744920015335083,
+    "probs_temp": [
+      0.6461384892463684,
+      0.3191579282283783,
+      0.034703582525253296
+    ],
+    "msp_temp": 0.6461384892463684,
+    "min_cos_dist": 0.18796807527542114,
+    "affinity_dist": 0.8120319247245789
+  },
+  {
+    "sample_id": "014.png",
+    "filename": "014.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\014.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -1.8838918209075928,
+      0.33202117681503296,
+      0.08775255084037781
+    ],
+    "probs_raw": [
+      0.05762939900159836,
+      0.528448760509491,
+      0.4139218330383301
+    ],
+    "msp_raw": 0.528448760509491,
+    "probs_temp": [
+      0.07355515658855438,
+      0.5126023888587952,
+      0.41384243965148926
+    ],
+    "msp_temp": 0.5126023888587952,
+    "min_cos_dist": 0.2509118914604187,
+    "affinity_dist": 0.7490881085395813
+  },
+  {
+    "sample_id": "015.png",
+    "filename": "015.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\015.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.19376546144485474,
+      0.053983643651008606,
+      -0.9965047240257263
+    ],
+    "probs_raw": [
+      0.36640259623527527,
+      0.4694124460220337,
+      0.16418492794036865
+    ],
+    "msp_raw": 0.4694124460220337,
+    "probs_temp": [
+      0.3653148412704468,
+      0.4538760483264923,
+      0.1808091700077057
+    ],
+    "msp_temp": 0.4538760483264923,
+    "min_cos_dist": 0.24872255325317383,
+    "affinity_dist": 0.7512774467468262
+  },
+  {
+    "sample_id": "016.png",
+    "filename": "016.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\016.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.35217493772506714,
+      1.3736648559570312,
+      -3.133293867111206
+    ],
+    "probs_raw": [
+      0.14971838891506195,
+      0.8410036563873291,
+      0.009277917444705963
+    ],
+    "msp_raw": 0.8410036563873291,
+    "probs_temp": [
+      0.17782051861286163,
+      0.8066288232803345,
+      0.015550712123513222
+    ],
+    "msp_temp": 0.8066288232803345,
+    "min_cos_dist": 0.14203351736068726,
+    "affinity_dist": 0.8579664826393127
+  },
+  {
+    "sample_id": "017.png",
+    "filename": "017.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\017.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.8143267631530762,
+      -0.6997180581092834,
+      -1.6966875791549683
+    ],
+    "probs_raw": [
+      0.7685189247131348,
+      0.169088214635849,
+      0.06239284947514534
+    ],
+    "msp_raw": 0.7685189247131348,
+    "probs_temp": [
+      0.7266390919685364,
+      0.19284842908382416,
+      0.08051253855228424
+    ],
+    "msp_temp": 0.7266390919685364,
+    "min_cos_dist": 0.21359598636627197,
+    "affinity_dist": 0.786404013633728
+  },
+  {
+    "sample_id": "018.png",
+    "filename": "018.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\018.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      -0.3572040796279907,
+      -0.4492534101009369,
+      -0.5168689489364624
+    ],
+    "probs_raw": [
+      0.3617304265499115,
+      0.3299199044704437,
+      0.3083496391773224
+    ],
+    "msp_raw": 0.3617304265499115,
+    "probs_temp": [
+      0.358169823884964,
+      0.33041802048683167,
+      0.31141218543052673
+    ],
+    "msp_temp": 0.358169823884964,
+    "min_cos_dist": 0.23139572143554688,
+    "affinity_dist": 0.7686042785644531
+  },
+  {
+    "sample_id": "019.png",
+    "filename": "019.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\019.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.9211616516113281,
+      0.6827399134635925,
+      -2.4351859092712402
+    ],
+    "probs_raw": [
+      0.7676562070846558,
+      0.22249849140644073,
+      0.009845303371548653
+    ],
+    "msp_raw": 0.7676562070846558,
+    "probs_temp": [
+      0.7353554368019104,
+      0.24846819043159485,
+      0.016176415607333183
+    ],
+    "msp_temp": 0.7353554368019104,
+    "min_cos_dist": 0.1872767210006714,
+    "affinity_dist": 0.8127232789993286
+  },
+  {
+    "sample_id": "020.png",
+    "filename": "020.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\020.png",
+    "is_supported": false,
+    "true_label": "contamination",
+    "predicted_class": "Crack",
+    "logits": [
+      -1.0580241680145264,
+      0.17011785507202148,
+      -0.13497593998908997
+    ],
+    "probs_raw": [
+      0.14426203072071075,
+      0.49263739585876465,
+      0.36310049891471863
+    ],
+    "msp_raw": 0.49263739585876465,
+    "probs_temp": [
+      0.16186295449733734,
+      0.47474730014801025,
+      0.36338967084884644
+    ],
+    "msp_temp": 0.47474730014801025,
+    "min_cos_dist": 0.24306416511535645,
+    "affinity_dist": 0.7569358348846436
+  },
+  {
+    "sample_id": "000.png",
+    "filename": "000.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\000.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -0.6783707141876221,
+      -0.2738697826862335,
+      0.05576193705201149
+    ],
+    "probs_raw": [
+      0.21823440492153168,
+      0.32703617215156555,
+      0.4547293484210968
+    ],
+    "msp_raw": 0.4547293484210968,
+    "probs_temp": [
+      0.23105880618095398,
+      0.32933467626571655,
+      0.43960657715797424
+    ],
+    "msp_temp": 0.43960657715797424,
+    "min_cos_dist": 0.232410728931427,
+    "affinity_dist": 0.767589271068573
+  },
+  {
+    "sample_id": "001.png",
+    "filename": "001.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\001.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.25249624252319336,
+      0.410786509513855,
+      -1.6063801050186157
+    ],
+    "probs_raw": [
+      0.3125596046447754,
+      0.6067264080047607,
+      0.08071394264698029
+    ],
+    "msp_raw": 0.6067264080047607,
+    "probs_temp": [
+      0.323264479637146,
+      0.5780172944068909,
+      0.09871824830770493
+    ],
+    "msp_temp": 0.5780172944068909,
+    "min_cos_dist": 0.20964694023132324,
+    "affinity_dist": 0.7903530597686768
+  },
+  {
+    "sample_id": "002.png",
+    "filename": "002.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\002.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.45238637924194336,
+      1.9950077533721924,
+      -1.113241195678711
+    ],
+    "probs_raw": [
+      0.07648418843746185,
+      0.88401859998703,
+      0.03949717432260513
+    ],
+    "msp_raw": 0.88401859998703,
+    "probs_temp": [
+      0.0990460142493248,
+      0.8454431891441345,
+      0.05551085248589516
+    ],
+    "msp_temp": 0.8454431891441345,
+    "min_cos_dist": 0.13296449184417725,
+    "affinity_dist": 0.8670355081558228
+  },
+  {
+    "sample_id": "003.png",
+    "filename": "003.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\003.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.3620797097682953,
+      -0.21591034531593323,
+      -1.6990699768066406
+    ],
+    "probs_raw": [
+      0.5923004746437073,
+      0.3322952687740326,
+      0.07540430873632431
+    ],
+    "msp_raw": 0.5923004746437073,
+    "probs_temp": [
+      0.5659341216087341,
+      0.3410651385784149,
+      0.09300079941749573
+    ],
+    "msp_temp": 0.5659341216087341,
+    "min_cos_dist": 0.1616646647453308,
+    "affinity_dist": 0.8383353352546692
+  },
+  {
+    "sample_id": "004.png",
+    "filename": "004.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\004.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.2232084274291992,
+      -1.0908957719802856,
+      -1.674041986465454
+    ],
+    "probs_raw": [
+      0.8665290474891663,
+      0.08566047996282578,
+      0.047810498625040054
+    ],
+    "msp_raw": 0.8665290474891663,
+    "probs_temp": [
+      0.8259981870651245,
+      0.10875500738620758,
+      0.06524675339460373
+    ],
+    "msp_temp": 0.8259981870651245,
+    "min_cos_dist": 0.21396911144256592,
+    "affinity_dist": 0.7860308885574341
+  },
+  {
+    "sample_id": "005.png",
+    "filename": "005.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\005.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      0.7525960206985474,
+      0.9680305123329163,
+      -1.6810193061828613
+    ],
+    "probs_raw": [
+      0.42953115701675415,
+      0.5327907204627991,
+      0.03767809644341469
+    ],
+    "msp_raw": 0.5327907204627991,
+    "probs_temp": [
+      0.42986398935317993,
+      0.5191646218299866,
+      0.05097140744328499
+    ],
+    "msp_temp": 0.5191646218299866,
+    "min_cos_dist": 0.1838761568069458,
+    "affinity_dist": 0.8161238431930542
+  },
+  {
+    "sample_id": "006.png",
+    "filename": "006.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\006.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.14881661534309387,
+      0.3314934968948364,
+      -1.618151307106018
+    ],
+    "probs_raw": [
+      0.3512896001338959,
+      0.5678861737251282,
+      0.08082418143749237
+    ],
+    "msp_raw": 0.5678861737251282,
+    "probs_temp": [
+      0.3572431802749634,
+      0.5441575646400452,
+      0.09859926998615265
+    ],
+    "msp_temp": 0.5441575646400452,
+    "min_cos_dist": 0.20631778240203857,
+    "affinity_dist": 0.7936822175979614
+  },
+  {
+    "sample_id": "007.png",
+    "filename": "007.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\007.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.4718791246414185,
+      -1.0068135261535645,
+      -1.5181615352630615
+    ],
+    "probs_raw": [
+      0.881726861000061,
+      0.07393525540828705,
+      0.04433797672390938
+    ],
+    "msp_raw": 0.881726861000061,
+    "probs_temp": [
+      0.8425966501235962,
+      0.09604239463806152,
+      0.06136097386479378
+    ],
+    "msp_temp": 0.8425966501235962,
+    "min_cos_dist": 0.19083189964294434,
+    "affinity_dist": 0.8091681003570557
+  },
+  {
+    "sample_id": "008.png",
+    "filename": "008.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\008.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      0.4843222498893738,
+      0.740041196346283,
+      -1.8722959756851196
+    ],
+    "probs_raw": [
+      0.4190886616706848,
+      0.5412067770957947,
+      0.039704494178295135
+    ],
+    "msp_raw": 0.5412067770957947,
+    "probs_temp": [
+      0.42052480578422546,
+      0.526131272315979,
+      0.05334392935037613
+    ],
+    "msp_temp": 0.526131272315979,
+    "min_cos_dist": 0.19520163536071777,
+    "affinity_dist": 0.8047983646392822
+  },
+  {
+    "sample_id": "009.png",
+    "filename": "009.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\009.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.9077622890472412,
+      -0.1168549507856369,
+      0.052375707775354385
+    ],
+    "probs_raw": [
+      0.07094615697860718,
+      0.42531436681747437,
+      0.5037394762039185
+    ],
+    "msp_raw": 0.5037394762039185,
+    "probs_temp": [
+      0.08793400228023529,
+      0.4222865700721741,
+      0.48977938294410706
+    ],
+    "msp_temp": 0.48977938294410706,
+    "min_cos_dist": 0.1835881471633911,
+    "affinity_dist": 0.8164118528366089
+  },
+  {
+    "sample_id": "010.png",
+    "filename": "010.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\010.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.8229413032531738,
+      -1.6416499614715576,
+      -1.6898852586746216
+    ],
+    "probs_raw": [
+      0.942419707775116,
+      0.029484344646334648,
+      0.028095919638872147
+    ],
+    "msp_raw": 0.942419707775116,
+    "probs_temp": [
+      0.9139816761016846,
+      0.04391782730817795,
+      0.04210047051310539
+    ],
+    "msp_temp": 0.9139816761016846,
+    "min_cos_dist": 0.21909546852111816,
+    "affinity_dist": 0.7809045314788818
+  },
+  {
+    "sample_id": "011.png",
+    "filename": "011.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\011.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      2.7572872638702393,
+      -1.4678785800933838,
+      -2.1743297576904297
+    ],
+    "probs_raw": [
+      0.9786289930343628,
+      0.014310402795672417,
+      0.0070606404915452
+    ],
+    "msp_raw": 0.9786289930343628,
+    "probs_temp": [
+      0.9634222388267517,
+      0.023774810135364532,
+      0.012802902609109879
+    ],
+    "msp_temp": 0.9634222388267517,
+    "min_cos_dist": 0.21034467220306396,
+    "affinity_dist": 0.789655327796936
+  },
+  {
+    "sample_id": "012.png",
+    "filename": "012.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\012.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.23235470056533813,
+      -0.01753561943769455,
+      -0.9118167757987976
+    ],
+    "probs_raw": [
+      0.36409616470336914,
+      0.451347291469574,
+      0.18455655872821808
+    ],
+    "msp_raw": 0.451347291469574,
+    "probs_temp": [
+      0.3625180721282959,
+      0.43759217858314514,
+      0.19988973438739777
+    ],
+    "msp_temp": 0.43759217858314514,
+    "min_cos_dist": 0.17506879568099976,
+    "affinity_dist": 0.8249312043190002
+  },
+  {
+    "sample_id": "013.png",
+    "filename": "013.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\013.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.5331181287765503,
+      -0.838735818862915,
+      -2.02292537689209
+    ],
+    "probs_raw": [
+      0.8913774490356445,
+      0.0831722840666771,
+      0.025450218468904495
+    ],
+    "msp_raw": 0.8913774490356445,
+    "probs_temp": [
+      0.8550516366958618,
+      0.10702578723430634,
+      0.03792255371809006
+    ],
+    "msp_temp": 0.8550516366958618,
+    "min_cos_dist": 0.217384934425354,
+    "affinity_dist": 0.782615065574646
+  },
+  {
+    "sample_id": "014.png",
+    "filename": "014.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\014.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.47533607482910156,
+      0.26683783531188965,
+      -1.459802508354187
+    ],
+    "probs_raw": [
+      0.28784140944480896,
+      0.6046099662780762,
+      0.10754863917827606
+    ],
+    "msp_raw": 0.6046099662780762,
+    "probs_temp": [
+      0.2995702028274536,
+      0.5739842653274536,
+      0.12644554674625397
+    ],
+    "msp_temp": 0.5739842653274536,
+    "min_cos_dist": 0.14536654949188232,
+    "affinity_dist": 0.8546334505081177
+  },
+  {
+    "sample_id": "015.png",
+    "filename": "015.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\015.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.0510804653167725,
+      -0.5265518426895142,
+      -2.34739089012146
+    ],
+    "probs_raw": [
+      0.8065246343612671,
+      0.16651779413223267,
+      0.026957541704177856
+    ],
+    "msp_raw": 0.8065246343612671,
+    "probs_temp": [
+      0.7680885791778564,
+      0.19280274212360382,
+      0.03910871967673302
+    ],
+    "msp_temp": 0.7680885791778564,
+    "min_cos_dist": 0.18473351001739502,
+    "affinity_dist": 0.815266489982605
+  },
+  {
+    "sample_id": "016.png",
+    "filename": "016.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\016.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.0750114917755127,
+      -0.7062991261482239,
+      -1.591229796409607
+    ],
+    "probs_raw": [
+      0.8077998161315918,
+      0.13604746758937836,
+      0.05615260824561119
+    ],
+    "msp_raw": 0.8077998161315918,
+    "probs_temp": [
+      0.7652847766876221,
+      0.16070310771465302,
+      0.0740121603012085
+    ],
+    "msp_temp": 0.7652847766876221,
+    "min_cos_dist": 0.20848464965820312,
+    "affinity_dist": 0.7915153503417969
+  },
+  {
+    "sample_id": "017.png",
+    "filename": "017.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\017.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.24800768494606018,
+      -1.0618770122528076,
+      -1.0518741607666016
+    ],
+    "probs_raw": [
+      0.6483339071273804,
+      0.1749536693096161,
+      0.17671246826648712
+    ],
+    "msp_raw": 0.6483339071273804,
+    "probs_temp": [
+      0.6106659173965454,
+      0.1938139796257019,
+      0.1955200582742691
+    ],
+    "msp_temp": 0.6106659173965454,
+    "min_cos_dist": 0.23123812675476074,
+    "affinity_dist": 0.7687618732452393
+  },
+  {
+    "sample_id": "018.png",
+    "filename": "018.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\018.png",
+    "is_supported": false,
+    "true_label": "faulty_imprint",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.1657006740570068,
+      -0.5084391236305237,
+      -2.0635197162628174
+    ],
+    "probs_raw": [
+      0.8149576187133789,
+      0.15277959406375885,
+      0.03226282820105553
+    ],
+    "msp_raw": 0.8149576187133789,
+    "probs_temp": [
+      0.7753620147705078,
+      0.1788482964038849,
+      0.045789700001478195
+    ],
+    "msp_temp": 0.7753620147705078,
+    "min_cos_dist": 0.194915771484375,
+    "affinity_dist": 0.805084228515625
+  },
+  {
+    "sample_id": "000.png",
+    "filename": "000.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\000.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Crack",
+    "logits": [
+      0.8039813041687012,
+      1.2571220397949219,
+      -3.6931676864624023
+    ],
+    "probs_raw": [
+      0.38693904876708984,
+      0.6087501645088196,
+      0.00431077741086483
+    ],
+    "msp_raw": 0.6087501645088196,
+    "probs_temp": [
+      0.3989105820655823,
+      0.5933325290679932,
+      0.007756839506328106
+    ],
+    "msp_temp": 0.5933325290679932,
+    "min_cos_dist": 0.25029075145721436,
+    "affinity_dist": 0.7497092485427856
+  },
+  {
+    "sample_id": "001.png",
+    "filename": "001.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\001.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.962909460067749,
+      -0.09827090054750443,
+      -2.488307476043701
+    ],
+    "probs_raw": [
+      0.7258188724517822,
+      0.25116750597953796,
+      0.023013558238744736
+    ],
+    "msp_raw": 0.7258188724517822,
+    "probs_temp": [
+      0.69287109375,
+      0.2734432816505432,
+      0.03368564322590828
+    ],
+    "msp_temp": 0.69287109375,
+    "min_cos_dist": 0.2498089075088501,
+    "affinity_dist": 0.7501910924911499
+  },
+  {
+    "sample_id": "002.png",
+    "filename": "002.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\002.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -0.8778360486030579,
+      -0.5021911859512329,
+      1.5072230100631714
+    ],
+    "probs_raw": [
+      0.07509969174861908,
+      0.1093398928642273,
+      0.8155604004859924
+    ],
+    "msp_raw": 0.8155604004859924,
+    "probs_temp": [
+      0.09549342840909958,
+      0.1327114850282669,
+      0.7717950940132141
+    ],
+    "msp_temp": 0.7717950940132141,
+    "min_cos_dist": 0.28846806287765503,
+    "affinity_dist": 0.711531937122345
+  },
+  {
+    "sample_id": "003.png",
+    "filename": "003.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\003.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -0.716446042060852,
+      -0.8992295265197754,
+      1.572640299797058
+    ],
+    "probs_raw": [
+      0.08547835797071457,
+      0.07119905203580856,
+      0.8433225750923157
+    ],
+    "msp_raw": 0.8433225750923157,
+    "probs_temp": [
+      0.10773088783025742,
+      0.0917888730764389,
+      0.8004801869392395
+    ],
+    "msp_temp": 0.8004801869392395,
+    "min_cos_dist": 0.28150516748428345,
+    "affinity_dist": 0.7184948325157166
+  },
+  {
+    "sample_id": "004.png",
+    "filename": "004.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\004.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -0.8081094026565552,
+      -0.5357093214988708,
+      1.3618587255477905
+    ],
+    "probs_raw": [
+      0.09032510966062546,
+      0.11860702186822891,
+      0.7910677790641785
+    ],
+    "msp_raw": 0.7910677790641785,
+    "probs_temp": [
+      0.11156302690505981,
+      0.14163485169410706,
+      0.7468022108078003
+    ],
+    "msp_temp": 0.7468022108078003,
+    "min_cos_dist": 0.28025269508361816,
+    "affinity_dist": 0.7197473049163818
+  },
+  {
+    "sample_id": "005.png",
+    "filename": "005.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\005.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Scratch",
+    "logits": [
+      0.8489123582839966,
+      0.4748811721801758,
+      -3.30664324760437
+    ],
+    "probs_raw": [
+      0.5869809985160828,
+      0.4038167893886566,
+      0.009202146902680397
+    ],
+    "msp_raw": 0.5869809985160828,
+    "probs_temp": [
+      0.5724740624427795,
+      0.41251033544540405,
+      0.0150156170129776
+    ],
+    "msp_temp": 0.5724740624427795,
+    "min_cos_dist": 0.24907243251800537,
+    "affinity_dist": 0.7509275674819946
+  },
+  {
+    "sample_id": "006.png",
+    "filename": "006.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\006.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Scratch",
+    "logits": [
+      1.145413875579834,
+      -0.8493150472640991,
+      -2.24773907661438
+    ],
+    "probs_raw": [
+      0.8549543023109436,
+      0.11631698906421661,
+      0.028728654608130455
+    ],
+    "msp_raw": 0.8549543023109436,
+    "probs_temp": [
+      0.8161045908927917,
+      0.14214780926704407,
+      0.04174762964248657
+    ],
+    "msp_temp": 0.8161045908927917,
+    "min_cos_dist": 0.26569926738739014,
+    "affinity_dist": 0.7343007326126099
+  },
+  {
+    "sample_id": "007.png",
+    "filename": "007.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\007.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Discoloration",
+    "logits": [
+      -1.127732515335083,
+      -0.19267240166664124,
+      0.3837360739707947
+    ],
+    "probs_raw": [
+      0.12375087291002274,
+      0.3152388632297516,
+      0.5610102415084839
+    ],
+    "msp_raw": 0.5610102415084839,
+    "probs_temp": [
+      0.14228332042694092,
+      0.3228119909763336,
+      0.5349046587944031
+    ],
+    "msp_temp": 0.5349046587944031,
+    "min_cos_dist": 0.3076016902923584,
+    "affinity_dist": 0.6923983097076416
+  },
+  {
+    "sample_id": "008.png",
+    "filename": "008.png",
+    "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\008.png",
+    "is_supported": false,
+    "true_label": "pill_type",
+    "predicted_class": "Crack",
+    "logits": [
+      -0.7903433442115784,
+      0.2523498833179474,
+      0.13520729541778564
+    ],
+    "probs_raw": [
+      0.15723012387752533,
+      0.44603779911994934,
+      0.39673206210136414
+    ],
+    "msp_raw": 0.44603779911994934,
+    "probs_temp": [
+      0.17412090301513672,
+      0.4341118037700653,
+      0.391767293214798
+    ],
+    "msp_temp": 0.4341118037700653,
+    "min_cos_dist": 0.3049672842025757,
+    "affinity_dist": 0.6950327157974243
+  }
+]

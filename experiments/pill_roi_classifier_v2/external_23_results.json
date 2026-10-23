@@ -1,0 +1,531 @@
+[
+  {
+    "db_id": 42,
+    "filename": "012.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\38f339714456_012.png",
+    "roi_coords": [
+      170,
+      508,
+      304,
+      637
+    ],
+    "roi_width": 134,
+    "roi_height": 129,
+    "roi_area_pct": 2.7009374999999998,
+    "patchcore_score": 47.313621520996094,
+    "predicted_class": "Crack",
+    "confidence": 0.7381472587585449,
+    "probabilities": {
+      "Scratch": 0.09586545825004578,
+      "Crack": 0.7381472587585449,
+      "Discoloration": 0.16598725318908691
+    }
+  },
+  {
+    "db_id": 45,
+    "filename": "015.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\587aecd38103_015.png",
+    "roi_coords": [
+      283,
+      558,
+      356,
+      618
+    ],
+    "roi_width": 73,
+    "roi_height": 60,
+    "roi_area_pct": 0.684375,
+    "patchcore_score": 44.55741500854492,
+    "predicted_class": "Crack",
+    "confidence": 0.5978984832763672,
+    "probabilities": {
+      "Scratch": 0.3440687358379364,
+      "Crack": 0.5978984832763672,
+      "Discoloration": 0.05803275108337402
+    }
+  },
+  {
+    "db_id": 47,
+    "filename": "017.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\db046c65c2a8_017.png",
+    "roi_coords": [
+      554,
+      213,
+      681,
+      324
+    ],
+    "roi_width": 127,
+    "roi_height": 111,
+    "roi_area_pct": 2.20265625,
+    "patchcore_score": 45.39030456542969,
+    "predicted_class": "Crack",
+    "confidence": 0.5224754214286804,
+    "probabilities": {
+      "Scratch": 0.46652576327323914,
+      "Crack": 0.5224754214286804,
+      "Discoloration": 0.010998861864209175
+    }
+  },
+  {
+    "db_id": 48,
+    "filename": "018.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\ceb5ca2cc4da_018.png",
+    "roi_coords": [
+      156,
+      167,
+      355,
+      338
+    ],
+    "roi_width": 199,
+    "roi_height": 171,
+    "roi_area_pct": 5.317031249999999,
+    "patchcore_score": 47.933631896972656,
+    "predicted_class": "Crack",
+    "confidence": 0.6142266392707825,
+    "probabilities": {
+      "Scratch": 0.2779950797557831,
+      "Crack": 0.6142266392707825,
+      "Discoloration": 0.10777829587459564
+    }
+  },
+  {
+    "db_id": 49,
+    "filename": "019.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f986d0a703c8_019.png",
+    "roi_coords": [
+      233,
+      519,
+      378,
+      646
+    ],
+    "roi_width": 145,
+    "roi_height": 127,
+    "roi_area_pct": 2.8773437499999996,
+    "patchcore_score": 45.96298599243164,
+    "predicted_class": "Crack",
+    "confidence": 0.8038046956062317,
+    "probabilities": {
+      "Scratch": 0.1792670637369156,
+      "Crack": 0.8038046956062317,
+      "Discoloration": 0.016928236931562424
+    }
+  },
+  {
+    "db_id": 50,
+    "filename": "020.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\62a89037902a_020.png",
+    "roi_coords": [
+      286,
+      410,
+      425,
+      525
+    ],
+    "roi_width": 139,
+    "roi_height": 115,
+    "roi_area_pct": 2.49765625,
+    "patchcore_score": 46.628814697265625,
+    "predicted_class": "Discoloration",
+    "confidence": 0.7595494389533997,
+    "probabilities": {
+      "Scratch": 0.055041179060935974,
+      "Crack": 0.18540938198566437,
+      "Discoloration": 0.7595494389533997
+    }
+  },
+  {
+    "db_id": 51,
+    "filename": "021.png",
+    "gt_category": "Crack",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\c4cbc0d7a40a_021.png",
+    "roi_coords": [
+      623,
+      464,
+      707,
+      568
+    ],
+    "roi_width": 84,
+    "roi_height": 104,
+    "roi_area_pct": 1.365,
+    "patchcore_score": 45.30788803100586,
+    "predicted_class": "Crack",
+    "confidence": 0.515714704990387,
+    "probabilities": {
+      "Scratch": 0.4221579432487488,
+      "Crack": 0.515714704990387,
+      "Discoloration": 0.06212741509079933
+    }
+  },
+  {
+    "db_id": 52,
+    "filename": "012.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f8ba8e76b6d5_012.png",
+    "roi_coords": [
+      583,
+      299,
+      736,
+      487
+    ],
+    "roi_width": 153,
+    "roi_height": 188,
+    "roi_area_pct": 4.494375,
+    "patchcore_score": 52.50099182128906,
+    "predicted_class": "Discoloration",
+    "confidence": 0.6706726551055908,
+    "probabilities": {
+      "Scratch": 0.11558596044778824,
+      "Crack": 0.21374136209487915,
+      "Discoloration": 0.6706726551055908
+    }
+  },
+  {
+    "db_id": 53,
+    "filename": "013.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\73547f2ea377_013.png",
+    "roi_coords": [
+      265,
+      169,
+      375,
+      284
+    ],
+    "roi_width": 110,
+    "roi_height": 115,
+    "roi_area_pct": 1.9765624999999998,
+    "patchcore_score": 48.17421340942383,
+    "predicted_class": "Discoloration",
+    "confidence": 0.8708468079566956,
+    "probabilities": {
+      "Scratch": 0.05156969651579857,
+      "Crack": 0.07758337259292603,
+      "Discoloration": 0.8708468079566956
+    }
+  },
+  {
+    "db_id": 55,
+    "filename": "015.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\9e90150e4ca0_015.png",
+    "roi_coords": [
+      452,
+      541,
+      513,
+      603
+    ],
+    "roi_width": 61,
+    "roi_height": 62,
+    "roi_area_pct": 0.5909375,
+    "patchcore_score": 43.85790252685547,
+    "predicted_class": "Discoloration",
+    "confidence": 0.6494640707969666,
+    "probabilities": {
+      "Scratch": 0.06560897827148438,
+      "Crack": 0.2849268913269043,
+      "Discoloration": 0.6494640707969666
+    }
+  },
+  {
+    "db_id": 56,
+    "filename": "016.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\d4c57e3c2c81_016.png",
+    "roi_coords": [
+      105,
+      286,
+      267,
+      448
+    ],
+    "roi_width": 162,
+    "roi_height": 162,
+    "roi_area_pct": 4.100625,
+    "patchcore_score": 48.188289642333984,
+    "predicted_class": "Discoloration",
+    "confidence": 0.739342987537384,
+    "probabilities": {
+      "Scratch": 0.04207184910774231,
+      "Crack": 0.21858520805835724,
+      "Discoloration": 0.739342987537384
+    }
+  },
+  {
+    "db_id": 58,
+    "filename": "018.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\122d4517c881_018.png",
+    "roi_coords": [
+      574,
+      341,
+      738,
+      487
+    ],
+    "roi_width": 164,
+    "roi_height": 146,
+    "roi_area_pct": 3.74125,
+    "patchcore_score": 50.7205696105957,
+    "predicted_class": "Discoloration",
+    "confidence": 0.8421074748039246,
+    "probabilities": {
+      "Scratch": 0.06387786567211151,
+      "Crack": 0.09401462972164154,
+      "Discoloration": 0.8421074748039246
+    }
+  },
+  {
+    "db_id": 59,
+    "filename": "019.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\07ccb9dc6746_019.png",
+    "roi_coords": [
+      124,
+      341,
+      270,
+      506
+    ],
+    "roi_width": 146,
+    "roi_height": 165,
+    "roi_area_pct": 3.7640624999999996,
+    "patchcore_score": 53.7113151550293,
+    "predicted_class": "Discoloration",
+    "confidence": 0.8049549460411072,
+    "probabilities": {
+      "Scratch": 0.024368247017264366,
+      "Crack": 0.17067678272724152,
+      "Discoloration": 0.8049549460411072
+    }
+  },
+  {
+    "db_id": 60,
+    "filename": "020.png",
+    "gt_category": "Discoloration",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\732fe02d6c2b_020.png",
+    "roi_coords": [
+      340,
+      209,
+      463,
+      326
+    ],
+    "roi_width": 123,
+    "roi_height": 117,
+    "roi_area_pct": 2.24859375,
+    "patchcore_score": 52.12483215332031,
+    "predicted_class": "Discoloration",
+    "confidence": 0.973612904548645,
+    "probabilities": {
+      "Scratch": 0.015677494928240776,
+      "Crack": 0.010709588415920734,
+      "Discoloration": 0.973612904548645
+    }
+  },
+  {
+    "db_id": 62,
+    "filename": "000.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\d436bf43e10b_000.png",
+    "roi_coords": [
+      480,
+      420,
+      650,
+      579
+    ],
+    "roi_width": 170,
+    "roi_height": 159,
+    "roi_area_pct": 4.2234375,
+    "patchcore_score": 49.306304931640625,
+    "predicted_class": "Scratch",
+    "confidence": 0.8575761914253235,
+    "probabilities": {
+      "Scratch": 0.8575761914253235,
+      "Crack": 0.13203611969947815,
+      "Discoloration": 0.010387701913714409
+    }
+  },
+  {
+    "db_id": 63,
+    "filename": "001.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\424d0bc915dd_001.png",
+    "roi_coords": [
+      515,
+      446,
+      606,
+      544
+    ],
+    "roi_width": 91,
+    "roi_height": 98,
+    "roi_area_pct": 1.3934375,
+    "patchcore_score": 45.31884002685547,
+    "predicted_class": "Scratch",
+    "confidence": 0.547723114490509,
+    "probabilities": {
+      "Scratch": 0.547723114490509,
+      "Crack": 0.43788644671440125,
+      "Discoloration": 0.014390436932444572
+    }
+  },
+  {
+    "db_id": 64,
+    "filename": "002.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\1423430c3662_002.png",
+    "roi_coords": [
+      434,
+      275,
+      749,
+      576
+    ],
+    "roi_width": 315,
+    "roi_height": 301,
+    "roi_area_pct": 14.814843750000001,
+    "patchcore_score": 45.787322998046875,
+    "predicted_class": "Scratch",
+    "confidence": 0.7440844774246216,
+    "probabilities": {
+      "Scratch": 0.7440844774246216,
+      "Crack": 0.22832801938056946,
+      "Discoloration": 0.02758745662868023
+    }
+  },
+  {
+    "db_id": 65,
+    "filename": "003.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\a754f7f6cff0_003.png",
+    "roi_coords": [
+      503,
+      395,
+      620,
+      575
+    ],
+    "roi_width": 117,
+    "roi_height": 180,
+    "roi_area_pct": 3.290625,
+    "patchcore_score": 46.532066345214844,
+    "predicted_class": "Scratch",
+    "confidence": 0.7316494584083557,
+    "probabilities": {
+      "Scratch": 0.7316494584083557,
+      "Crack": 0.24290814995765686,
+      "Discoloration": 0.025442413985729218
+    }
+  },
+  {
+    "db_id": 67,
+    "filename": "012.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\de34068b2403_012.png",
+    "roi_coords": [
+      113,
+      375,
+      233,
+      520
+    ],
+    "roi_width": 120,
+    "roi_height": 145,
+    "roi_area_pct": 2.71875,
+    "patchcore_score": 45.5205078125,
+    "predicted_class": "Scratch",
+    "confidence": 0.9500507712364197,
+    "probabilities": {
+      "Scratch": 0.9500507712364197,
+      "Crack": 0.04135305434465408,
+      "Discoloration": 0.008596157655119896
+    }
+  },
+  {
+    "db_id": 68,
+    "filename": "013.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\cac0dbb522fb_013.png",
+    "roi_coords": [
+      480,
+      349,
+      740,
+      589
+    ],
+    "roi_width": 260,
+    "roi_height": 240,
+    "roi_area_pct": 9.75,
+    "patchcore_score": 49.363258361816406,
+    "predicted_class": "Scratch",
+    "confidence": 0.9306806325912476,
+    "probabilities": {
+      "Scratch": 0.9306806325912476,
+      "Crack": 0.06075190380215645,
+      "Discoloration": 0.008567508310079575
+    }
+  },
+  {
+    "db_id": 69,
+    "filename": "014.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\b987bf52f122_014.png",
+    "roi_coords": [
+      157,
+      428,
+      579,
+      635
+    ],
+    "roi_width": 422,
+    "roi_height": 207,
+    "roi_area_pct": 13.649062500000001,
+    "patchcore_score": 45.246681213378906,
+    "predicted_class": "Scratch",
+    "confidence": 0.8564669489860535,
+    "probabilities": {
+      "Scratch": 0.8564669489860535,
+      "Crack": 0.13570335507392883,
+      "Discoloration": 0.007829730398952961
+    }
+  },
+  {
+    "db_id": 70,
+    "filename": "015.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f9308a371770_015.png",
+    "roi_coords": [
+      155,
+      194,
+      343,
+      394
+    ],
+    "roi_width": 188,
+    "roi_height": 200,
+    "roi_area_pct": 5.875,
+    "patchcore_score": 45.54372787475586,
+    "predicted_class": "Scratch",
+    "confidence": 0.4717048704624176,
+    "probabilities": {
+      "Scratch": 0.4717048704624176,
+      "Crack": 0.4387767016887665,
+      "Discoloration": 0.08951839804649353
+    }
+  },
+  {
+    "db_id": 71,
+    "filename": "016.png",
+    "gt_category": "Scratch",
+    "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\978a46d6d2e0_016.png",
+    "roi_coords": [
+      254,
+      488,
+      371,
+      604
+    ],
+    "roi_width": 117,
+    "roi_height": 116,
+    "roi_area_pct": 2.120625,
+    "patchcore_score": 46.542762756347656,
+    "predicted_class": "Discoloration",
+    "confidence": 0.6837618947029114,
+    "probabilities": {
+      "Scratch": 0.059867583215236664,
+      "Crack": 0.25637054443359375,
+      "Discoloration": 0.6837618947029114
+    }
+  }
+]

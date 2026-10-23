@@ -1,0 +1,28 @@
+{
+  "product": "bottle",
+  "dataset": "MVTecAD",
+  "calibrated_threshold": 41.469597,
+  "held_out_sample_counts": {
+    "normal": 10,
+    "defective": 31,
+    "total": 41
+  },
+  "held_out_confusion_matrix": {
+    "true_negatives": 10,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_positives": 31
+  },
+  "held_out_rates": {
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0,
+    "specificity": 1.0,
+    "sensitivity_recall": 1.0,
+    "precision": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "youden_j": 1.0
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,476 @@
+{
+  "pill": {
+    "total_samples": 122,
+    "normal_count": 26,
+    "defect_count": 96,
+    "tp": 72,
+    "fp": 1,
+    "tn": 25,
+    "fn": 24,
+    "specificity": 0.9615384615384616,
+    "fpr": 0.038461538461538464,
+    "sensitivity": 0.75,
+    "balanced_accuracy": 0.8557692307692308,
+    "auroc": 0.9451121794871794,
+    "normal_score_distribution": {
+      "mean": 39.04929087712215,
+      "std": 2.272438692667602,
+      "min": 35.52912902832031,
+      "max": 45.56498718261719,
+      "p10": 36.320072174072266,
+      "p50": 39.09577560424805,
+      "p90": 41.68961715698242
+    },
+    "defect_score_distribution": {
+      "mean": 47.0262203613917,
+      "std": 4.716695995499994,
+      "min": 37.487220764160156,
+      "max": 62.50434494018555,
+      "p10": 41.36277389526367,
+      "p50": 46.58578872680664,
+      "p90": 52.924625396728516
+    },
+    "score_margin": -8.077766418457031,
+    "false_negatives": [
+      {
+        "domain": "pill",
+        "filename": "014.png",
+        "category": "color",
+        "anomaly_score": 42.675384521484375,
+        "threshold": 43.5951,
+        "margin": -0.9197154785156272,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/color/014.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "017.png",
+        "category": "color",
+        "anomaly_score": 41.931583404541016,
+        "threshold": 43.5951,
+        "margin": -1.6635165954589866,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/color/017.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "024.png",
+        "category": "color",
+        "anomaly_score": 42.901920318603516,
+        "threshold": 43.5951,
+        "margin": -0.6931796813964866,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/color/024.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "006.png",
+        "category": "combined",
+        "anomaly_score": 40.87879943847656,
+        "threshold": 43.5951,
+        "margin": -2.7163005615234397,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/combined/006.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "007.png",
+        "category": "combined",
+        "anomaly_score": 40.02894592285156,
+        "threshold": 43.5951,
+        "margin": -3.5661540771484397,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/combined/007.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "005.png",
+        "category": "contamination",
+        "anomaly_score": 42.545650482177734,
+        "threshold": 43.5951,
+        "margin": -1.0494495178222678,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/005.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "009.png",
+        "category": "contamination",
+        "anomaly_score": 40.425498962402344,
+        "threshold": 43.5951,
+        "margin": -3.1696010375976584,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/009.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "010.png",
+        "category": "contamination",
+        "anomaly_score": 41.84674835205078,
+        "threshold": 43.5951,
+        "margin": -1.748351647949221,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/010.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "013.png",
+        "category": "contamination",
+        "anomaly_score": 42.731483459472656,
+        "threshold": 43.5951,
+        "margin": -0.8636165405273459,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/013.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "019.png",
+        "category": "contamination",
+        "anomaly_score": 42.275108337402344,
+        "threshold": 43.5951,
+        "margin": -1.3199916625976584,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/019.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "020.png",
+        "category": "contamination",
+        "anomaly_score": 38.01068878173828,
+        "threshold": 43.5951,
+        "margin": -5.584411218261721,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/020.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "013.png",
+        "category": "crack",
+        "anomaly_score": 39.97820281982422,
+        "threshold": 43.5951,
+        "margin": -3.6168971801757834,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/crack/013.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "014.png",
+        "category": "crack",
+        "anomaly_score": 37.487220764160156,
+        "threshold": 43.5951,
+        "margin": -6.107879235839846,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/crack/014.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "016.png",
+        "category": "crack",
+        "anomaly_score": 37.9179801940918,
+        "threshold": 43.5951,
+        "margin": -5.677119805908205,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/crack/016.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "000.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 39.59156036376953,
+        "threshold": 43.5951,
+        "margin": -4.003539636230471,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/000.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "003.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 42.46397018432617,
+        "threshold": 43.5951,
+        "margin": -1.1311298156738303,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/003.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "004.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 42.46980667114258,
+        "threshold": 43.5951,
+        "margin": -1.125293328857424,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/004.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "005.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 40.78515625,
+        "threshold": 43.5951,
+        "margin": -2.809943750000002,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/005.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "008.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 43.10432052612305,
+        "threshold": 43.5951,
+        "margin": -0.4907794738769553,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/008.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "009.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 43.23817443847656,
+        "threshold": 43.5951,
+        "margin": -0.3569255615234397,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/009.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "011.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 42.90021896362305,
+        "threshold": 43.5951,
+        "margin": -0.6948810363769553,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/011.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "013.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 40.86500549316406,
+        "threshold": 43.5951,
+        "margin": -2.7300945068359397,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/013.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "014.png",
+        "category": "faulty_imprint",
+        "anomaly_score": 42.27173614501953,
+        "threshold": 43.5951,
+        "margin": -1.323363854980471,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/014.png"
+      },
+      {
+        "domain": "pill",
+        "filename": "004.png",
+        "category": "scratch",
+        "anomaly_score": 43.40398406982422,
+        "threshold": 43.5951,
+        "margin": -0.19111593017578343,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/scratch/004.png"
+      }
+    ]
+  },
+  "metal_nut": {
+    "total_samples": 115,
+    "normal_count": 22,
+    "defect_count": 93,
+    "tp": 77,
+    "fp": 0,
+    "tn": 22,
+    "fn": 16,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "sensitivity": 0.8279569892473119,
+    "balanced_accuracy": 0.913978494623656,
+    "auroc": 0.9589442815249267,
+    "normal_score_distribution": {
+      "mean": 46.34073621576483,
+      "std": 3.0888160918615286,
+      "min": 38.042015075683594,
+      "max": 51.575008392333984,
+      "p10": 43.736222457885745,
+      "p50": 46.0367546081543,
+      "p90": 50.65081939697266
+    },
+    "defect_score_distribution": {
+      "mean": 56.98368659070743,
+      "std": 4.60759761994302,
+      "min": 44.913841247558594,
+      "max": 65.51972198486328,
+      "p10": 50.36923751831055,
+      "p50": 58.0084114074707,
+      "p90": 62.317694091796874
+    },
+    "score_margin": -6.661167144775391,
+    "false_negatives": [
+      {
+        "domain": "metal_nut",
+        "filename": "006.png",
+        "category": "bent",
+        "anomaly_score": 49.76808547973633,
+        "threshold": 52.398052148202396,
+        "margin": -2.629966668466068,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/bent/006.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "007.png",
+        "category": "bent",
+        "anomaly_score": 47.91496276855469,
+        "threshold": 52.398052148202396,
+        "margin": -4.4830893796477085,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/bent/007.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "001.png",
+        "category": "color",
+        "anomaly_score": 47.71430587768555,
+        "threshold": 52.398052148202396,
+        "margin": -4.683746270516849,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/001.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "004.png",
+        "category": "color",
+        "anomaly_score": 44.913841247558594,
+        "threshold": 52.398052148202396,
+        "margin": -7.484210900643802,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/004.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "005.png",
+        "category": "color",
+        "anomaly_score": 45.98558044433594,
+        "threshold": 52.398052148202396,
+        "margin": -6.4124717038664585,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/005.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "010.png",
+        "category": "color",
+        "anomaly_score": 52.04938888549805,
+        "threshold": 52.398052148202396,
+        "margin": -0.3486632627043491,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/010.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "015.png",
+        "category": "color",
+        "anomaly_score": 49.94349670410156,
+        "threshold": 52.398052148202396,
+        "margin": -2.4545554441008335,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/015.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "016.png",
+        "category": "color",
+        "anomaly_score": 50.204952239990234,
+        "threshold": 52.398052148202396,
+        "margin": -2.1930999082121616,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/016.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "017.png",
+        "category": "color",
+        "anomaly_score": 51.0263786315918,
+        "threshold": 52.398052148202396,
+        "margin": -1.371673516610599,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/017.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "018.png",
+        "category": "color",
+        "anomaly_score": 46.13371658325195,
+        "threshold": 52.398052148202396,
+        "margin": -6.264335564950443,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/018.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "019.png",
+        "category": "color",
+        "anomaly_score": 51.386905670166016,
+        "threshold": 52.398052148202396,
+        "margin": -1.0111464780363804,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/color/019.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "000.png",
+        "category": "scratch",
+        "anomaly_score": 45.44017791748047,
+        "threshold": 52.398052148202396,
+        "margin": -6.957874230721927,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/scratch/000.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "014.png",
+        "category": "scratch",
+        "anomaly_score": 52.337135314941406,
+        "threshold": 52.398052148202396,
+        "margin": -0.06091683326098973,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/scratch/014.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "020.png",
+        "category": "scratch",
+        "anomaly_score": 48.370758056640625,
+        "threshold": 52.398052148202396,
+        "margin": -4.027294091561771,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/scratch/020.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "021.png",
+        "category": "scratch",
+        "anomaly_score": 52.061946868896484,
+        "threshold": 52.398052148202396,
+        "margin": -0.3361052793059116,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/scratch/021.png"
+      },
+      {
+        "domain": "metal_nut",
+        "filename": "022.png",
+        "category": "scratch",
+        "anomaly_score": 51.530338287353516,
+        "threshold": 52.398052148202396,
+        "margin": -0.8677138608488804,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/metal_nut/test/scratch/022.png"
+      }
+    ]
+  },
+  "tile": {
+    "total_samples": 117,
+    "normal_count": 33,
+    "defect_count": 84,
+    "tp": 83,
+    "fp": 0,
+    "tn": 33,
+    "fn": 1,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "sensitivity": 0.9880952380952381,
+    "balanced_accuracy": 0.9940476190476191,
+    "auroc": 0.9992784992784993,
+    "normal_score_distribution": {
+      "mean": 36.50836042924361,
+      "std": 1.6215167181234973,
+      "min": 33.63945388793945,
+      "max": 39.53258514404297,
+      "p10": 34.75225982666016,
+      "p50": 36.30725860595703,
+      "p90": 38.65754852294922
+    },
+    "defect_score_distribution": {
+      "mean": 61.2811279296875,
+      "std": 10.060208182122235,
+      "min": 39.403926849365234,
+      "max": 88.00318145751953,
+      "p10": 50.473828887939455,
+      "p50": 59.048316955566406,
+      "p90": 75.28204498291016
+    },
+    "score_margin": -0.12865829467773438,
+    "false_negatives": [
+      {
+        "domain": "tile",
+        "filename": "012.png",
+        "category": "gray_stroke",
+        "anomaly_score": 39.403926849365234,
+        "threshold": 39.54735208725888,
+        "margin": -0.14342523789364492,
+        "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/tile/test/gray_stroke/012.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "variant_a": {
+    "variant_name": "Variant A (Frozen Baseline)",
+    "model_param_count": 24862528,
+    "memory_bank_shape": [
+      819,
+      1536
+    ],
+    "peak_vram_mb": 138.16552734375,
+    "fitting_time_sec": 0.0,
+    "latency": {
+      "mean_ms": 39.76212120056152,
+      "std_ms": 2.3563669778035634,
+      "p50_ms": 39.25534439086914,
+      "p90_ms": 40.60027313232422,
+      "p95_ms": 43.170096206665036,
+      "max_ms": 54.21903991699219
+    }
+  },
+  "variant_b": {
+    "variant_name": "Variant B (Multi-Scale CNN)",
+    "model_param_count": 24862528,
+    "memory_bank_shape": [
+      3276,
+      1792
+    ],
+    "peak_vram_mb": 607.0361328125,
+    "fitting_time_sec": 9.195709466934204,
+    "latency": {
+      "mean_ms": 304.8502508544922,
+      "std_ms": 19.10143073970649,
+      "p50_ms": 297.9652862548828,
+      "p90_ms": 327.24867858886716,
+      "p95_ms": 340.16152038574216,
+      "max_ms": 382.90460205078125
+    }
+  },
+  "variant_c": {
+    "variant_name": "Variant C (DINOv2 Dense ViT)",
+    "model_param_count": 22056192,
+    "memory_bank_shape": [
+      204,
+      768
+    ],
+    "peak_vram_mb": 133.017578125,
+    "fitting_time_sec": 17.734809398651123,
+    "latency": {
+      "mean_ms": 86.51847351074218,
+      "std_ms": 3.150135282063206,
+      "p50_ms": 85.99348831176758,
+      "p90_ms": 88.99932556152343,
+      "p95_ms": 91.58668403625488,
+      "max_ms": 102.60185241699219
+    }
+  },
+  "variant_d": {
+    "variant_name": "Variant D (Aligned Baseline)",
+    "model_param_count": 24862528,
+    "memory_bank_shape": [
+      819,
+      1536
+    ],
+    "peak_vram_mb": 223.037109375,
+    "fitting_time_sec": 4.070041179656982,
+    "latency": {
+      "mean_ms": 128.45616409301758,
+      "std_ms": 7.1855885847788805,
+      "p50_ms": 126.8169937133789,
+      "p90_ms": 136.92451171875,
+      "p95_ms": 143.70512084960936,
+      "max_ms": 151.34970092773438
+    }
+  }
+}

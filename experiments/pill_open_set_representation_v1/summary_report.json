@@ -1,0 +1,375 @@
+{
+  "experiment": "Phase 8.3F Controlled Open-Set Representation Learning Experiment",
+  "variants": {
+    "variant_a_baseline_v2": {
+      "internal_test": {
+        "accuracy": 0.625,
+        "macro_f1": 0.6571428571428571
+      },
+      "external_supported": {
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.9130844645550528,
+        "macro_p": 0.9259259259259259,
+        "macro_r": 0.9153439153439153,
+        "per_class": {
+          "Scratch": {
+            "p": 1.0,
+            "r": 0.8888888888888888,
+            "f1": 0.9411764705882353,
+            "sup": 9
+          },
+          "Crack": {
+            "p": 1.0,
+            "r": 0.8571428571428571,
+            "f1": 0.9230769230769231,
+            "sup": 7
+          },
+          "Discoloration": {
+            "p": 0.7777777777777778,
+            "r": 1.0,
+            "f1": 0.875,
+            "sup": 7
+          }
+        },
+        "confusion_matrix": {
+          "Scratch": {
+            "Scratch": 8,
+            "Crack": 0,
+            "Discoloration": 1
+          },
+          "Crack": {
+            "Scratch": 0,
+            "Crack": 6,
+            "Discoloration": 1
+          },
+          "Discoloration": {
+            "Scratch": 0,
+            "Crack": 0,
+            "Discoloration": 7
+          }
+        }
+      },
+      "open_set_metrics": {
+        "auroc_msp": 0.6297760210803689,
+        "auprc_msp": 0.3149177543910645,
+        "auroc_affinity": 0.6785243741765481,
+        "auprc_affinity": 0.34705161967129394
+      },
+      "representation_geometry": {
+        "pairwise_intra_class_distance": 0.3079,
+        "pairwise_inter_class_distance": 0.3663,
+        "per_class_pairwise_intra": {
+          "Scratch": 0.3135,
+          "Crack": 0.3135,
+          "Discoloration": 0.2969
+        },
+        "sample_to_own_centroid_distance": 0.144,
+        "sample_to_other_centroid_distance": 0.2595,
+        "centroid_to_centroid_inter_class_distance": 0.1348,
+        "per_pair_centroid_distance": {
+          "Scratch_vs_Crack": 0.0949,
+          "Scratch_vs_Discoloration": 0.1689,
+          "Crack_vs_Discoloration": 0.1406
+        },
+        "outlier_distance_to_nearest_centroid": {
+          "contamination": 0.2039,
+          "faulty_imprint": 0.1928,
+          "combined": 0.2064,
+          "pill_type": 0.2761
+        },
+        "mean_outlier_distance_to_nearest_centroid": 0.2198
+      },
+      "operating_points": {
+        "target_90": {
+          "threshold": 0.75,
+          "supported_retention_pct": 95.65,
+          "supported_correct_pct": 86.96,
+          "unsupported_rejection_pct": 18.18,
+          "false_unknown_pct": 4.35,
+          "accuracy_among_retained": 90.91,
+          "by_category_rejection_pct": {
+            "contamination": 9.5,
+            "faulty_imprint": 0.0,
+            "combined": 17.6,
+            "pill_type": 77.8
+          }
+        },
+        "target_85": {
+          "threshold": 0.75,
+          "supported_retention_pct": 95.65,
+          "supported_correct_pct": 86.96,
+          "unsupported_rejection_pct": 18.18,
+          "false_unknown_pct": 4.35,
+          "accuracy_among_retained": 90.91,
+          "by_category_rejection_pct": {
+            "contamination": 9.5,
+            "faulty_imprint": 0.0,
+            "combined": 17.6,
+            "pill_type": 77.8
+          }
+        },
+        "target_80": {
+          "threshold": 0.75,
+          "supported_retention_pct": 95.65,
+          "supported_correct_pct": 86.96,
+          "unsupported_rejection_pct": 18.18,
+          "false_unknown_pct": 4.35,
+          "accuracy_among_retained": 90.91,
+          "by_category_rejection_pct": {
+            "contamination": 9.5,
+            "faulty_imprint": 0.0,
+            "combined": 17.6,
+            "pill_type": 77.8
+          }
+        }
+      }
+    },
+    "variant_b_supcon": {
+      "internal_test": {
+        "accuracy": 0.5,
+        "macro_f1": 0.5238095238095238
+      },
+      "external_supported": {
+        "accuracy": 0.782608695652174,
+        "macro_f1": 0.7731481481481483,
+        "macro_p": 0.7851851851851852,
+        "macro_r": 0.7830687830687831,
+        "per_class": {
+          "Scratch": {
+            "p": 0.7777777777777778,
+            "r": 0.7777777777777778,
+            "f1": 0.7777777777777778,
+            "sup": 9
+          },
+          "Crack": {
+            "p": 0.8,
+            "r": 0.5714285714285714,
+            "f1": 0.6666666666666666,
+            "sup": 7
+          },
+          "Discoloration": {
+            "p": 0.7777777777777778,
+            "r": 1.0,
+            "f1": 0.875,
+            "sup": 7
+          }
+        },
+        "confusion_matrix": {
+          "Scratch": {
+            "Scratch": 7,
+            "Crack": 1,
+            "Discoloration": 1
+          },
+          "Crack": {
+            "Scratch": 2,
+            "Crack": 4,
+            "Discoloration": 1
+          },
+          "Discoloration": {
+            "Scratch": 0,
+            "Crack": 0,
+            "Discoloration": 7
+          }
+        }
+      },
+      "open_set_metrics": {
+        "auroc_msp": 0.6073781291172595,
+        "auprc_msp": 0.3544407684752774,
+        "auroc_affinity": 0.7088274044795784,
+        "auprc_affinity": 0.5016410506880532
+      },
+      "representation_geometry": {
+        "pairwise_intra_class_distance": 0.3006,
+        "pairwise_inter_class_distance": 0.3635,
+        "per_class_pairwise_intra": {
+          "Scratch": 0.3227,
+          "Crack": 0.3323,
+          "Discoloration": 0.2468
+        },
+        "sample_to_own_centroid_distance": 0.1406,
+        "sample_to_other_centroid_distance": 0.2587,
+        "centroid_to_centroid_inter_class_distance": 0.1369,
+        "per_pair_centroid_distance": {
+          "Scratch_vs_Crack": 0.0712,
+          "Scratch_vs_Discoloration": 0.1865,
+          "Crack_vs_Discoloration": 0.153
+        },
+        "outlier_distance_to_nearest_centroid": {
+          "contamination": 0.1879,
+          "faulty_imprint": 0.1828,
+          "combined": 0.1869,
+          "pill_type": 0.3016
+        },
+        "mean_outlier_distance_to_nearest_centroid": 0.2148
+      },
+      "operating_points": {
+        "target_90": {
+          "threshold": 0.75,
+          "supported_retention_pct": 100.0,
+          "supported_correct_pct": 78.26,
+          "unsupported_rejection_pct": 15.15,
+          "false_unknown_pct": 0.0,
+          "accuracy_among_retained": 78.26,
+          "by_category_rejection_pct": {
+            "contamination": 4.8,
+            "faulty_imprint": 0.0,
+            "combined": 0.0,
+            "pill_type": 100.0
+          }
+        },
+        "target_85": {
+          "threshold": 0.75,
+          "supported_retention_pct": 100.0,
+          "supported_correct_pct": 78.26,
+          "unsupported_rejection_pct": 15.15,
+          "false_unknown_pct": 0.0,
+          "accuracy_among_retained": 78.26,
+          "by_category_rejection_pct": {
+            "contamination": 4.8,
+            "faulty_imprint": 0.0,
+            "combined": 0.0,
+            "pill_type": 100.0
+          }
+        },
+        "target_80": {
+          "threshold": 0.75,
+          "supported_retention_pct": 100.0,
+          "supported_correct_pct": 78.26,
+          "unsupported_rejection_pct": 15.15,
+          "false_unknown_pct": 0.0,
+          "accuracy_among_retained": 78.26,
+          "by_category_rejection_pct": {
+            "contamination": 4.8,
+            "faulty_imprint": 0.0,
+            "combined": 0.0,
+            "pill_type": 100.0
+          }
+        }
+      }
+    },
+    "variant_c_supcon_outlier": {
+      "internal_test": {
+        "accuracy": 0.5,
+        "macro_f1": 0.4904761904761905
+      },
+      "external_supported": {
+        "accuracy": 0.34782608695652173,
+        "macro_f1": 0.3161375661375661,
+        "macro_p": 0.38095238095238093,
+        "macro_r": 0.35978835978835977,
+        "per_class": {
+          "Scratch": {
+            "p": 0.2857142857142857,
+            "r": 0.2222222222222222,
+            "f1": 0.25,
+            "sup": 9
+          },
+          "Crack": {
+            "p": 0.35714285714285715,
+            "r": 0.7142857142857143,
+            "f1": 0.47619047619047616,
+            "sup": 7
+          },
+          "Discoloration": {
+            "p": 0.5,
+            "r": 0.14285714285714285,
+            "f1": 0.2222222222222222,
+            "sup": 7
+          }
+        },
+        "confusion_matrix": {
+          "Scratch": {
+            "Scratch": 2,
+            "Crack": 6,
+            "Discoloration": 1
+          },
+          "Crack": {
+            "Scratch": 2,
+            "Crack": 5,
+            "Discoloration": 0
+          },
+          "Discoloration": {
+            "Scratch": 3,
+            "Crack": 3,
+            "Discoloration": 1
+          }
+        }
+      },
+      "open_set_metrics": {
+        "auroc_msp": 0.4980237154150198,
+        "auprc_msp": 0.2453009668059152,
+        "auroc_affinity": 0.6172595520421608,
+        "auprc_affinity": 0.3501333207554316
+      },
+      "representation_geometry": {
+        "pairwise_intra_class_distance": 0.3318,
+        "pairwise_inter_class_distance": 0.3662,
+        "per_class_pairwise_intra": {
+          "Scratch": 0.3514,
+          "Crack": 0.3221,
+          "Discoloration": 0.3221
+        },
+        "sample_to_own_centroid_distance": 0.1564,
+        "sample_to_other_centroid_distance": 0.2494,
+        "centroid_to_centroid_inter_class_distance": 0.1102,
+        "per_pair_centroid_distance": {
+          "Scratch_vs_Crack": 0.0779,
+          "Scratch_vs_Discoloration": 0.1147,
+          "Crack_vs_Discoloration": 0.1381
+        },
+        "outlier_distance_to_nearest_centroid": {
+          "contamination": 0.2126,
+          "faulty_imprint": 0.2428,
+          "combined": 0.2044,
+          "pill_type": 0.2541
+        },
+        "mean_outlier_distance_to_nearest_centroid": 0.2285
+      },
+      "operating_points": {
+        "target_90": {
+          "threshold": 0.7,
+          "supported_retention_pct": 91.3,
+          "supported_correct_pct": 30.43,
+          "unsupported_rejection_pct": 13.64,
+          "false_unknown_pct": 8.7,
+          "accuracy_among_retained": 33.33,
+          "by_category_rejection_pct": {
+            "contamination": 9.5,
+            "faulty_imprint": 31.6,
+            "combined": 5.9,
+            "pill_type": 0.0
+          }
+        },
+        "target_85": {
+          "threshold": 0.7,
+          "supported_retention_pct": 91.3,
+          "supported_correct_pct": 30.43,
+          "unsupported_rejection_pct": 13.64,
+          "false_unknown_pct": 8.7,
+          "accuracy_among_retained": 33.33,
+          "by_category_rejection_pct": {
+            "contamination": 9.5,
+            "faulty_imprint": 31.6,
+            "combined": 5.9,
+            "pill_type": 0.0
+          }
+        },
+        "target_80": {
+          "threshold": 0.75,
+          "supported_retention_pct": 82.61,
+          "supported_correct_pct": 26.09,
+          "unsupported_rejection_pct": 27.27,
+          "false_unknown_pct": 17.39,
+          "accuracy_among_retained": 31.58,
+          "by_category_rejection_pct": {
+            "contamination": 19.0,
+            "faulty_imprint": 57.9,
+            "combined": 17.6,
+            "pill_type": 0.0
+          }
+        }
+      },
+      "variant_name_corrected": "Variant C: SupCon + Normal-Surface Regularization"
+    }
+  }
+}

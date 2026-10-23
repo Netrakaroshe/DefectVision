@@ -1,0 +1,66 @@
+{
+  "auroc": {
+    "msp_raw": 0.6297760210803689,
+    "temperature_scaled": 0.6317523056653492,
+    "feature_distance": 0.6785243741765481
+  },
+  "auprc": {
+    "msp_raw": 0.3149177543910645,
+    "temperature_scaled": 0.31519205955727025,
+    "feature_distance": 0.34705161967129394
+  },
+  "fitted_temperature": 1.1413613557815552,
+  "operating_points": {
+    "msp": {
+      "threshold": 0.5,
+      "known_accepted_pct": 95.65,
+      "known_correct_pct": 86.96,
+      "unknown_rejection_pct": 19.7,
+      "false_unknown_pct": 4.35,
+      "unsupported_accepted_pct": 80.3,
+      "acc_among_accepted": 90.91,
+      "known_rejected_count": 1,
+      "unsupported_accepted_count": 53,
+      "per_category_rejection_pct": {
+        "combined": 11.8,
+        "contamination": 38.1,
+        "faulty_imprint": 10.5,
+        "pill_type": 11.1
+      }
+    },
+    "temperature_scaled": {
+      "threshold": 0.5,
+      "known_accepted_pct": 95.65,
+      "known_correct_pct": 86.96,
+      "unknown_rejection_pct": 25.76,
+      "false_unknown_pct": 4.35,
+      "unsupported_accepted_pct": 74.24,
+      "acc_among_accepted": 90.91,
+      "known_rejected_count": 1,
+      "unsupported_accepted_count": 49,
+      "per_category_rejection_pct": {
+        "combined": 23.5,
+        "contamination": 42.9,
+        "faulty_imprint": 15.8,
+        "pill_type": 11.1
+      }
+    },
+    "feature_distance": {
+      "threshold": 0.75,
+      "known_accepted_pct": 95.65,
+      "known_correct_pct": 86.96,
+      "unknown_rejection_pct": 18.18,
+      "false_unknown_pct": 4.35,
+      "unsupported_accepted_pct": 81.82,
+      "acc_among_accepted": 90.91,
+      "known_rejected_count": 1,
+      "unsupported_accepted_count": 54,
+      "per_category_rejection_pct": {
+        "combined": 17.6,
+        "contamination": 9.5,
+        "faulty_imprint": 0.0,
+        "pill_type": 77.8
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "best_epoch": 7,
+  "best_val_f1": 0.5222222222222223,
+  "test_loss": 0.6388226747512817,
+  "test_accuracy": 0.625,
+  "test_macro_f1": 0.6571428571428571,
+  "per_class": {
+    "Scratch": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "Crack": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "support": 3
+    },
+    "Discoloration": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285714,
+      "support": 3
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ]
+}

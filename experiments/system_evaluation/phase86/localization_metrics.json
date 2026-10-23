@@ -1,0 +1,3082 @@
+{
+  "variant_a": [
+    {
+      "category": "faulty_imprint",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.046637499999997084,
+      "purity": 0.03554999999999778,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.2964876033056393,
+      "purity": 0.24640889413604564,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "003.png",
+      "coverage": 0.968528133940871,
+      "iou": 0.6315789473681868,
+      "purity": 0.35876903752537337,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "004.png",
+      "coverage": 0.983611354989757,
+      "iou": 0.7657422852374319,
+      "purity": 0.47846821837836195,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "005.png",
+      "coverage": 0.2634146341463415,
+      "iou": 0.1813993665418511,
+      "purity": 0.9999999999986773,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "006.png",
+      "coverage": 0.6640259272596327,
+      "iou": 0.1851928398378532,
+      "purity": 0.14847020933975463,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "007.png",
+      "coverage": 0.9950435955989205,
+      "iou": 0.8774452912811977,
+      "purity": 0.4850359239019828,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "008.png",
+      "coverage": 0.4821565716041165,
+      "iou": 0.28493079653777575,
+      "purity": 0.5126571941855775,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "009.png",
+      "coverage": 0.755455002513826,
+      "iou": 0.36953980231679967,
+      "purity": 0.3063779463337793,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "010.png",
+      "coverage": 1.0,
+      "iou": 0.4811732718133969,
+      "purity": 0.29956606520003576,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "011.png",
+      "coverage": 0.6967509025270758,
+      "iou": 0.39363837387306305,
+      "purity": 0.5643274853799871,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "012.png",
+      "coverage": 0.4978781656399726,
+      "iou": 0.23382828235503592,
+      "purity": 0.2732531930876985,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "013.png",
+      "coverage": 0.25995092693565974,
+      "iou": 0.13795068690379209,
+      "purity": 0.8293107197198754,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "014.png",
+      "coverage": 0.994298347684431,
+      "iou": 0.6133900106267318,
+      "purity": 0.367289920481252,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.5474752117668437,
+      "purity": 0.4161796572327742,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "016.png",
+      "coverage": 0.9850310747309383,
+      "iou": 0.8391456086487655,
+      "purity": 0.3614154616239765,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "017.png",
+      "coverage": 1.0,
+      "iou": 0.3226884554559491,
+      "purity": 0.220179230363709,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "018.png",
+      "coverage": 0.988342625443487,
+      "iou": 0.5572744014731938,
+      "purity": 0.29850746268651007,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "000.png",
+      "coverage": 0.9511197243755384,
+      "iou": 0.45471807149306137,
+      "purity": 0.38633779410444646,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "001.png",
+      "coverage": 0.6229706808819966,
+      "iou": 0.4293494704990992,
+      "purity": 0.3406877360363475,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.22669438145621482,
+      "purity": 0.16959561602413403,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "004.png",
+      "coverage": 0.9055674518201284,
+      "iou": 0.571349710184404,
+      "purity": 0.43307731694784113,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "005.png",
+      "coverage": 0.5687930651255835,
+      "iou": 0.1408818158100442,
+      "purity": 0.3345098039211314,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "006.png",
+      "coverage": 1.0,
+      "iou": 0.5767086674298765,
+      "purity": 0.3900725467732798,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "007.png",
+      "coverage": 1.0,
+      "iou": 0.429404226056447,
+      "purity": 0.2539228557138888,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "008.png",
+      "coverage": 1.0,
+      "iou": 0.3177405119150355,
+      "purity": 0.23014121800512638,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "009.png",
+      "coverage": 1.0,
+      "iou": 0.04504999999999718,
+      "purity": 0.03383749999999788,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "010.png",
+      "coverage": 0.44969339086986143,
+      "iou": 0.33400365630702805,
+      "purity": 0.28013582342940946,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "011.png",
+      "coverage": 1.0,
+      "iou": 0.33323653259756714,
+      "purity": 0.2632012003290588,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.2813852813851918,
+      "purity": 0.1930544945250213,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "013.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "014.png",
+      "coverage": 1.0,
+      "iou": 0.15315858740947766,
+      "purity": 0.11567778021492771,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.2689686506133123,
+      "purity": 0.18308176418123362,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.44551475015035397,
+      "purity": 0.3330736268015961,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "017.png",
+      "coverage": 1.0,
+      "iou": 0.30108936542113773,
+      "purity": 0.21253550582132766,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.2927655677655231,
+      "purity": 0.20999694749691544,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "019.png",
+      "coverage": 0.8912253871152743,
+      "iou": 0.6914949815099162,
+      "purity": 0.7452046035793715,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.15999165623690725,
+      "purity": 0.020268391044353958,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "013.png",
+      "coverage": 1.0,
+      "iou": 0.15936758893268033,
+      "purity": 0.04355731225292999,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "014.png",
+      "coverage": 0.763607257203842,
+      "iou": 0.7057122198112739,
+      "purity": 0.18918561607590006,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.25409836065506586,
+      "purity": 0.11581173981989473,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.15119646395360797,
+      "purity": 0.029721079103783826,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "017.png",
+      "coverage": 0.9624463519313304,
+      "iou": 0.3049634107535715,
+      "purity": 0.1445608380336107,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.06348145673234903,
+      "purity": 0.04869695957231511,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "019.png",
+      "coverage": 1.0,
+      "iou": 0.2922374429222531,
+      "purity": 0.11681195516807105,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "020.png",
+      "coverage": 1.0,
+      "iou": 0.19491348759627897,
+      "purity": 0.07713154054612109,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "024.png",
+      "coverage": 1.0,
+      "iou": 0.4092691622088796,
+      "purity": 0.30481283422351224,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "012.png",
+      "coverage": 0.9786656322730799,
+      "iou": 0.36998332406872153,
+      "purity": 0.14595626518561497,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "013.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "014.png",
+      "coverage": 0.15333333333333332,
+      "iou": 0.006708375082479611,
+      "purity": 0.002012499999999874,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "015.png",
+      "coverage": 0.6920770877944326,
+      "iou": 0.6382978723392938,
+      "purity": 0.3689497716886554,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "016.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "017.png",
+      "coverage": 0.9313879003558719,
+      "iou": 0.5756240822316987,
+      "purity": 0.46414130666066244,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "018.png",
+      "coverage": 0.9816426434593418,
+      "iou": 0.5181674565559385,
+      "purity": 0.21214258426629873,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "019.png",
+      "coverage": 0.7086711556960286,
+      "iou": 0.3778637510511765,
+      "purity": 0.2800434428453543,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "021.png",
+      "coverage": 0.9645056139080044,
+      "iou": 0.5041459369812353,
+      "purity": 0.3048305860802371,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "000.png",
+      "coverage": 0.9257062430883684,
+      "iou": 0.47123434189677044,
+      "purity": 0.28567882849333404,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "001.png",
+      "coverage": 0.23738807599912645,
+      "iou": 0.37686679362531467,
+      "purity": 0.06470238095237132,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "002.png",
+      "coverage": 0.5382054773793312,
+      "iou": 0.1086775956284058,
+      "purity": 0.1895550226484468,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "003.png",
+      "coverage": 0.15830315571650286,
+      "iou": 0.1252871300124532,
+      "purity": 0.05024355536092702,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "004.png",
+      "coverage": 0.47942473231156835,
+      "iou": 0.0806866515548949,
+      "purity": 0.28832070707052504,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "005.png",
+      "coverage": 0.7346123101518784,
+      "iou": 0.16479717271049205,
+      "purity": 0.40573951434852995,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "006.png",
+      "coverage": 0.20124902419984386,
+      "iou": 0.0810476190476094,
+      "purity": 0.7573443008214493,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "007.png",
+      "coverage": 0.9426773455377574,
+      "iou": 0.2230825527832137,
+      "purity": 0.05149374999999678,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "008.png",
+      "coverage": 0.42134547293879615,
+      "iou": 0.20224276485108184,
+      "purity": 0.10711759789104766,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "009.png",
+      "coverage": 0.2710920532382915,
+      "iou": 0.14577934015476987,
+      "purity": 0.14778384942314884,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "010.png",
+      "coverage": 0.8560893854748604,
+      "iou": 0.25327216145712705,
+      "purity": 0.19907503637493953,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "011.png",
+      "coverage": 1.0,
+      "iou": 0.49583971244081393,
+      "purity": 0.16969535600963642,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "012.png",
+      "coverage": 0.35333963453056083,
+      "iou": 0.181436866538286,
+      "purity": 0.046811086067274646,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "013.png",
+      "coverage": 0.7486754647914459,
+      "iou": 0.35176314716669876,
+      "purity": 0.22517745907569894,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "014.png",
+      "coverage": 0.14266076065373454,
+      "iou": 0.06759993135082583,
+      "purity": 0.04051181956189958,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "015.png",
+      "coverage": 0.22894519489515894,
+      "iou": 0.15788001141075694,
+      "purity": 0.2985857743492482,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "016.png",
+      "coverage": 0.7082562636623507,
+      "iou": 0.6527768576790711,
+      "purity": 0.17347134894701224,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.37336293007755333,
+      "purity": 0.17931927487969687,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.3945952007172072,
+      "purity": 0.2946849069294744,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "002.png",
+      "coverage": 1.0,
+      "iou": 0.42599799609761896,
+      "purity": 0.22050308495488896,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.4015194681859442,
+      "purity": 0.20199430199420607,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "004.png",
+      "coverage": 0.28888792655465095,
+      "iou": 0.17828630066697215,
+      "purity": 0.6988267337097225,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "012.png",
+      "coverage": 0.8870537038868559,
+      "iou": 0.620485723980503,
+      "purity": 0.5154597701146463,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "013.png",
+      "coverage": 0.998100729184331,
+      "iou": 0.711830893084018,
+      "purity": 0.47161858974351417,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "014.png",
+      "coverage": 0.9811109755601642,
+      "iou": 0.7442714710511693,
+      "purity": 0.5523845502208768,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.5730053191487838,
+      "purity": 0.15898936170208539,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "016.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "pill_type",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.6439564220183362,
+      "purity": 0.49624426605503635,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.6716745655608082,
+      "purity": 0.5170872827804005,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "002.png",
+      "coverage": 0.947413094640997,
+      "iou": 0.7648310666499358,
+      "purity": 0.6882286995515502,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "003.png",
+      "coverage": 0.612807034311383,
+      "iou": 0.5200453911306037,
+      "purity": 0.8016273091887057,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "004.png",
+      "coverage": 0.9629796529390199,
+      "iou": 0.7961193753567019,
+      "purity": 0.7012291434927502,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "005.png",
+      "coverage": 1.0,
+      "iou": 0.6437347560975487,
+      "purity": 0.5000438262195026,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "006.png",
+      "coverage": 1.0,
+      "iou": 0.6982903494176227,
+      "purity": 0.5409775374375927,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "007.png",
+      "coverage": 1.0,
+      "iou": 0.7191780821917654,
+      "purity": 0.5586558219177963,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "008.png",
+      "coverage": 1.0,
+      "iou": 0.7756410256410079,
+      "purity": 0.5999313186813049,
+      "peak_on_defect": true
+    }
+  ],
+  "variant_b": [
+    {
+      "category": "faulty_imprint",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.046637499999997084,
+      "purity": 0.03554999999999778,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.03766874999999764,
+      "purity": 0.031306249999998044,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "002.png",
+      "coverage": 1.0,
+      "iou": 0.08043749999999497,
+      "purity": 0.05819999999999636,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.11570624999999277,
+      "purity": 0.05898124999999631,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "004.png",
+      "coverage": 1.0,
+      "iou": 0.14195624999999112,
+      "purity": 0.08542499999999466,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "005.png",
+      "coverage": 0.9751567944250871,
+      "iou": 0.24519797731579154,
+      "purity": 0.17491874999998905,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "006.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "007.png",
+      "coverage": 0.2955677807764169,
+      "iou": 0.1462900884932832,
+      "purity": 0.9999999999991219,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "008.png",
+      "coverage": 0.9357943781680406,
+      "iou": 0.22319838537336914,
+      "purity": 0.11423124999999285,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "009.png",
+      "coverage": 1.0,
+      "iou": 0.08834999999999447,
+      "purity": 0.06215624999999611,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "010.png",
+      "coverage": 0.8571625028650012,
+      "iou": 0.6699200913240098,
+      "purity": 0.7965834540339113,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "011.png",
+      "coverage": 1.0,
+      "iou": 0.49664999999996895,
+      "purity": 0.21986874999998623,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.0814437499999949,
+      "purity": 0.045656249999997144,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "013.png",
+      "coverage": 1.0,
+      "iou": 0.20836249999998696,
+      "purity": 0.09169999999999426,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "014.png",
+      "coverage": 1.0,
+      "iou": 0.09181249999999426,
+      "purity": 0.05371249999999664,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.10421874999999348,
+      "purity": 0.07922499999999505,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.42659999999997333,
+      "purity": 0.1649249999999897,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "017.png",
+      "coverage": 0.960639724190768,
+      "iou": 0.8263533573366096,
+      "purity": 0.7370586722507303,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "018.png",
+      "coverage": 0.17175620881905726,
+      "iou": 0.09027863777086988,
+      "purity": 0.9296982167320655,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "000.png",
+      "coverage": 0.4569336778639104,
+      "iou": 0.015006321344155046,
+      "purity": 0.01326249999999917,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "001.png",
+      "coverage": 0.6709474194330022,
+      "iou": 0.08667393346242988,
+      "purity": 0.03461249999999783,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.26511970534060214,
+      "purity": 0.19834254143639102,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "004.png",
+      "coverage": 0.9781584582441113,
+      "iou": 0.0430137020459534,
+      "purity": 0.028549999999998212,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "005.png",
+      "coverage": 1.0,
+      "iou": 0.33482499999997906,
+      "purity": 0.02811874999999824,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "006.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "007.png",
+      "coverage": 0.936049732258263,
+      "iou": 0.7356478772509149,
+      "purity": 0.5867963113012359,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "008.png",
+      "coverage": 0.6046660274848195,
+      "iou": 0.38088235294047634,
+      "purity": 0.5927318295720779,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "009.png",
+      "coverage": 1.0,
+      "iou": 0.04504999999999718,
+      "purity": 0.03383749999999788,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "010.png",
+      "coverage": 0.6058747823453706,
+      "iou": 0.08231569961823428,
+      "purity": 0.05001874999999687,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "011.png",
+      "coverage": 0.9725082751011401,
+      "iou": 0.5836909871241998,
+      "purity": 0.4969227155271332,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "012.png",
+      "coverage": 0.2784830997526793,
+      "iou": 0.2596153846150909,
+      "purity": 0.7359477124150939,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "013.png",
+      "coverage": 0.9157720891824938,
+      "iou": 0.03766105054509182,
+      "purity": 0.027724999999998265,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "014.png",
+      "coverage": 0.9753496089120645,
+      "iou": 0.4327445652170238,
+      "purity": 0.36461102250543626,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.5016791688897079,
+      "purity": 0.3414833181631645,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "016.png",
+      "coverage": 0.9959595959595959,
+      "iou": 0.6766917293229341,
+      "purity": 0.5277777777774804,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "017.png",
+      "coverage": 0.7246291672786018,
+      "iou": 0.4577319587625236,
+      "purity": 0.5647893772887307,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.515645161290184,
+      "purity": 0.36986559139775005,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "019.png",
+      "coverage": 1.0,
+      "iou": 0.04094999999999744,
+      "purity": 0.032693749999997954,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.43122188905506814,
+      "purity": 0.05462893553218269,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "013.png",
+      "coverage": 0.8566243194192378,
+      "iou": 0.5018495684324851,
+      "purity": 0.16526610644199838,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "014.png",
+      "coverage": 0.7694770544290288,
+      "iou": 0.03347259859184879,
+      "purity": 0.009012499999999436,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "015.png",
+      "coverage": 0.958904109589041,
+      "iou": 0.005616573577738275,
+      "purity": 0.002624999999999836,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.5696238874525271,
+      "purity": 0.11197243755367216,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "017.png",
+      "coverage": 0.990343347639485,
+      "iou": 0.012316671561673197,
+      "purity": 0.005768749999999639,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.4301075268805034,
+      "purity": 0.32993774759385985,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "019.png",
+      "coverage": 1.0,
+      "iou": 0.45478036175681213,
+      "purity": 0.18178294573631668,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "020.png",
+      "coverage": 1.0,
+      "iou": 0.5192521288402088,
+      "purity": 0.20547945205441415,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "024.png",
+      "coverage": 0.34152046783625734,
+      "iou": 0.0027878033602985195,
+      "purity": 0.0018249999999998857,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "012.png",
+      "coverage": 0.5197827773467805,
+      "iou": 0.25773195876255445,
+      "purity": 0.558333333331007,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "013.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "014.png",
+      "coverage": 0.15333333333333332,
+      "iou": 0.006708375082479611,
+      "purity": 0.002012499999999874,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "015.png",
+      "coverage": 0.40171306209850105,
+      "iou": 0.01665022200295901,
+      "purity": 0.005862499999999633,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "016.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "017.png",
+      "coverage": 0.22448398576512454,
+      "iou": 0.017436888007120357,
+      "purity": 0.009856249999999383,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "018.png",
+      "coverage": 0.6268697307587707,
+      "iou": 0.057574835584053546,
+      "purity": 0.028812499999998197,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "019.png",
+      "coverage": 0.322110759928542,
+      "iou": 0.06401259034739659,
+      "purity": 0.014649999999999084,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "020.png",
+      "coverage": 0.7729794933655006,
+      "iou": 0.028860384805128952,
+      "purity": 0.02002499999999875,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "021.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "000.png",
+      "coverage": 0.2642002613853423,
+      "iou": 0.07054332612289846,
+      "purity": 0.948051948048528,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "001.png",
+      "coverage": 0.14107883817427386,
+      "iou": 0.02119377162629619,
+      "purity": 0.7990105132937569,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "002.png",
+      "coverage": 0.5342714480254199,
+      "iou": 0.06204332303593647,
+      "purity": 0.5203359858524604,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "003.png",
+      "coverage": 0.15830315571650286,
+      "iou": 0.09586795078464902,
+      "purity": 0.07600596125179995,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "004.png",
+      "coverage": 0.004408985933235356,
+      "iou": 0.0002139418791228274,
+      "purity": 0.9999999997619048,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "005.png",
+      "coverage": 0.5186707776635834,
+      "iou": 0.21566798787595126,
+      "purity": 0.028387499999998223,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "006.png",
+      "coverage": 0.5870023419203747,
+      "iou": 0.20221325489383557,
+      "purity": 0.09399374999999412,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "007.png",
+      "coverage": 0.9426773455377574,
+      "iou": 0.2230825527832137,
+      "purity": 0.05149374999999678,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "008.png",
+      "coverage": 0.35002529084471423,
+      "iou": 0.01952085181898718,
+      "purity": 0.8914653784190292,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "009.png",
+      "coverage": 0.24876092888567133,
+      "iou": 0.09338799341593493,
+      "purity": 0.4139560745061496,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "010.png",
+      "coverage": 0.03910614525139665,
+      "iou": 0.009222187790516936,
+      "purity": 0.3528225806427902,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "011.png",
+      "coverage": 0.9839173640167364,
+      "iou": 0.8737864077666277,
+      "purity": 0.3298268682882622,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "012.png",
+      "coverage": 0.3259294265910523,
+      "iou": 0.08564256975167896,
+      "purity": 0.12654434250756785,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "013.png",
+      "coverage": 0.7112994894518833,
+      "iou": 0.25603342845492705,
+      "purity": 0.2939256428627124,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "014.png",
+      "coverage": 0.14266076065373454,
+      "iou": 0.06455541544943787,
+      "purity": 0.04406699693321818,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "015.png",
+      "coverage": 0.03458290038099805,
+      "iou": 0.00919992977990338,
+      "purity": 0.7740011926012285,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "016.png",
+      "coverage": 0.6038338658146964,
+      "iou": 0.5724666188414861,
+      "purity": 0.18243243243240154,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "000.png",
+      "coverage": 0.7788322673818857,
+      "iou": 0.6679477325128094,
+      "purity": 0.5194001100708319,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.021993749999998626,
+      "purity": 0.01642499999999897,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "002.png",
+      "coverage": 0.44554455445544555,
+      "iou": 0.10547743433863632,
+      "purity": 0.05821874999999636,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.05284999999999669,
+      "purity": 0.026587499999998335,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "004.png",
+      "coverage": 0.10544777412090767,
+      "iou": 0.04219603910754363,
+      "purity": 0.015218749999999047,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "012.png",
+      "coverage": 0.04124221145287311,
+      "iou": 0.010221064230291869,
+      "purity": 0.002606249999999837,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "013.png",
+      "coverage": 0.6302865863998643,
+      "iou": 0.41282693914264024,
+      "purity": 0.964300539642505,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "014.png",
+      "coverage": 0.8228620226912285,
+      "iou": 0.3202369851486092,
+      "purity": 0.25293749999998416,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "015.png",
+      "coverage": 0.9371027099364336,
+      "iou": 0.11914904109926092,
+      "purity": 0.03501249999999781,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "016.png",
+      "coverage": 0.1295843520782396,
+      "iou": 0.009408150530407921,
+      "purity": 0.0033124999999997926,
+      "peak_on_defect": false
+    },
+    {
+      "category": "pill_type",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.6926768092105121,
+      "purity": 0.533789062499989,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.7062624584717461,
+      "purity": 0.5437147009966664,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "002.png",
+      "coverage": 0.20278174312280567,
+      "iou": 0.1629007761896423,
+      "purity": 0.968418919167732,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "003.png",
+      "coverage": 0.430626015483131,
+      "iou": 0.3510696035660268,
+      "purity": 0.9515687566525629,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "004.png",
+      "coverage": 0.19642475253574485,
+      "iou": 0.15716118755806802,
+      "purity": 0.9653716216214405,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "005.png",
+      "coverage": 0.9837095071697222,
+      "iou": 0.7297514468088784,
+      "purity": 0.6024120002613482,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "006.png",
+      "coverage": 1.0,
+      "iou": 0.7101057529610679,
+      "purity": 0.5501311336717312,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "007.png",
+      "coverage": 0.3354699544834562,
+      "iou": 0.29857142857141966,
+      "purity": 0.8727970494416993,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "008.png",
+      "coverage": 0.06057622591108567,
+      "iou": 0.04700413223140357,
+      "purity": 0.9967974882254337,
+      "peak_on_defect": true
+    }
+  ],
+  "variant_c": [
+    {
+      "category": "faulty_imprint",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.5465465465461462,
+      "purity": 0.41661173368459925,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.14272520602440497,
+      "purity": 0.11861797859237506,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "003.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "004.png",
+      "coverage": 0.8366988586479368,
+      "iou": 0.5775065104164787,
+      "purity": 0.44415100201940183,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "005.png",
+      "coverage": 1.0,
+      "iou": 0.6746855320456728,
+      "purity": 0.46461931974543647,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "006.png",
+      "coverage": 0.4145960869043332,
+      "iou": 0.10208044093237763,
+      "purity": 0.08986133152950415,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "007.png",
+      "coverage": 0.9986506124143658,
+      "iou": 0.6778398510241488,
+      "purity": 0.34283576239173086,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "008.png",
+      "coverage": 1.0,
+      "iou": 0.2563303467082054,
+      "purity": 0.10869274862262181,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "009.png",
+      "coverage": 1.0,
+      "iou": 0.08834999999999447,
+      "purity": 0.06215624999999611,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "010.png",
+      "coverage": 0.9589273435709375,
+      "iou": 0.6160931057072303,
+      "purity": 0.4283871231978153,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "011.png",
+      "coverage": 0.8947383382131385,
+      "iou": 0.6703953577794863,
+      "purity": 0.4926515471661905,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.21219325527996416,
+      "purity": 0.11895263063618587,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "013.png",
+      "coverage": 1.0,
+      "iou": 0.5397030969224167,
+      "purity": 0.23752246199669141,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "014.png",
+      "coverage": 1.0,
+      "iou": 0.17197981666410997,
+      "purity": 0.10061229029348952,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "015.png",
+      "coverage": 0.5896181760807826,
+      "iou": 0.45186640471488776,
+      "purity": 0.700599925008717,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "016.png",
+      "coverage": 0.957973321206609,
+      "iou": 0.7351353420880413,
+      "purity": 0.37337528063329,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "017.png",
+      "coverage": 0.9999521164527868,
+      "iou": 0.6325357461554709,
+      "purity": 0.43451935081139526,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.6155898608727625,
+      "purity": 0.30081951591379824,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.21553465691389218,
+      "purity": 0.16175548589336058,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "001.png",
+      "coverage": 0.5883208141507148,
+      "iou": 0.37398373983729605,
+      "purity": 0.2132630654368848,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.21514825442365643,
+      "purity": 0.16095767575318,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "004.png",
+      "coverage": 1.0,
+      "iou": 0.06926857911334805,
+      "purity": 0.044228091941391226,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "005.png",
+      "coverage": 0.5814625472327184,
+      "iou": 0.10615955728180212,
+      "purity": 0.24242424242401775,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "006.png",
+      "coverage": 1.0,
+      "iou": 0.3226109615958295,
+      "purity": 0.2182066726471792,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "007.png",
+      "coverage": 1.0,
+      "iou": 0.8373971350195559,
+      "purity": 0.49518439500137307,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "008.png",
+      "coverage": 1.0,
+      "iou": 0.14256955215994765,
+      "purity": 0.10326391868251765,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "009.png",
+      "coverage": 1.0,
+      "iou": 0.04504999999999718,
+      "purity": 0.03383749999999788,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "010.png",
+      "coverage": 0.8484366719660837,
+      "iou": 0.5230158252600869,
+      "purity": 0.3996220225358723,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "011.png",
+      "coverage": 0.9853806546524457,
+      "iou": 0.4690782212409766,
+      "purity": 0.3898224938162411,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.12348783281645524,
+      "purity": 0.08472326991309967,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "013.png",
+      "coverage": 1.0,
+      "iou": 0.1779165779449268,
+      "purity": 0.11460477441026934,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "014.png",
+      "coverage": 1.0,
+      "iou": 0.20769659788056974,
+      "purity": 0.15686930656249976,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.3758730158729275,
+      "purity": 0.2558495002938846,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.4235119849177136,
+      "purity": 0.3166240237004051,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "017.png",
+      "coverage": 1.0,
+      "iou": 0.17715335169877372,
+      "purity": 0.1250505050504821,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.38921353786210755,
+      "purity": 0.2791778264750671,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "019.png",
+      "coverage": 1.0,
+      "iou": 0.12187499999997733,
+      "purity": 0.09730282738093429,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "012.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "013.png",
+      "coverage": 0.8765880217785844,
+      "iou": 0.010477996207962623,
+      "purity": 0.003018749999999811,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "014.png",
+      "coverage": 0.7235859124866596,
+      "iou": 0.24903499469766743,
+      "purity": 0.06615602283257738,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "015.png",
+      "coverage": 0.958904109589041,
+      "iou": 0.005616573577738275,
+      "purity": 0.002624999999999836,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "016.png",
+      "coverage": 0.31666666666666665,
+      "iou": 0.13711460908008702,
+      "purity": 0.05174942384233868,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "017.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "018.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "019.png",
+      "coverage": 1.0,
+      "iou": 0.28971193415625934,
+      "purity": 0.11580246913575482,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "020.png",
+      "coverage": 1.0,
+      "iou": 0.32130584192403056,
+      "purity": 0.12714776632287839,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "024.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.1763465593252405,
+      "purity": 0.06176921602452038,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "013.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "014.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.23488473249227446,
+      "purity": 0.11285099801840759,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "016.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "017.png",
+      "coverage": 0.9861921708185053,
+      "iou": 0.35095115139370003,
+      "purity": 0.19032967032961806,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.5595469255661922,
+      "purity": 0.19832793959002204,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "019.png",
+      "coverage": 0.7220008245155971,
+      "iou": 0.30157056440418417,
+      "purity": 0.10987724031199995,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "021.png",
+      "coverage": 1.0,
+      "iou": 0.19191919191912815,
+      "purity": 0.09173976608184085,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "000.png",
+      "coverage": 0.9270131697999396,
+      "iou": 0.40432057999084164,
+      "purity": 0.16351030251442292,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "001.png",
+      "coverage": 0.7534396156366019,
+      "iou": 0.2486395981582094,
+      "purity": 0.3116108928328791,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "002.png",
+      "coverage": 0.5382054773793312,
+      "iou": 0.12092362109716195,
+      "purity": 0.12890483438423972,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "003.png",
+      "coverage": 0.8416968442834971,
+      "iou": 0.17627686964850897,
+      "purity": 0.06967283316203185,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "004.png",
+      "coverage": 0.0,
+      "iou": 0.007377476421923606,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "005.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "006.png",
+      "coverage": 0.7682669789227167,
+      "iou": 0.4214126484868521,
+      "purity": 0.1926155712999381,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "007.png",
+      "coverage": 0.9155606407322654,
+      "iou": 0.22490454656229186,
+      "purity": 0.15508653603888695,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "008.png",
+      "coverage": 0.5345220030349014,
+      "iou": 0.11738879926249611,
+      "purity": 0.10082530292908577,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "009.png",
+      "coverage": 0.7099181377735702,
+      "iou": 0.24755072962214442,
+      "purity": 0.3967631497042027,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "010.png",
+      "coverage": 0.8560893854748604,
+      "iou": 0.2390132860339454,
+      "purity": 0.1209623946196709,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "011.png",
+      "coverage": 0.9789487447698745,
+      "iou": 0.567141417717228,
+      "purity": 0.21269886363630322,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "012.png",
+      "coverage": 0.6466603654694392,
+      "iou": 0.11946924480835991,
+      "purity": 0.10969483191702484,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "013.png",
+      "coverage": 0.759849725459975,
+      "iou": 0.36415499889512426,
+      "purity": 0.2092418695951485,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "014.png",
+      "coverage": 0.1967313273254926,
+      "iou": 0.10125592454877275,
+      "purity": 0.050748620961366925,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "015.png",
+      "coverage": 0.7322622758639065,
+      "iou": 0.20632613921827037,
+      "purity": 0.6701289834928754,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "016.png",
+      "coverage": 0.5834874726752984,
+      "iou": 0.48550832427478857,
+      "purity": 0.19650407731799371,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "000.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "001.png",
+      "coverage": 0.8736681887366818,
+      "iou": 0.42612137203103767,
+      "purity": 0.3697262479865222,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "002.png",
+      "coverage": 0.9167742861242646,
+      "iou": 0.6801020029212745,
+      "purity": 0.6977429923550427,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "003.png",
+      "coverage": 0.9969440526563235,
+      "iou": 0.2913713028598347,
+      "purity": 0.14867659947409337,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "004.png",
+      "coverage": 0.7891044517581847,
+      "iou": 0.45607783412925196,
+      "purity": 0.36004742145813873,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.6512412139923409,
+      "purity": 0.4107991711695401,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "013.png",
+      "coverage": 0.690690181448194,
+      "iou": 0.48120300751869394,
+      "purity": 0.9065616096862061,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "014.png",
+      "coverage": 0.9159041925907853,
+      "iou": 0.8282120222775895,
+      "purity": 0.7375521899302927,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "015.png",
+      "coverage": 0.9710605553696888,
+      "iou": 0.4712194893854692,
+      "purity": 0.14027838190514227,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.20540459615235537,
+      "purity": 0.10205354692214935,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.7066233221476361,
+      "purity": 0.5445364932885791,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.7619534050179041,
+      "purity": 0.5865882616487323,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "002.png",
+      "coverage": 0.5899996141826459,
+      "iou": 0.5120949535096931,
+      "purity": 0.7939875389407687,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "003.png",
+      "coverage": 0.18645130459715187,
+      "iou": 0.14591569513109737,
+      "purity": 0.9912804878046766,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "004.png",
+      "coverage": 0.5860969387755102,
+      "iou": 0.5144644796871456,
+      "purity": 0.8349273186229254,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "005.png",
+      "coverage": 1.0,
+      "iou": 0.7318717504332597,
+      "purity": 0.5685073656845631,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "006.png",
+      "coverage": 1.0,
+      "iou": 0.7260769896193614,
+      "purity": 0.5625043252595034,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "007.png",
+      "coverage": 0.8599523378952046,
+      "iou": 0.6841359125622911,
+      "purity": 0.6866338723591501,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "008.png",
+      "coverage": 0.7925548559435223,
+      "iou": 0.6419235613553137,
+      "purity": 0.6984429647565006,
+      "peak_on_defect": true
+    }
+  ],
+  "variant_d": [
+    {
+      "category": "faulty_imprint",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.04772499999999701,
+      "purity": 0.036706249999997706,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.3279035328959552,
+      "purity": 0.274434101967276,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "003.png",
+      "coverage": 0.9643371017471737,
+      "iou": 0.736832579185187,
+      "purity": 0.47911560457491875,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "004.png",
+      "coverage": 0.9600799828608155,
+      "iou": 0.754896656205766,
+      "purity": 0.524684853451772,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "005.png",
+      "coverage": 0.07251751133086115,
+      "iou": 0.04983365187228951,
+      "purity": 0.9999999999952652,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "006.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "007.png",
+      "coverage": 0.9741636303411726,
+      "iou": 0.8676058133604198,
+      "purity": 0.5617956064946644,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "008.png",
+      "coverage": 0.3982327243844321,
+      "iou": 0.23954289354750452,
+      "purity": 0.513703893442294,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "009.png",
+      "coverage": 0.8619679812573213,
+      "iou": 0.37756485304073645,
+      "purity": 0.28931847968535734,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "010.png",
+      "coverage": 1.0,
+      "iou": 0.4919452719849261,
+      "purity": 0.30486593843094106,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "011.png",
+      "coverage": 0.6833864564111167,
+      "iou": 0.38954311013734205,
+      "purity": 0.5855352993314842,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "012.png",
+      "coverage": 0.440063508864779,
+      "iou": 0.21961715388028905,
+      "purity": 0.2921387790950442,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "013.png",
+      "coverage": 0.24554074663483855,
+      "iou": 0.1613860211225343,
+      "purity": 0.6806985294105135,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "014.png",
+      "coverage": 0.9742256387067602,
+      "iou": 0.7678280690324716,
+      "purity": 0.48854875283419014,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.5932464620987133,
+      "purity": 0.4536920274623603,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "016.png",
+      "coverage": 0.6252490223566738,
+      "iou": 0.5614111085540251,
+      "purity": 0.3662690179805571,
+      "peak_on_defect": false
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "017.png",
+      "coverage": 1.0,
+      "iou": 0.3555473933104893,
+      "purity": 0.24474874314177306,
+      "peak_on_defect": true
+    },
+    {
+      "category": "faulty_imprint",
+      "filename": "018.png",
+      "coverage": 0.9673053152039555,
+      "iou": 0.5418180405259958,
+      "purity": 0.3339093701996216,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "000.png",
+      "coverage": 0.8286252354048964,
+      "iou": 0.4233417905034221,
+      "purity": 0.42307692307647105,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "001.png",
+      "coverage": 0.6140822045773003,
+      "iou": 0.41012303691093654,
+      "purity": 0.3654367312901359,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "002.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.233767893660457,
+      "purity": 0.1765081799590438,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "004.png",
+      "coverage": 0.8716202270381836,
+      "iou": 0.5200573065897922,
+      "purity": 0.4451823740244094,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "005.png",
+      "coverage": 0.4559662090813094,
+      "iou": 0.11608258026594004,
+      "purity": 0.3212797619042838,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "006.png",
+      "coverage": 0.9986772486772487,
+      "iou": 0.6368813332211398,
+      "purity": 0.44746422826141097,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "007.png",
+      "coverage": 1.0,
+      "iou": 0.45437908496724605,
+      "purity": 0.2704575163398251,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "008.png",
+      "coverage": 1.0,
+      "iou": 0.33445945945920835,
+      "purity": 0.24512012011993609,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "009.png",
+      "coverage": 1.0,
+      "iou": 0.04614374999999711,
+      "purity": 0.03471249999999783,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "010.png",
+      "coverage": 0.03465858705291162,
+      "iou": 0.11334658055964839,
+      "purity": 0.11736736736707366,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "011.png",
+      "coverage": 1.0,
+      "iou": 0.32299539170499475,
+      "purity": 0.25645161290316676,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.31230545756370187,
+      "purity": 0.21650411565324185,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "013.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "014.png",
+      "coverage": 1.0,
+      "iou": 0.15909783602555788,
+      "purity": 0.12122135712501145,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.2832278205060634,
+      "purity": 0.19421336263272918,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.4733303782504162,
+      "purity": 0.3552378841606253,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "017.png",
+      "coverage": 1.0,
+      "iou": 0.28125714285706255,
+      "purity": 0.1990857142856574,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.290829746532716,
+      "purity": 0.20972321855568363,
+      "peak_on_defect": true
+    },
+    {
+      "category": "contamination",
+      "filename": "019.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "contamination",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "012.png",
+      "coverage": 1.0,
+      "iou": 0.14765902684147944,
+      "purity": 0.020682681701182534,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "013.png",
+      "coverage": 1.0,
+      "iou": 0.20673076923056638,
+      "purity": 0.06348116169538512,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "014.png",
+      "coverage": 0.9133858267716536,
+      "iou": 0.7282874084402439,
+      "purity": 0.18506006005988637,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "015.png",
+      "coverage": 0.7707509881422925,
+      "iou": 0.40160642570050714,
+      "purity": 0.27484143763019847,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "016.png",
+      "coverage": 1.0,
+      "iou": 0.1671974522292311,
+      "purity": 0.03719581904293761,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "017.png",
+      "coverage": 0.7009615384615384,
+      "iou": 0.33532934131664816,
+      "purity": 0.17591698841656392,
+      "peak_on_defect": false
+    },
+    {
+      "category": "color",
+      "filename": "018.png",
+      "coverage": 1.0,
+      "iou": 0.09087197433648826,
+      "purity": 0.07109944590255404,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "019.png",
+      "coverage": 1.0,
+      "iou": 0.30233545647545546,
+      "purity": 0.12653927813158108,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "020.png",
+      "coverage": 1.0,
+      "iou": 0.21145625534325202,
+      "purity": 0.09048161869472036,
+      "peak_on_defect": true
+    },
+    {
+      "category": "color",
+      "filename": "024.png",
+      "coverage": 0.955703211517165,
+      "iou": 0.31200453001044165,
+      "purity": 0.2526346604208061,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "012.png",
+      "coverage": 0.9565374864179645,
+      "iou": 0.41280325161919673,
+      "purity": 0.1795865633073714,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "013.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "014.png",
+      "coverage": 0.17366071428571428,
+      "iou": 0.007077646484076389,
+      "purity": 0.002431249999999848,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "015.png",
+      "coverage": 0.542741935483871,
+      "iou": 0.5273947750353277,
+      "purity": 0.39391278899504273,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "016.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "017.png",
+      "coverage": 0.8347718865598027,
+      "iou": 0.48949227117438227,
+      "purity": 0.5743778280537571,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "018.png",
+      "coverage": 0.9926845199216199,
+      "iou": 0.511571097968498,
+      "purity": 0.201351351351298,
+      "peak_on_defect": true
+    },
+    {
+      "category": "crack",
+      "filename": "019.png",
+      "coverage": 0.7046962404058801,
+      "iou": 0.3930348258705119,
+      "purity": 0.3062182023740496,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "020.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": false
+    },
+    {
+      "category": "crack",
+      "filename": "021.png",
+      "coverage": 0.9494362828834985,
+      "iou": 0.5860111137948948,
+      "purity": 0.38597222222168615,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "000.png",
+      "coverage": 0.9000870490376245,
+      "iou": 0.4705682782017662,
+      "purity": 0.31396761133592643,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "001.png",
+      "coverage": 0.7568882542704533,
+      "iou": 0.21150855365473073,
+      "purity": 0.2908943089430303,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "002.png",
+      "coverage": 0.5349544072948328,
+      "iou": 0.11340709972423878,
+      "purity": 0.1926806380981166,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "003.png",
+      "coverage": 0.17158884672496288,
+      "iou": 0.12341228526807348,
+      "purity": 0.05608887930101602,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "004.png",
+      "coverage": 0.4512642538423401,
+      "iou": 0.07460982108869053,
+      "purity": 0.30959183673448326,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "005.png",
+      "coverage": 0.6832901554404145,
+      "iou": 0.13863837312111643,
+      "purity": 0.5046237244893936,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "006.png",
+      "coverage": 0.13758886818994032,
+      "iou": 0.057055820846362466,
+      "purity": 0.6838624338611416,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "007.png",
+      "coverage": 0.9358465608465608,
+      "iou": 0.22486726968831572,
+      "purity": 0.05306249999999668,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "008.png",
+      "coverage": 0.5300883884247488,
+      "iou": 0.07516245086362303,
+      "purity": 0.20194658425194797,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "009.png",
+      "coverage": 0.2790985370051635,
+      "iou": 0.14556800815077636,
+      "purity": 0.17041050903114272,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "010.png",
+      "coverage": 0.8237161399548533,
+      "iou": 0.22212081754131754,
+      "purity": 0.24343819709378461,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "011.png",
+      "coverage": 1.0,
+      "iou": 0.4866660986622462,
+      "purity": 0.1718923063814919,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "012.png",
+      "coverage": 0.3706314243759178,
+      "iou": 0.17304728223186833,
+      "purity": 0.05634809010335179,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "013.png",
+      "coverage": 0.7463178117281127,
+      "iou": 0.3904202440126133,
+      "purity": 0.2079001019367462,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "014.png",
+      "coverage": 0.15067923482118104,
+      "iou": 0.06877025174476302,
+      "purity": 0.046596364883381945,
+      "peak_on_defect": false
+    },
+    {
+      "category": "combined",
+      "filename": "015.png",
+      "coverage": 0.048665045370152454,
+      "iou": 0.07683598643484603,
+      "purity": 0.08520282025451643,
+      "peak_on_defect": true
+    },
+    {
+      "category": "combined",
+      "filename": "016.png",
+      "coverage": 0.6339401820546163,
+      "iou": 0.5957050108206431,
+      "purity": 0.17627118644065143,
+      "peak_on_defect": false
+    },
+    {
+      "category": "scratch",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.373856209150191,
+      "purity": 0.18344226579514036,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.5643410852704429,
+      "purity": 0.42620155038693613,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "002.png",
+      "coverage": 1.0,
+      "iou": 0.46525864707677617,
+      "purity": 0.2418233967055242,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "003.png",
+      "coverage": 1.0,
+      "iou": 0.434351030229892,
+      "purity": 0.22329172306601328,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "004.png",
+      "coverage": 0.35310110450297366,
+      "iou": 0.22210065645509725,
+      "purity": 0.6923205064128832,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "012.png",
+      "coverage": 0.8189563365282215,
+      "iou": 0.5956491368123962,
+      "purity": 0.5389271151882397,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "013.png",
+      "coverage": 0.9966589823260165,
+      "iou": 0.7569594932487487,
+      "purity": 0.5118565545640852,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "014.png",
+      "coverage": 0.9578928327370664,
+      "iou": 0.7526158530349857,
+      "purity": 0.5875123274161012,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "015.png",
+      "coverage": 1.0,
+      "iou": 0.5803108808288614,
+      "purity": 0.166573668128028,
+      "peak_on_defect": true
+    },
+    {
+      "category": "scratch",
+      "filename": "016.png",
+      "coverage": 0.0,
+      "iou": 0.0,
+      "purity": 0.0,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "000.png",
+      "coverage": 1.0,
+      "iou": 0.6465648854961709,
+      "purity": 0.4977366412213645,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "001.png",
+      "coverage": 1.0,
+      "iou": 0.6655198598130712,
+      "purity": 0.5121573208722642,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "002.png",
+      "coverage": 0.8931388891022637,
+      "iou": 0.7582372881355727,
+      "purity": 0.7433526196336431,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "003.png",
+      "coverage": 0.565661025076974,
+      "iou": 0.4922843889046531,
+      "purity": 0.8184541509724432,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "004.png",
+      "coverage": 0.9246051961283749,
+      "iou": 0.775504605547739,
+      "purity": 0.7321015749168974,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "005.png",
+      "coverage": 1.0,
+      "iou": 0.6463356164383438,
+      "purity": 0.5015353881278444,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "006.png",
+      "coverage": 1.0,
+      "iou": 0.6941138980263015,
+      "purity": 0.5371916118420942,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "007.png",
+      "coverage": 1.0,
+      "iou": 0.7256915807559982,
+      "purity": 0.5630820446735274,
+      "peak_on_defect": true
+    },
+    {
+      "category": "pill_type",
+      "filename": "008.png",
+      "coverage": 1.0,
+      "iou": 0.703504243500512,
+      "purity": 0.5435418258409452,
+      "peak_on_defect": true
+    }
+  ]
+}

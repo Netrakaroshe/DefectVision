@@ -1,0 +1,244 @@
+[
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/000.png",
+    "ground_truth": "normal",
+    "score": 32.89782
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/002.png",
+    "ground_truth": "normal",
+    "score": 33.624062
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/004.png",
+    "ground_truth": "normal",
+    "score": 35.714996
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/006.png",
+    "ground_truth": "normal",
+    "score": 31.712643
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/008.png",
+    "ground_truth": "normal",
+    "score": 31.464077
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/010.png",
+    "ground_truth": "normal",
+    "score": 31.453074
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/012.png",
+    "ground_truth": "normal",
+    "score": 34.293488
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/014.png",
+    "ground_truth": "normal",
+    "score": 29.461697
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/016.png",
+    "ground_truth": "normal",
+    "score": 33.752499
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/018.png",
+    "ground_truth": "normal",
+    "score": 39.360531
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/000.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 69.294525
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/002.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 64.314949
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/004.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 70.780457
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/006.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 70.925034
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/008.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 64.136612
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/010.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 66.545906
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/012.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 67.68856
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/014.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 63.904373
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/016.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 64.962837
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/018.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_large",
+    "score": 67.224205
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/000.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 51.036144
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/002.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 65.098351
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/004.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 67.436279
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/006.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 64.422165
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/008.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 55.523846
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/010.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 66.997246
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/012.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 63.688644
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/014.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 52.565155
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/016.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 62.277008
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/018.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 68.787247
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/020.png",
+    "ground_truth": "defective",
+    "defect_type": "broken_small",
+    "score": 68.663681
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/000.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 62.027199
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/002.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 53.911362
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/004.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 46.016495
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/006.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 65.6978
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/008.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 59.722878
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/010.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 64.405937
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/012.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 45.405708
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/014.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 70.036369
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/016.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 43.578663
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/018.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 73.99527
+  },
+  {
+    "path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/020.png",
+    "ground_truth": "defective",
+    "defect_type": "contamination",
+    "score": 49.576763
+  }
+]

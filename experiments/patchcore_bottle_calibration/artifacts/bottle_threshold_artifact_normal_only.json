@@ -1,0 +1,58 @@
+{
+  "product_name": "bottle",
+  "threshold": 41.619748188504595,
+  "calibration_method": "normal_k_sigma",
+  "is_normal_only": true,
+  "normal_sample_count": 10,
+  "defective_sample_count": 0,
+  "normal_score_stats": {
+    "count": 10,
+    "min": 29.461697,
+    "max": 39.360531,
+    "mean": 33.373488699999996,
+    "median": 33.260941,
+    "std": 2.7487531628348663,
+    "p05": 30.35781665,
+    "p25": 31.5262185,
+    "p75": 34.158240750000004,
+    "p95": 37.72004025,
+    "p99": 39.03243285,
+    "iqr": 2.6320222500000057
+  },
+  "defective_score_stats": null,
+  "confusion_matrix": {
+    "tn": 10,
+    "fp": 0,
+    "fn": 0,
+    "tp": 0
+  },
+  "metrics": {
+    "false_positive_rate": 0.0,
+    "false_negative_rate": null,
+    "specificity": 1.0,
+    "sensitivity": null,
+    "balanced_accuracy": null,
+    "precision": null,
+    "f1": null,
+    "accuracy": 1.0,
+    "youden_j": null
+  },
+  "objective_metric_name": "normal_mean_3.0sigma",
+  "objective_metric_value": 41.619748188504595,
+  "optimal_plateau": null,
+  "calibration_timestamp": "2026-10-03T04:20:59.599084+00:00",
+  "calibration_metadata": {
+    "dataset": "MVTecAD",
+    "product": "bottle",
+    "patchcore_backbone": "wide_resnet50_2",
+    "memory_bank_shape": [
+      1638,
+      1536
+    ],
+    "experiment": "patchcore_bottle_threshold_calibration",
+    "calibration_sample_partition": "10_normal_32_defective"
+  },
+  "warnings": [
+    "LIMITATION WARNING: Threshold calibrated using normal reference samples only. No defective samples were available during calibration; false negative rate and sensitivity cannot be empirically validated until defective samples are observed."
+  ]
+}

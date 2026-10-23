@@ -1,0 +1,412 @@
+[
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/001.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 33.690884,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -7.778713
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/003.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 33.712421,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -7.757176
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/005.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 30.056997,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -11.4126
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/007.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 34.529716,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -6.939881
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/009.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 35.722767,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -5.74683
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/011.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 33.216026,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -8.253571
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/013.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 30.273865,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -11.195732
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/015.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 34.947777,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -6.52182
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/017.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 32.367062,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -9.102535
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/019.png",
+    "defect_type": "good",
+    "ground_truth_status": "normal",
+    "anomaly_score": 33.161041,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "NORMAL",
+    "is_correct": true,
+    "margin_from_threshold": -8.308556
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/001.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 66.168869,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 24.699272
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/003.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 67.84005,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 26.370453
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/005.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 62.342545,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 20.872948
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/007.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 61.221333,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 19.751736
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/009.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.744591,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 22.274994
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/011.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 55.158894,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 13.689297
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/013.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 65.274513,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 23.804916
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/015.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 67.000641,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 25.531044
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/017.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 69.18576,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 27.716163
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/019.png",
+    "defect_type": "broken_large",
+    "ground_truth_status": "defective",
+    "anomaly_score": 65.627274,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 24.157677
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/001.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.383194,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 21.913597
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/003.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.35355,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 21.883953
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/005.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 55.046593,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 13.576996
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/007.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 61.608776,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 20.139179
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/009.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 61.987331,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 20.517734
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/011.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 54.101875,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 12.632278
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/013.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.160439,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 21.690842
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/015.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 61.883457,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 20.41386
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/017.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 69.634796,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 28.165199
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/019.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 66.712517,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 25.24292
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/021.png",
+    "defect_type": "broken_small",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.460323,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 21.990726
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/001.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 51.976959,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 10.507362
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/003.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 41.73769,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 0.268093
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/005.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 67.78167,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 26.312073
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/007.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 79.012932,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 37.543335
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/009.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.419346,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 21.949749
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/011.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 53.209049,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 11.739452
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/013.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 70.885017,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 29.41542
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/015.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 63.958652,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 22.489055
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/017.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 77.186913,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 35.717316
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/019.png",
+    "defect_type": "contamination",
+    "ground_truth_status": "defective",
+    "anomaly_score": 43.450367,
+    "calibrated_threshold": 41.469597,
+    "predicted_status": "DEFECTIVE",
+    "is_correct": true,
+    "margin_from_threshold": 1.98077
+  }
+]

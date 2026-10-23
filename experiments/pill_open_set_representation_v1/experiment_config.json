@@ -1,0 +1,61 @@
+{
+  "experiment_name": "Phase 8.3F Controlled Open-Set Representation Learning Experiment",
+  "status": "OFFLINE EXPERIMENT — NOT PRODUCTION",
+  "date": "2026-10-05",
+  "base_architecture": "ResNet-18 (ImageNet-pretrained backbone)",
+  "variants": {
+    "variant_a": {
+      "name": "Phase 8.3D ROI Classifier V2 Baseline",
+      "type": "Standard Cross-Entropy on localized pill defect ROIs",
+      "classes": ["Scratch", "Crack", "Discoloration"],
+      "head": "Dropout(0.2) -> Linear(512, 3)",
+      "weights": "experiments/pill_roi_classifier_v2/best_pill_roi_classifier.pt"
+    },
+    "variant_b": {
+      "name": "Supervised Contrastive Learning (SupCon)",
+      "type": "Joint SupCon + Cross-Entropy on localized pill defect ROIs",
+      "classes": ["Scratch", "Crack", "Discoloration"],
+      "projection_head": "Linear(512, 256) -> ReLU() -> Linear(256, 128) -> L2Norm",
+      "classifier_head": "Dropout(0.2) -> Linear(512, 3)",
+      "temperature": 0.07,
+      "optimizer": "AdamW (lr=1e-4, weight_decay=0.01, CosineAnnealingLR)",
+      "epochs": 25,
+      "weights": "experiments/pill_open_set_representation_v1/variant_b_supcon_best.pt"
+    },
+    "variant_c": {
+      "name": "SupCon + Outlier Regularization",
+      "type": "Joint SupCon + Cross-Entropy + Hyperspherical Outlier Margin Repulsion",
+      "classes": ["Scratch", "Crack", "Discoloration"],
+      "outlier_source": "15 normal pill reference crops from calibration pool (strictly isolated from test defects)",
+      "margin_m": 0.35,
+      "lambda_outlier": 0.5,
+      "temperature": 0.07,
+      "optimizer": "AdamW (lr=1e-4, weight_decay=0.01, CosineAnnealingLR)",
+      "epochs": 25,
+      "weights": "experiments/pill_open_set_representation_v1/variant_c_supcon_outlier_best.pt"
+    }
+  },
+  "datasets": {
+    "supported_total_records": 77,
+    "external_untouched_supported_benchmark": 23,
+    "available_supported_pool": 45,
+    "splits": {
+      "train": 31,
+      "val": 6,
+      "internal_test": 8
+    },
+    "evaluation_untouched_outliers": 66,
+    "outlier_breakdown": {
+      "contamination": 21,
+      "faulty_imprint": 19,
+      "combined": 17,
+      "pill_type": 9
+    }
+  },
+  "leakage_safeguards": [
+    "External 23-image supported benchmark untouched (zero training, validation, or threshold fitting)",
+    "External 66-image unsupported benchmark untouched (zero training, validation, or threshold fitting)",
+    "Outlier regularization used only normal non-defect surface crops from the training calibration pool, completely disjoint from the 66 test outliers",
+    "Thresholds swept across validation/retention targets without peaking at test set optimal values"
+  ]
+}

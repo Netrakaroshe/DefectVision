@@ -1,0 +1,124 @@
+# ==============================================================================
+# DefectVision - Root .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Byte-compiled / optimized / Python runtime
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# Testing & Code Quality
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# ------------------------------------------------------------------------------
+# Node.js & Frontend Build Outputs
+# ------------------------------------------------------------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+node_modules/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# Secrets & Environment Configurations (Keep .env.example)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+*.pem
+*.key
+*.cert
+
+# ------------------------------------------------------------------------------
+# Application Runtime Storage & Local Databases
+# (Prevents committing SQLite DB, user uploads, generated heatmaps, product runs)
+# ------------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+data/app_storage/
+!data/app_storage/.gitkeep
+
+# ------------------------------------------------------------------------------
+# Machine Learning Checkpoints & Heavy Weights (>50MB / >100MB)
+# Note: GitHub hard-blocks files >100MB (e.g. best_model.pt is 128MB).
+# If publishing weights via Git LFS, see repository README for LFS commands.
+# ------------------------------------------------------------------------------
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+
+# ------------------------------------------------------------------------------
+# Temporary Experiment Staging & Cache Directories
+# ------------------------------------------------------------------------------
+**/engine_runs/
+**/staging/
+**/temp_calib/
+**/aligned_cache/
+scratch/audit_samples/
+*.log
+logs/
+
+# ------------------------------------------------------------------------------
+# IDE, Editor & OS Artifacts
+# ------------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

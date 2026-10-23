@@ -1,0 +1,179 @@
+{
+  "system_A": {
+    "name": "Baseline A (Full Frame Frozen)",
+    "accuracy": 0.43478260869565216,
+    "macro_f1": 0.3444444444444444,
+    "macro_p": 0.3398692810457516,
+    "macro_r": 0.4338624338624338,
+    "per_class": {
+      "Scratch": {
+        "p": 0.6666666666666666,
+        "r": 0.4444444444444444,
+        "f1": 0.5333333333333333,
+        "sup": 9
+      },
+      "Crack": {
+        "p": 0.35294117647058826,
+        "r": 0.8571428571428571,
+        "f1": 0.5,
+        "sup": 7
+      },
+      "Discoloration": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "sup": 7
+      }
+    },
+    "confusion_matrix": {
+      "Scratch": {
+        "Scratch": 4,
+        "Crack": 5,
+        "Discoloration": 0,
+        "UNKNOWN": 0
+      },
+      "Crack": {
+        "Scratch": 1,
+        "Crack": 6,
+        "Discoloration": 0,
+        "UNKNOWN": 0
+      },
+      "Discoloration": {
+        "Scratch": 1,
+        "Crack": 6,
+        "Discoloration": 0,
+        "UNKNOWN": 0
+      },
+      "UNKNOWN": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "crack_predictions": 17,
+    "scratch_as_crack": 5,
+    "disc_as_crack": 6,
+    "correct_discoloration": 0,
+    "avg_disc_prob": 0.001273451214988849,
+    "avg_crack_prob": 0.7113074575151715,
+    "avg_scratch_prob": 0.3769722787870301,
+    "avg_conf_correct": 0.6889281719923019,
+    "avg_conf_wrong": 0.6802160120927371
+  },
+  "system_B": {
+    "name": "ROI B (Frozen Model + ROI)",
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "macro_p": 0.0,
+    "macro_r": 0.0,
+    "per_class": {
+      "Scratch": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "sup": 9
+      },
+      "Crack": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "sup": 7
+      },
+      "Discoloration": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "sup": 7
+      }
+    },
+    "confusion_matrix": {
+      "Scratch": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 0,
+        "UNKNOWN": 9
+      },
+      "Crack": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 0,
+        "UNKNOWN": 7
+      },
+      "Discoloration": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 0,
+        "UNKNOWN": 7
+      },
+      "UNKNOWN": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "crack_predictions": 0,
+    "scratch_as_crack": 0,
+    "disc_as_crack": 0,
+    "correct_discoloration": 0,
+    "avg_disc_prob": 0.006665863562375307,
+    "avg_crack_prob": 0.18345241461481368,
+    "avg_scratch_prob": 0.06953623311387168,
+    "avg_conf_correct": 0.0,
+    "avg_conf_wrong": 0.7425640588221343
+  },
+  "system_C": {
+    "name": "ROI V2 C (Trained on ROIs)",
+    "accuracy": 0.9130434782608695,
+    "macro_f1": 0.9130844645550528,
+    "macro_p": 0.9259259259259259,
+    "macro_r": 0.9153439153439153,
+    "per_class": {
+      "Scratch": {
+        "p": 1.0,
+        "r": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "sup": 9
+      },
+      "Crack": {
+        "p": 1.0,
+        "r": 0.8571428571428571,
+        "f1": 0.9230769230769231,
+        "sup": 7
+      },
+      "Discoloration": {
+        "p": 0.7777777777777778,
+        "r": 1.0,
+        "f1": 0.875,
+        "sup": 7
+      }
+    },
+    "confusion_matrix": {
+      "Scratch": {
+        "Scratch": 8,
+        "Crack": 0,
+        "Discoloration": 1
+      },
+      "Crack": {
+        "Scratch": 0,
+        "Crack": 6,
+        "Discoloration": 1
+      },
+      "Discoloration": {
+        "Scratch": 0,
+        "Crack": 0,
+        "Discoloration": 7
+      }
+    },
+    "crack_predictions": 6,
+    "scratch_as_crack": 0,
+    "disc_as_crack": 0,
+    "correct_discoloration": 7,
+    "avg_disc_prob": 0.7930002638271877,
+    "avg_crack_prob": 0.568239512188094,
+    "avg_scratch_prob": 0.6833115609155761,
+    "avg_conf_correct": 0.7349145483402979,
+    "avg_conf_wrong": 0.7216556668281555
+  }
+}

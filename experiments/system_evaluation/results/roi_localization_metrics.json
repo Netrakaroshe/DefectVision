@@ -1,0 +1,38 @@
+{
+  "pill": {
+    "total_defects_detected": 72,
+    "correct_localization_count": 36,
+    "correct_localization_pct": 50.0,
+    "partial_localization_count": 30,
+    "partial_localization_pct": 41.66666666666667,
+    "incorrect_localization_count": 6,
+    "incorrect_localization_pct": 8.333333333333332,
+    "mean_defect_coverage": 0.8063949818693347,
+    "mean_iou_box": 0.3888450574368983,
+    "mean_defect_purity": 0.26920810857249994
+  },
+  "metal_nut": {
+    "total_defects_detected": 77,
+    "correct_localization_count": 59,
+    "correct_localization_pct": 76.62337662337663,
+    "partial_localization_count": 18,
+    "partial_localization_pct": 23.376623376623375,
+    "incorrect_localization_count": 0,
+    "incorrect_localization_pct": 0.0,
+    "mean_defect_coverage": 0.8943619720609881,
+    "mean_iou_box": 0.5374281316028022,
+    "mean_defect_purity": 0.3490752886999694
+  },
+  "tile": {
+    "total_defects_detected": 83,
+    "correct_localization_count": 65,
+    "correct_localization_pct": 78.3132530120482,
+    "partial_localization_count": 18,
+    "partial_localization_pct": 21.686746987951807,
+    "incorrect_localization_count": 0,
+    "incorrect_localization_pct": 0.0,
+    "mean_defect_coverage": 0.8876067954399037,
+    "mean_iou_box": 0.506091081128733,
+    "mean_defect_purity": 0.31533954073291226
+  }
+}

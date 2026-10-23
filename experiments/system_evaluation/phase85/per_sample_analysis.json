@@ -1,0 +1,1149 @@
+[
+  {
+    "filename": "014.png",
+    "category": "color",
+    "anomaly_score": 42.675384521484375,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.9197154785156272,
+    "rank_among_defects_asc": 17,
+    "percentile_among_defects": 17.708333333333336,
+    "rank_among_all_pill_asc": 41,
+    "has_gt_mask": true,
+    "defect_pixels": 1874,
+    "coverage_pct": 0.29281250000000003,
+    "defect_bbox": [
+      504,
+      461,
+      157,
+      57
+    ],
+    "defect_centroid": [
+      566,
+      489
+    ],
+    "global_peak_loc": [
+      567,
+      492
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -34.438350715445125,
+    "max_defect_score": 41.01716613769531,
+    "mean_defect_score": 38.32994842529297,
+    "max_bg_score": 41.104522705078125,
+    "mean_bg_score": 25.383005142211914,
+    "snr_defect_to_bg": 0.9978745271717437,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.3141042289733307,
+    "delta_intensity": 51.5950927734375,
+    "defect_mean_intensity": 112.66595458984375,
+    "surround_mean_intensity": 164.26104736328125,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": false,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Background / Rim Peak Domination (Defect peak 41.02 < Background peak 41.10)"
+    ]
+  },
+  {
+    "filename": "017.png",
+    "category": "color",
+    "anomaly_score": 41.931583404541016,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.6635165954589866,
+    "rank_among_defects_asc": 11,
+    "percentile_among_defects": 11.458333333333332,
+    "rank_among_all_pill_asc": 34,
+    "has_gt_mask": true,
+    "defect_pixels": 932,
+    "coverage_pct": 0.145625,
+    "defect_bbox": [
+      527,
+      463,
+      74,
+      27
+    ],
+    "defect_centroid": [
+      563,
+      477
+    ],
+    "global_peak_loc": [
+      563,
+      492
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -20.615528128088304,
+    "max_defect_score": 40.635223388671875,
+    "mean_defect_score": 38.88673782348633,
+    "max_bg_score": 40.9234504699707,
+    "mean_bg_score": 26.1635684967041,
+    "snr_defect_to_bg": 0.9929566786877582,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.27376699204698535,
+    "delta_intensity": 45.83363342285156,
+    "defect_mean_intensity": 121.58476257324219,
+    "surround_mean_intensity": 167.41839599609375,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": false,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Background / Rim Peak Domination (Defect peak 40.64 < Background peak 40.92)"
+    ]
+  },
+  {
+    "filename": "024.png",
+    "category": "color",
+    "anomaly_score": 42.901920318603516,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.6931796813964866,
+    "rank_among_defects_asc": 20,
+    "percentile_among_defects": 20.833333333333336,
+    "rank_among_all_pill_asc": 45,
+    "has_gt_mask": true,
+    "defect_pixels": 855,
+    "coverage_pct": 0.13359375,
+    "defect_bbox": [
+      584,
+      356,
+      41,
+      28
+    ],
+    "defect_centroid": [
+      604,
+      369
+    ],
+    "global_peak_loc": [
+      610,
+      373
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 8.06225774829855,
+    "max_defect_score": 40.955421447753906,
+    "mean_defect_score": 39.99829864501953,
+    "max_bg_score": 40.63565444946289,
+    "mean_bg_score": 25.883930206298828,
+    "snr_defect_to_bg": 1.0078688758415328,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.16905937997407242,
+    "delta_intensity": 29.523406982421875,
+    "defect_mean_intensity": 145.1099395751953,
+    "surround_mean_intensity": 174.6333465576172,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.169, Delta I: 29.5)",
+      "Near-Threshold Calibration Fallout (Margin: -0.69, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "006.png",
+    "category": "combined",
+    "anomaly_score": 40.87879943847656,
+    "threshold": 43.5951,
+    "margin_to_threshold": -2.7163005615234397,
+    "rank_among_defects_asc": 9,
+    "percentile_among_defects": 9.375,
+    "rank_among_all_pill_asc": 31,
+    "has_gt_mask": true,
+    "defect_pixels": 25620,
+    "coverage_pct": 4.003125,
+    "defect_bbox": [
+      457,
+      187,
+      280,
+      300
+    ],
+    "defect_centroid": [
+      577,
+      307
+    ],
+    "global_peak_loc": [
+      491,
+      373
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 19.235384061671343,
+    "max_defect_score": 40.404090881347656,
+    "mean_defect_score": 33.885398864746094,
+    "max_bg_score": 39.73656463623047,
+    "mean_bg_score": 26.932085037231445,
+    "snr_defect_to_bg": 1.016798535133639,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.19714996341544863,
+    "delta_intensity": 27.727584838867188,
+    "defect_mean_intensity": 168.3696746826172,
+    "surround_mean_intensity": 140.64208984375,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.197, Delta I: 27.7)"
+    ]
+  },
+  {
+    "filename": "007.png",
+    "category": "combined",
+    "anomaly_score": 40.02894592285156,
+    "threshold": 43.5951,
+    "margin_to_threshold": -3.5661540771484397,
+    "rank_among_defects_asc": 5,
+    "percentile_among_defects": 5.208333333333334,
+    "rank_among_all_pill_asc": 24,
+    "has_gt_mask": true,
+    "defect_pixels": 8740,
+    "coverage_pct": 1.365625,
+    "defect_bbox": [
+      279,
+      299,
+      344,
+      113
+    ],
+    "defect_centroid": [
+      355,
+      352
+    ],
+    "global_peak_loc": [
+      617,
+      380
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 2.8284271247461903,
+    "max_defect_score": 39.15282440185547,
+    "mean_defect_score": 36.257781982421875,
+    "max_bg_score": 39.138404846191406,
+    "mean_bg_score": 26.607540130615234,
+    "snr_defect_to_bg": 1.0003681691177502,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.0008067909896162544,
+    "delta_intensity": 0.14501953125,
+    "defect_mean_intensity": 179.89358520507812,
+    "surround_mean_intensity": 179.74856567382812,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.001, Delta I: 0.1)"
+    ]
+  },
+  {
+    "filename": "005.png",
+    "category": "contamination",
+    "anomaly_score": 42.545650482177734,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.0494495178222678,
+    "rank_among_defects_asc": 16,
+    "percentile_among_defects": 16.666666666666664,
+    "rank_among_all_pill_asc": 40,
+    "has_gt_mask": true,
+    "defect_pixels": 4499,
+    "coverage_pct": 0.70296875,
+    "defect_bbox": [
+      262,
+      224,
+      227,
+      236
+    ],
+    "defect_centroid": [
+      362,
+      330
+    ],
+    "global_peak_loc": [
+      311,
+      264
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -198.40362899906847,
+    "max_defect_score": 41.33832931518555,
+    "mean_defect_score": 38.270301818847656,
+    "max_bg_score": 40.79703903198242,
+    "mean_bg_score": 25.91944694519043,
+    "snr_defect_to_bg": 1.0132676332246184,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.04624951784400224,
+    "delta_intensity": 8.2481689453125,
+    "defect_mean_intensity": 170.09246826171875,
+    "surround_mean_intensity": 178.34063720703125,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.046, Delta I: 8.2)",
+      "Background / Rim Peak Domination (Defect peak 41.34 < Background peak 40.80)"
+    ]
+  },
+  {
+    "filename": "009.png",
+    "category": "contamination",
+    "anomaly_score": 40.425498962402344,
+    "threshold": 43.5951,
+    "margin_to_threshold": -3.1696010375976584,
+    "rank_among_defects_asc": 6,
+    "percentile_among_defects": 6.25,
+    "rank_among_all_pill_asc": 27,
+    "has_gt_mask": true,
+    "defect_pixels": 5414,
+    "coverage_pct": 0.8459375,
+    "defect_bbox": [
+      235,
+      306,
+      68,
+      106
+    ],
+    "defect_centroid": [
+      269,
+      356
+    ],
+    "global_peak_loc": [
+      286,
+      361
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 12.0,
+    "max_defect_score": 39.26433563232422,
+    "mean_defect_score": 36.697879791259766,
+    "max_bg_score": 39.05233383178711,
+    "mean_bg_score": 25.888591766357422,
+    "snr_defect_to_bg": 1.0054284014667656,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.04392408734693553,
+    "delta_intensity": 7.779541015625,
+    "defect_mean_intensity": 169.33377075195312,
+    "surround_mean_intensity": 177.11331176757812,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.044, Delta I: 7.8)"
+    ]
+  },
+  {
+    "filename": "010.png",
+    "category": "contamination",
+    "anomaly_score": 41.84674835205078,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.748351647949221,
+    "rank_among_defects_asc": 10,
+    "percentile_among_defects": 10.416666666666668,
+    "rank_among_all_pill_asc": 33,
+    "has_gt_mask": true,
+    "defect_pixels": 13209,
+    "coverage_pct": 2.06390625,
+    "defect_bbox": [
+      469,
+      200,
+      213,
+      106
+    ],
+    "defect_centroid": [
+      580,
+      248
+    ],
+    "global_peak_loc": [
+      545,
+      298
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -27.202941017470888,
+    "max_defect_score": 40.102725982666016,
+    "mean_defect_score": 35.18553924560547,
+    "max_bg_score": 41.099735260009766,
+    "mean_bg_score": 26.193326950073242,
+    "snr_defect_to_bg": 0.9757414730666504,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.20674264894809605,
+    "delta_intensity": 26.043960571289062,
+    "defect_mean_intensity": 152.0167999267578,
+    "surround_mean_intensity": 125.97283935546875,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": false,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Background / Rim Peak Domination (Defect peak 40.10 < Background peak 41.10)"
+    ]
+  },
+  {
+    "filename": "013.png",
+    "category": "contamination",
+    "anomaly_score": 42.731483459472656,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.8636165405273459,
+    "rank_among_defects_asc": 18,
+    "percentile_among_defects": 18.75,
+    "rank_among_all_pill_asc": 42,
+    "has_gt_mask": true,
+    "defect_pixels": 4844,
+    "coverage_pct": 0.756875,
+    "defect_bbox": [
+      524,
+      302,
+      94,
+      80
+    ],
+    "defect_centroid": [
+      565,
+      342
+    ],
+    "global_peak_loc": [
+      682,
+      401
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -87.45856161634491,
+    "max_defect_score": 39.33150100708008,
+    "mean_defect_score": 36.130496978759766,
+    "max_bg_score": 40.9824333190918,
+    "mean_bg_score": 26.184064865112305,
+    "snr_defect_to_bg": 0.9597158642017172,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.0008942865784387585,
+    "delta_intensity": 0.161376953125,
+    "defect_mean_intensity": 180.29190063476562,
+    "surround_mean_intensity": 180.45327758789062,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.001, Delta I: 0.2)",
+      "Background / Rim Peak Domination (Defect peak 39.33 < Background peak 40.98)"
+    ]
+  },
+  {
+    "filename": "019.png",
+    "category": "contamination",
+    "anomaly_score": 42.275108337402344,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.3199916625976584,
+    "rank_among_defects_asc": 13,
+    "percentile_among_defects": 13.541666666666666,
+    "rank_among_all_pill_asc": 37,
+    "has_gt_mask": true,
+    "defect_pixels": 5231,
+    "coverage_pct": 0.81734375,
+    "defect_bbox": [
+      377,
+      422,
+      84,
+      78
+    ],
+    "defect_centroid": [
+      420,
+      462
+    ],
+    "global_peak_loc": [
+      419,
+      463
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 34.23448553724738,
+    "max_defect_score": 40.86954116821289,
+    "mean_defect_score": 38.92214584350586,
+    "max_bg_score": 40.0190315246582,
+    "mean_bg_score": 26.723955154418945,
+    "snr_defect_to_bg": 1.0212523741487072,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.05795397074730813,
+    "delta_intensity": 10.495437622070312,
+    "defect_mean_intensity": 170.60409545898438,
+    "surround_mean_intensity": 181.0995330810547,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.058, Delta I: 10.5)",
+      "Near-Threshold Calibration Fallout (Margin: -1.32, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "020.png",
+    "category": "contamination",
+    "anomaly_score": 38.01068878173828,
+    "threshold": 43.5951,
+    "margin_to_threshold": -5.584411218261721,
+    "rank_among_defects_asc": 2,
+    "percentile_among_defects": 2.083333333333333,
+    "rank_among_all_pill_asc": 10,
+    "has_gt_mask": true,
+    "defect_pixels": 8113,
+    "coverage_pct": 1.26765625,
+    "defect_bbox": [
+      39,
+      381,
+      103,
+      146
+    ],
+    "defect_centroid": [
+      93,
+      454
+    ],
+    "global_peak_loc": [
+      120,
+      432
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": -6.082762530298219,
+    "max_defect_score": 37.09280776977539,
+    "mean_defect_score": 32.915977478027344,
+    "max_bg_score": 37.20847702026367,
+    "mean_bg_score": 26.2774600982666,
+    "snr_defect_to_bg": 0.996891052021941,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.4155967024233124,
+    "delta_intensity": 40.046531677246094,
+    "defect_mean_intensity": 136.4056396484375,
+    "surround_mean_intensity": 96.3591079711914,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": false,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": []
+  },
+  {
+    "filename": "013.png",
+    "category": "crack",
+    "anomaly_score": 39.97820281982422,
+    "threshold": 43.5951,
+    "margin_to_threshold": -3.6168971801757834,
+    "rank_among_defects_asc": 4,
+    "percentile_among_defects": 4.166666666666666,
+    "rank_among_all_pill_asc": 23,
+    "has_gt_mask": true,
+    "defect_pixels": 1837,
+    "coverage_pct": 0.28703125,
+    "defect_bbox": [
+      53,
+      286,
+      51,
+      95
+    ],
+    "defect_centroid": [
+      79,
+      332
+    ],
+    "global_peak_loc": [
+      398,
+      310
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -295.24396691549856,
+    "max_defect_score": 32.33447265625,
+    "mean_defect_score": 29.08626937866211,
+    "max_bg_score": 38.74059295654297,
+    "mean_bg_score": 26.651695251464844,
+    "snr_defect_to_bg": 0.8346404079596023,
+    "shows_localized_defect_signal": false,
+    "weber_contrast": 0.2614882115466833,
+    "delta_intensity": 23.032501220703125,
+    "defect_mean_intensity": 111.11486053466797,
+    "surround_mean_intensity": 88.08235931396484,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": false,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Background / Rim Peak Domination (Defect peak 32.33 < Background peak 38.74)"
+    ]
+  },
+  {
+    "filename": "014.png",
+    "category": "crack",
+    "anomaly_score": 37.487220764160156,
+    "threshold": 43.5951,
+    "margin_to_threshold": -6.107879235839846,
+    "rank_among_defects_asc": 0,
+    "percentile_among_defects": 0.0,
+    "rank_among_all_pill_asc": 7,
+    "has_gt_mask": true,
+    "defect_pixels": 2100,
+    "coverage_pct": 0.328125,
+    "defect_bbox": [
+      582,
+      199,
+      77,
+      62
+    ],
+    "defect_centroid": [
+      616,
+      233
+    ],
+    "global_peak_loc": [
+      664,
+      329
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -81.93289937503738,
+    "max_defect_score": 36.24613571166992,
+    "mean_defect_score": 34.43049240112305,
+    "max_bg_score": 36.277217864990234,
+    "mean_bg_score": 25.996774673461914,
+    "snr_defect_to_bg": 0.999142929183122,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.03909886919894583,
+    "delta_intensity": 3.8741989135742188,
+    "defect_mean_intensity": 102.96142578125,
+    "surround_mean_intensity": 99.08722686767578,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.039, Delta I: 3.9)",
+      "Background / Rim Peak Domination (Defect peak 36.25 < Background peak 36.28)"
+    ]
+  },
+  {
+    "filename": "016.png",
+    "category": "crack",
+    "anomaly_score": 37.9179801940918,
+    "threshold": 43.5951,
+    "margin_to_threshold": -5.677119805908205,
+    "rank_among_defects_asc": 1,
+    "percentile_among_defects": 1.0416666666666665,
+    "rank_among_all_pill_asc": 9,
+    "has_gt_mask": true,
+    "defect_pixels": 2091,
+    "coverage_pct": 0.32671875,
+    "defect_bbox": [
+      52,
+      325,
+      51,
+      92
+    ],
+    "defect_centroid": [
+      72,
+      374
+    ],
+    "global_peak_loc": [
+      635,
+      426
+    ],
+    "is_global_peak_on_defect": false,
+    "dist_peak_to_defect_px": -534.2143764445132,
+    "max_defect_score": 35.20622634887695,
+    "mean_defect_score": 30.46936798095703,
+    "max_bg_score": 36.63626480102539,
+    "mean_bg_score": 26.253293991088867,
+    "snr_defect_to_bg": 0.9609663247719603,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.11471158207688402,
+    "delta_intensity": 11.434288024902344,
+    "defect_mean_intensity": 111.11286163330078,
+    "surround_mean_intensity": 99.67857360839844,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.115, Delta I: 11.4)",
+      "Background / Rim Peak Domination (Defect peak 35.21 < Background peak 36.64)"
+    ]
+  },
+  {
+    "filename": "000.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 39.59156036376953,
+    "threshold": 43.5951,
+    "margin_to_threshold": -4.003539636230471,
+    "rank_among_defects_asc": 3,
+    "percentile_among_defects": 3.125,
+    "rank_among_all_pill_asc": 19,
+    "has_gt_mask": true,
+    "defect_pixels": 5688,
+    "coverage_pct": 0.8887499999999999,
+    "defect_bbox": [
+      450,
+      303,
+      82,
+      91
+    ],
+    "defect_centroid": [
+      490,
+      348
+    ],
+    "global_peak_loc": [
+      495,
+      360
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 31.32091952673165,
+    "max_defect_score": 38.66880416870117,
+    "mean_defect_score": 36.25128173828125,
+    "max_bg_score": 36.71823501586914,
+    "mean_bg_score": 25.07611656188965,
+    "snr_defect_to_bg": 1.053122341549522,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.03210978717828916,
+    "delta_intensity": 5.819305419921875,
+    "defect_mean_intensity": 187.05081176757812,
+    "surround_mean_intensity": 181.23150634765625,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.032, Delta I: 5.8)"
+    ]
+  },
+  {
+    "filename": "003.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 42.46397018432617,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.1311298156738303,
+    "rank_among_defects_asc": 14,
+    "percentile_among_defects": 14.583333333333334,
+    "rank_among_all_pill_asc": 38,
+    "has_gt_mask": true,
+    "defect_pixels": 9437,
+    "coverage_pct": 1.47453125,
+    "defect_bbox": [
+      413,
+      314,
+      99,
+      187
+    ],
+    "defect_centroid": [
+      446,
+      406
+    ],
+    "global_peak_loc": [
+      438,
+      407
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 23.53720459187964,
+    "max_defect_score": 41.76896286010742,
+    "mean_defect_score": 39.15419387817383,
+    "max_bg_score": 41.17070770263672,
+    "mean_bg_score": 25.853851318359375,
+    "snr_defect_to_bg": 1.0145308411136196,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.04163771529024057,
+    "delta_intensity": 7.7106475830078125,
+    "defect_mean_intensity": 177.4735565185547,
+    "surround_mean_intensity": 185.1842041015625,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.042, Delta I: 7.7)",
+      "Near-Threshold Calibration Fallout (Margin: -1.13, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "004.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 42.46980667114258,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.125293328857424,
+    "rank_among_defects_asc": 15,
+    "percentile_among_defects": 15.625,
+    "rank_among_all_pill_asc": 39,
+    "has_gt_mask": true,
+    "defect_pixels": 13668,
+    "coverage_pct": 2.135625,
+    "defect_bbox": [
+      237,
+      299,
+      113,
+      201
+    ],
+    "defect_centroid": [
+      281,
+      388
+    ],
+    "global_peak_loc": [
+      292,
+      444
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 1.0,
+    "max_defect_score": 41.887916564941406,
+    "mean_defect_score": 39.116825103759766,
+    "max_bg_score": 41.88462448120117,
+    "mean_bg_score": 26.245370864868164,
+    "snr_defect_to_bg": 1.0000783600903025,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.05743424044523688,
+    "delta_intensity": 10.300033569335938,
+    "defect_mean_intensity": 169.03607177734375,
+    "surround_mean_intensity": 179.3361053466797,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.057, Delta I: 10.3)",
+      "Near-Threshold Calibration Fallout (Margin: -1.13, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "005.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 40.78515625,
+    "threshold": 43.5951,
+    "margin_to_threshold": -2.809943750000002,
+    "rank_among_defects_asc": 7,
+    "percentile_among_defects": 7.291666666666667,
+    "rank_among_all_pill_asc": 29,
+    "has_gt_mask": true,
+    "defect_pixels": 28700,
+    "coverage_pct": 4.484375,
+    "defect_bbox": [
+      187,
+      226,
+      276,
+      151
+    ],
+    "defect_centroid": [
+      314,
+      302
+    ],
+    "global_peak_loc": [
+      307,
+      283
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 30.265491900843113,
+    "max_defect_score": 40.08638000488281,
+    "mean_defect_score": 36.21692657470703,
+    "max_bg_score": 39.13136672973633,
+    "mean_bg_score": 25.545513153076172,
+    "snr_defect_to_bg": 1.0244050517757726,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.01500136671074268,
+    "delta_intensity": 2.7358856201171875,
+    "defect_mean_intensity": 179.63986206054688,
+    "surround_mean_intensity": 182.37574768066406,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.015, Delta I: 2.7)"
+    ]
+  },
+  {
+    "filename": "008.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 43.10432052612305,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.4907794738769553,
+    "rank_among_defects_asc": 21,
+    "percentile_among_defects": 21.875,
+    "rank_among_all_pill_asc": 46,
+    "has_gt_mask": true,
+    "defect_pixels": 19531,
+    "coverage_pct": 3.05171875,
+    "defect_bbox": [
+      169,
+      271,
+      490,
+      94
+    ],
+    "defect_centroid": [
+      417,
+      322
+    ],
+    "global_peak_loc": [
+      404,
+      326
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 23.0,
+    "max_defect_score": 42.632083892822266,
+    "mean_defect_score": 37.75432205200195,
+    "max_bg_score": 41.08460998535156,
+    "mean_bg_score": 26.092161178588867,
+    "snr_defect_to_bg": 1.0376652846739836,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.002778183608823819,
+    "delta_intensity": 0.506134033203125,
+    "defect_mean_intensity": 181.6754913330078,
+    "surround_mean_intensity": 182.18162536621094,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.003, Delta I: 0.5)",
+      "Near-Threshold Calibration Fallout (Margin: -0.49, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "009.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 43.23817443847656,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.3569255615234397,
+    "rank_among_defects_asc": 22,
+    "percentile_among_defects": 22.916666666666664,
+    "rank_among_all_pill_asc": 47,
+    "has_gt_mask": true,
+    "defect_pixels": 9945,
+    "coverage_pct": 1.55390625,
+    "defect_bbox": [
+      269,
+      363,
+      248,
+      57
+    ],
+    "defect_centroid": [
+      388,
+      392
+    ],
+    "global_peak_loc": [
+      389,
+      392
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 19.235384061671343,
+    "max_defect_score": 42.26859664916992,
+    "mean_defect_score": 38.45481491088867,
+    "max_bg_score": 41.60147476196289,
+    "mean_bg_score": 25.64578628540039,
+    "snr_defect_to_bg": 1.0160357711034627,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.005519009862630892,
+    "delta_intensity": 1.00054931640625,
+    "defect_mean_intensity": 180.2908935546875,
+    "surround_mean_intensity": 181.29144287109375,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.006, Delta I: 1.0)",
+      "Near-Threshold Calibration Fallout (Margin: -0.36, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "011.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 42.90021896362305,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.6948810363769553,
+    "rank_among_defects_asc": 19,
+    "percentile_among_defects": 19.791666666666664,
+    "rank_among_all_pill_asc": 44,
+    "has_gt_mask": true,
+    "defect_pixels": 35179,
+    "coverage_pct": 5.49671875,
+    "defect_bbox": [
+      214,
+      211,
+      308,
+      258
+    ],
+    "defect_centroid": [
+      338,
+      326
+    ],
+    "global_peak_loc": [
+      323,
+      351
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 38.890872965260115,
+    "max_defect_score": 42.400508880615234,
+    "mean_defect_score": 36.81043243408203,
+    "max_bg_score": 40.88261413574219,
+    "mean_bg_score": 26.02228355407715,
+    "snr_defect_to_bg": 1.0371278697725768,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.006672457163316345,
+    "delta_intensity": 1.2247467041015625,
+    "defect_mean_intensity": 184.77731323242188,
+    "surround_mean_intensity": 183.5525665283203,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.007, Delta I: 1.2)",
+      "Near-Threshold Calibration Fallout (Margin: -0.69, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "013.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 40.86500549316406,
+    "threshold": 43.5951,
+    "margin_to_threshold": -2.7300945068359397,
+    "rank_among_defects_asc": 8,
+    "percentile_among_defects": 8.333333333333332,
+    "rank_among_all_pill_asc": 30,
+    "has_gt_mask": true,
+    "defect_pixels": 14672,
+    "coverage_pct": 2.2925,
+    "defect_bbox": [
+      256,
+      295,
+      158,
+      211
+    ],
+    "defect_centroid": [
+      310,
+      388
+    ],
+    "global_peak_loc": [
+      332,
+      367
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 8.94427190999916,
+    "max_defect_score": 39.99287033081055,
+    "mean_defect_score": 36.765037536621094,
+    "max_bg_score": 39.98931884765625,
+    "mean_bg_score": 27.339601516723633,
+    "snr_defect_to_bg": 1.0000885607049768,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.0014485135487665264,
+    "delta_intensity": 0.2617340087890625,
+    "defect_mean_intensity": 180.9531707763672,
+    "surround_mean_intensity": 180.69143676757812,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.001, Delta I: 0.3)"
+    ]
+  },
+  {
+    "filename": "014.png",
+    "category": "faulty_imprint",
+    "anomaly_score": 42.27173614501953,
+    "threshold": 43.5951,
+    "margin_to_threshold": -1.323363854980471,
+    "rank_among_defects_asc": 12,
+    "percentile_among_defects": 12.5,
+    "rank_among_all_pill_asc": 36,
+    "has_gt_mask": true,
+    "defect_pixels": 8594,
+    "coverage_pct": 1.3428125000000002,
+    "defect_bbox": [
+      437,
+      289,
+      113,
+      130
+    ],
+    "defect_centroid": [
+      489,
+      344
+    ],
+    "global_peak_loc": [
+      513,
+      335
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 15.811388300841896,
+    "max_defect_score": 41.381370544433594,
+    "mean_defect_score": 39.53071212768555,
+    "max_bg_score": 40.81473159790039,
+    "mean_bg_score": 26.926668167114258,
+    "snr_defect_to_bg": 1.0138829482767655,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.0060745517319825875,
+    "delta_intensity": 1.110870361328125,
+    "defect_mean_intensity": 181.76193237304688,
+    "surround_mean_intensity": 182.872802734375,
+    "is_imprint_related": true,
+    "is_tiny": false,
+    "is_low_contrast": true,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Debossed Imprint Invariance (PatchCore CNN feature invariance to font/stroke degradation)",
+      "Low Contrast / Faint Intensity Gradient (Weber contrast: 0.006, Delta I: 1.1)",
+      "Near-Threshold Calibration Fallout (Margin: -1.32, Defect localized but score fell below threshold)"
+    ]
+  },
+  {
+    "filename": "004.png",
+    "category": "scratch",
+    "anomaly_score": 43.40398406982422,
+    "threshold": 43.5951,
+    "margin_to_threshold": -0.19111593017578343,
+    "rank_among_defects_asc": 23,
+    "percentile_among_defects": 23.958333333333336,
+    "rank_among_all_pill_asc": 48,
+    "has_gt_mask": true,
+    "defect_pixels": 23092,
+    "coverage_pct": 3.6081250000000002,
+    "defect_bbox": [
+      568,
+      203,
+      182,
+      263
+    ],
+    "defect_centroid": [
+      665,
+      325
+    ],
+    "global_peak_loc": [
+      604,
+      239
+    ],
+    "is_global_peak_on_defect": true,
+    "dist_peak_to_defect_px": 25.059928172283335,
+    "max_defect_score": 41.798683166503906,
+    "mean_defect_score": 34.5015869140625,
+    "max_bg_score": 39.286048889160156,
+    "mean_bg_score": 26.401296615600586,
+    "snr_defect_to_bg": 1.0639571478633871,
+    "shows_localized_defect_signal": true,
+    "weber_contrast": 0.7265440323049418,
+    "delta_intensity": 70.1294937133789,
+    "defect_mean_intensity": 166.6542510986328,
+    "surround_mean_intensity": 96.5247573852539,
+    "is_imprint_related": false,
+    "is_tiny": false,
+    "is_low_contrast": false,
+    "is_micro_crack": false,
+    "is_faint_discoloration": false,
+    "attributed_failure_modes": [
+      "Near-Threshold Calibration Fallout (Margin: -0.19, Defect localized but score fell below threshold)"
+    ]
+  }
+]

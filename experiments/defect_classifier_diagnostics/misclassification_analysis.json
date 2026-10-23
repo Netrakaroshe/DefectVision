@@ -1,0 +1,274 @@
+{
+  "total_misclassified": 28,
+  "error_rate": 0.081159,
+  "class_totals": {
+    "UNKNOWN": 80,
+    "Discoloration": 180,
+    "Crack": 22,
+    "Scratch": 63
+  },
+  "confusion_pairs": {
+    "Discoloration -> UNKNOWN": {
+      "count": 6,
+      "pct_of_true_class": 3.33,
+      "source_datasets": {
+        "GC10-DET": 5,
+        "MVTecAD": 1
+      },
+      "original_labels": {
+        "water_spot": 2,
+        "oil_spot": 1,
+        "silk_spot": 2,
+        "color": 1
+      },
+      "mean_confidence": 0.6635,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/4/img_03_424798500_00466.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "water_spot",
+          "confidence": 0.5733
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/4/img_07_425508300_00927.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "water_spot",
+          "confidence": 0.6057
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/5/img_08_425508200_00403.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "oil_spot",
+          "confidence": 0.4976
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/6/img_03_SIS001533_00310.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "silk_spot",
+          "confidence": 0.9147
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/6/img_03_SIS001533_00329.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "silk_spot",
+          "confidence": 0.8936
+        }
+      ]
+    },
+    "UNKNOWN -> Crack": {
+      "count": 6,
+      "pct_of_true_class": 7.5,
+      "source_datasets": {
+        "MVTecAD": 6
+      },
+      "original_labels": {
+        "faulty_imprint": 1,
+        "poke": 1,
+        "squeeze": 1,
+        "color": 1,
+        "contamination": 1,
+        "glue_strip": 1
+      },
+      "mean_confidence": 0.8157,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/faulty_imprint/000.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "faulty_imprint",
+          "confidence": 0.7192
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/poke/007.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "poke",
+          "confidence": 0.7331
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/squeeze/003.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "squeeze",
+          "confidence": 0.7331
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/color/020.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "color",
+          "confidence": 0.8194
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/contamination/014.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "contamination",
+          "confidence": 0.9022
+        }
+      ]
+    },
+    "UNKNOWN -> Scratch": {
+      "count": 5,
+      "pct_of_true_class": 6.25,
+      "source_datasets": {
+        "GC10-DET": 1,
+        "MVTecAD": 4
+      },
+      "original_labels": {
+        "crescent_gap": 1,
+        "combined": 1,
+        "faulty_imprint": 1,
+        "thread_side": 1,
+        "thread_top": 1
+      },
+      "mean_confidence": 0.7227,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/3/img_05_425608200_00814.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "crescent_gap",
+          "confidence": 0.6687
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/combined/013.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "combined",
+          "confidence": 0.5785
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/faulty_imprint/015.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "faulty_imprint",
+          "confidence": 0.4904
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/screw/test/thread_side/014.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "thread_side",
+          "confidence": 0.8813
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/screw/test/thread_top/020.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "thread_top",
+          "confidence": 0.9945
+        }
+      ]
+    },
+    "Scratch -> Crack": {
+      "count": 5,
+      "pct_of_true_class": 7.94,
+      "source_datasets": {
+        "MVTecAD": 5
+      },
+      "original_labels": {
+        "scratch": 5
+      },
+      "mean_confidence": 0.6228,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/scratch/009.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "scratch",
+          "confidence": 0.6297
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/scratch/011.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "scratch",
+          "confidence": 0.7346
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/scratch/022.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "scratch",
+          "confidence": 0.4704
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/scratch/006.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "scratch",
+          "confidence": 0.6544
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/scratch/009.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "scratch",
+          "confidence": 0.6249
+        }
+      ]
+    },
+    "UNKNOWN -> Discoloration": {
+      "count": 3,
+      "pct_of_true_class": 3.75,
+      "source_datasets": {
+        "GC10-DET": 3
+      },
+      "original_labels": {
+        "punching_hole": 1,
+        "inclusion": 2
+      },
+      "mean_confidence": 0.707,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/1/img_07_425502900_00052.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "punching_hole",
+          "confidence": 0.6087
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/7/img_06_425237000_00662.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "inclusion",
+          "confidence": 0.9975
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/GC10-DET/7/img_08_425508200_00359.jpg",
+          "source_dataset": "GC10-DET",
+          "original_label": "inclusion",
+          "confidence": 0.5147
+        }
+      ]
+    },
+    "Crack -> Scratch": {
+      "count": 2,
+      "pct_of_true_class": 9.09,
+      "source_datasets": {
+        "MVTecAD": 2
+      },
+      "original_labels": {
+        "crack": 2
+      },
+      "mean_confidence": 0.5477,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/capsule/test/crack/006.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "crack",
+          "confidence": 0.5143
+        },
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/pill/test/crack/021.png",
+          "source_dataset": "MVTecAD",
+          "original_label": "crack",
+          "confidence": 0.5812
+        }
+      ]
+    },
+    "Crack -> UNKNOWN": {
+      "count": 1,
+      "pct_of_true_class": 4.55,
+      "source_datasets": {
+        "MT": 1
+      },
+      "original_labels": {
+        "MT_Crack": 1
+      },
+      "mean_confidence": 0.6038,
+      "examples": [
+        {
+          "source_image_path": "D:/datasets/defect_dataset_workspace/sources/MT/MT_Crack/Imgs/exp6_num_116623.jpg",
+          "source_dataset": "MT",
+          "original_label": "MT_Crack",
+          "confidence": 0.6038
+        }
+      ]
+    }
+  }
+}

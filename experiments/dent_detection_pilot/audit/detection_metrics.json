@@ -1,0 +1,192 @@
+{
+  "dataset": "CR7-DET",
+  "num_classes": 7,
+  "classes": [
+    "Inclusion",
+    "Dents",
+    "Oil Spots",
+    "Pits",
+    "Punching",
+    "Linear",
+    "Macular"
+  ],
+  "evaluation_config": {
+    "checkpoint_path": "D:/DefectVision/experiments/dent_detection_pilot/checkpoints/best_detector.pth",
+    "best_epoch": 3,
+    "confidence_threshold": 0.3,
+    "iou_threshold": 0.5,
+    "test_images_count": 618,
+    "eval_duration_seconds": 10.32,
+    "device": "cuda"
+  },
+  "history": [
+    {
+      "epoch": 3,
+      "train_loss": 0.0,
+      "val_map50": 0.6423,
+      "dent_ap50": 0.9034,
+      "dent_precision": 0.7109,
+      "dent_recall": 0.9681
+    }
+  ],
+  "validation_mAP50": 0.6423,
+  "test_mAP50": 0.648,
+  "test_class_metrics": {
+    "Inclusion": {
+      "class_id": 1,
+      "AP50": 0.4394,
+      "precision": 0.4968,
+      "recall": 0.5709,
+      "f1_score": 0.5313,
+      "true_positives": 157,
+      "false_positives": 159,
+      "false_negatives": 118,
+      "total_ground_truths": 275
+    },
+    "Dents": {
+      "class_id": 2,
+      "AP50": 0.8929,
+      "precision": 0.7192,
+      "recall": 0.9947,
+      "f1_score": 0.8348,
+      "true_positives": 187,
+      "false_positives": 73,
+      "false_negatives": 1,
+      "total_ground_truths": 188
+    },
+    "Oil Spots": {
+      "class_id": 3,
+      "AP50": 0.6373,
+      "precision": 0.4753,
+      "recall": 0.7509,
+      "f1_score": 0.5821,
+      "true_positives": 202,
+      "false_positives": 223,
+      "false_negatives": 67,
+      "total_ground_truths": 269
+    },
+    "Pits": {
+      "class_id": 4,
+      "AP50": 0.3221,
+      "precision": 0.3084,
+      "recall": 0.5571,
+      "f1_score": 0.397,
+      "true_positives": 161,
+      "false_positives": 361,
+      "false_negatives": 128,
+      "total_ground_truths": 289
+    },
+    "Punching": {
+      "class_id": 5,
+      "AP50": 0.8879,
+      "precision": 0.8655,
+      "recall": 0.9948,
+      "f1_score": 0.9257,
+      "true_positives": 193,
+      "false_positives": 30,
+      "false_negatives": 1,
+      "total_ground_truths": 194
+    },
+    "Linear": {
+      "class_id": 6,
+      "AP50": 0.4918,
+      "precision": 0.4038,
+      "recall": 0.6773,
+      "f1_score": 0.5059,
+      "true_positives": 149,
+      "false_positives": 220,
+      "false_negatives": 71,
+      "total_ground_truths": 220
+    },
+    "Macular": {
+      "class_id": 7,
+      "AP50": 0.8645,
+      "precision": 0.6136,
+      "recall": 0.9327,
+      "f1_score": 0.7402,
+      "true_positives": 208,
+      "false_positives": 131,
+      "false_negatives": 15,
+      "total_ground_truths": 223
+    }
+  },
+  "val_class_metrics": {
+    "Inclusion": {
+      "class_id": 1,
+      "AP50": 0.3751,
+      "precision": 0.4467,
+      "recall": 0.5471,
+      "f1_score": 0.4919,
+      "true_positives": 151,
+      "false_positives": 187,
+      "false_negatives": 125,
+      "total_ground_truths": 276
+    },
+    "Dents": {
+      "class_id": 2,
+      "AP50": 0.9034,
+      "precision": 0.7109,
+      "recall": 0.9681,
+      "f1_score": 0.8198,
+      "true_positives": 182,
+      "false_positives": 74,
+      "false_negatives": 6,
+      "total_ground_truths": 188
+    },
+    "Oil Spots": {
+      "class_id": 3,
+      "AP50": 0.5948,
+      "precision": 0.4662,
+      "recall": 0.7228,
+      "f1_score": 0.5668,
+      "true_positives": 193,
+      "false_positives": 221,
+      "false_negatives": 74,
+      "total_ground_truths": 267
+    },
+    "Pits": {
+      "class_id": 4,
+      "AP50": 0.3201,
+      "precision": 0.3042,
+      "recall": 0.5263,
+      "f1_score": 0.3855,
+      "true_positives": 160,
+      "false_positives": 366,
+      "false_negatives": 144,
+      "total_ground_truths": 304
+    },
+    "Punching": {
+      "class_id": 5,
+      "AP50": 0.9091,
+      "precision": 0.9095,
+      "recall": 0.9896,
+      "f1_score": 0.9479,
+      "true_positives": 191,
+      "false_positives": 19,
+      "false_negatives": 2,
+      "total_ground_truths": 193
+    },
+    "Linear": {
+      "class_id": 6,
+      "AP50": 0.5086,
+      "precision": 0.3725,
+      "recall": 0.7237,
+      "f1_score": 0.4918,
+      "true_positives": 165,
+      "false_positives": 278,
+      "false_negatives": 63,
+      "total_ground_truths": 228
+    },
+    "Macular": {
+      "class_id": 7,
+      "AP50": 0.8851,
+      "precision": 0.6354,
+      "recall": 0.9581,
+      "f1_score": 0.7641,
+      "true_positives": 183,
+      "false_positives": 105,
+      "false_negatives": 8,
+      "total_ground_truths": 191
+    }
+  }
+}

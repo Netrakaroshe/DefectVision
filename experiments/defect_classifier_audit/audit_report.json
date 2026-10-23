@@ -1,0 +1,1149 @@
+{
+  "timestamp": "2026-10-03T04:33:18.865105+00:00",
+  "authoritative_manifest_path": "D:/DefectVision/manifests/dataset_manifest.jsonl",
+  "total_manifest_records": 9760,
+  "governance_summary": {
+    "direct_approved_records": 1764,
+    "unknown_defect_source_records": 2870,
+    "review_ambiguous_records": 909,
+    "normal_reference_records": 4217,
+    "total_defective_records": 5543
+  },
+  "target_class_counts": {
+    "Scratch": 419,
+    "Crack": 141,
+    "Discoloration": 1204,
+    "UNKNOWN_available": 2870,
+    "total_candidate_eligible": 4634
+  },
+  "direct_class_breakdown": {
+    "Discoloration": [
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "oil_spot",
+        "split": "test",
+        "count": 35,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "silk_spot",
+        "split": "test",
+        "count": 100,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "water_spot",
+        "split": "test",
+        "count": 45,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "oil_spot",
+        "split": "train",
+        "count": 160,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "silk_spot",
+        "split": "train",
+        "count": 463,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "water_spot",
+        "split": "train",
+        "count": 203,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "oil_spot",
+        "split": "val",
+        "count": 34,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "silk_spot",
+        "split": "val",
+        "count": 99,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "water_spot",
+        "split": "val",
+        "count": 43,
+        "mapping_status": "DIRECT",
+        "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "metal_nut",
+        "original_label": "color",
+        "split": "test",
+        "count": 22,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      }
+    ],
+    "Crack": [
+      {
+        "dataset": "MT",
+        "product": "magnetic_tile",
+        "original_label": "MT_Crack",
+        "split": "test",
+        "count": 29,
+        "mapping_status": "DIRECT",
+        "provenance": "Magnetic Tile defect dataset; MT_Crack class."
+      },
+      {
+        "dataset": "MT",
+        "product": "magnetic_tile",
+        "original_label": "MT_Crack",
+        "split": "val",
+        "count": 28,
+        "mapping_status": "DIRECT",
+        "provenance": "Magnetic Tile defect dataset; MT_Crack class."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "capsule",
+        "original_label": "crack",
+        "split": "test",
+        "count": 23,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "hazelnut",
+        "original_label": "crack",
+        "split": "test",
+        "count": 18,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "crack",
+        "split": "test",
+        "count": 26,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "tile",
+        "original_label": "crack",
+        "split": "test",
+        "count": 17,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      }
+    ],
+    "Scratch": [
+      {
+        "dataset": "MVTecAD",
+        "product": "capsule",
+        "original_label": "scratch",
+        "split": "test",
+        "count": 23,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "metal_nut",
+        "original_label": "scratch",
+        "split": "test",
+        "count": 23,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "scratch",
+        "split": "test",
+        "count": 24,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "screw",
+        "original_label": "scratch_head",
+        "split": "test",
+        "count": 24,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "screw",
+        "original_label": "scratch_neck",
+        "split": "test",
+        "count": 25,
+        "mapping_status": "DIRECT",
+        "provenance": "MVTec AD official test/defective split."
+      },
+      {
+        "dataset": "NEU-CLS",
+        "product": "steel_surface",
+        "original_label": "scratches",
+        "split": "test",
+        "count": 45,
+        "mapping_status": "DIRECT",
+        "provenance": "NEU surface defect classification dataset; scratches class."
+      },
+      {
+        "dataset": "NEU-CLS",
+        "product": "steel_surface",
+        "original_label": "scratches",
+        "split": "train",
+        "count": 210,
+        "mapping_status": "DIRECT",
+        "provenance": "NEU surface defect classification dataset; scratches class."
+      },
+      {
+        "dataset": "NEU-CLS",
+        "product": "steel_surface",
+        "original_label": "scratches",
+        "split": "val",
+        "count": 45,
+        "mapping_status": "DIRECT",
+        "provenance": "NEU surface defect classification dataset; scratches class."
+      }
+    ]
+  },
+  "unknown_defect_breakdown": [
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "crescent_gap",
+      "split": "test",
+      "count": 35,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "inclusion",
+      "split": "test",
+      "count": 31,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "punching_hole",
+      "split": "test",
+      "count": 32,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "waist_folding",
+      "split": "test",
+      "count": 23,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "welding_line",
+      "split": "test",
+      "count": 41,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "crescent_gap",
+      "split": "train",
+      "count": 157,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "inclusion",
+      "split": "train",
+      "count": 137,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "punching_hole",
+      "split": "train",
+      "count": 146,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "waist_folding",
+      "split": "train",
+      "count": 101,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "welding_line",
+      "split": "train",
+      "count": 187,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "crescent_gap",
+      "split": "val",
+      "count": 33,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "inclusion",
+      "split": "val",
+      "count": 29,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "punching_hole",
+      "split": "val",
+      "count": 31,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "waist_folding",
+      "split": "val",
+      "count": 21,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "welding_line",
+      "split": "val",
+      "count": 40,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "GC10-DET industrial steel defect dataset; original dataset label retained."
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Blowhole",
+      "split": "test",
+      "count": 58,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "Magnetic Tile defect dataset; MT_Blowhole class."
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Fray",
+      "split": "test",
+      "count": 16,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "Magnetic Tile defect dataset; MT_Fray class."
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Blowhole",
+      "split": "val",
+      "count": 57,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "Magnetic Tile defect dataset; MT_Blowhole class."
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Fray",
+      "split": "val",
+      "count": 16,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "Magnetic Tile defect dataset; MT_Fray class."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "bottle",
+      "original_label": "broken_large",
+      "split": "test",
+      "count": 20,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "bottle",
+      "original_label": "broken_small",
+      "split": "test",
+      "count": 22,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "bottle",
+      "original_label": "contamination",
+      "split": "test",
+      "count": 21,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "bent_wire",
+      "split": "test",
+      "count": 13,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "cable_swap",
+      "split": "test",
+      "count": 12,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "combined",
+      "split": "test",
+      "count": 11,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "cut_inner_insulation",
+      "split": "test",
+      "count": 14,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "cut_outer_insulation",
+      "split": "test",
+      "count": 10,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "missing_cable",
+      "split": "test",
+      "count": 12,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "missing_wire",
+      "split": "test",
+      "count": 10,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "cable",
+      "original_label": "poke_insulation",
+      "split": "test",
+      "count": 10,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "capsule",
+      "original_label": "faulty_imprint",
+      "split": "test",
+      "count": 22,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "capsule",
+      "original_label": "poke",
+      "split": "test",
+      "count": 21,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "capsule",
+      "original_label": "squeeze",
+      "split": "test",
+      "count": 20,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "carpet",
+      "original_label": "color",
+      "split": "test",
+      "count": 19,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "carpet",
+      "original_label": "cut",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "carpet",
+      "original_label": "hole",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "carpet",
+      "original_label": "metal_contamination",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "carpet",
+      "original_label": "thread",
+      "split": "test",
+      "count": 19,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "grid",
+      "original_label": "bent",
+      "split": "test",
+      "count": 12,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "grid",
+      "original_label": "broken",
+      "split": "test",
+      "count": 12,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "grid",
+      "original_label": "glue",
+      "split": "test",
+      "count": 11,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "grid",
+      "original_label": "metal_contamination",
+      "split": "test",
+      "count": 11,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "grid",
+      "original_label": "thread",
+      "split": "test",
+      "count": 11,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "hazelnut",
+      "original_label": "cut",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "hazelnut",
+      "original_label": "hole",
+      "split": "test",
+      "count": 18,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "hazelnut",
+      "original_label": "print",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "leather",
+      "original_label": "color",
+      "split": "test",
+      "count": 19,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "leather",
+      "original_label": "fold",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "leather",
+      "original_label": "glue",
+      "split": "test",
+      "count": 19,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "leather",
+      "original_label": "poke",
+      "split": "test",
+      "count": 18,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "metal_nut",
+      "original_label": "bent",
+      "split": "test",
+      "count": 25,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "metal_nut",
+      "original_label": "flip",
+      "split": "test",
+      "count": 23,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "pill",
+      "original_label": "color",
+      "split": "test",
+      "count": 25,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "pill",
+      "original_label": "combined",
+      "split": "test",
+      "count": 17,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "pill",
+      "original_label": "contamination",
+      "split": "test",
+      "count": 21,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "pill",
+      "original_label": "faulty_imprint",
+      "split": "test",
+      "count": 19,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "pill",
+      "original_label": "pill_type",
+      "split": "test",
+      "count": 9,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "screw",
+      "original_label": "manipulated_front",
+      "split": "test",
+      "count": 24,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "screw",
+      "original_label": "thread_side",
+      "split": "test",
+      "count": 23,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "screw",
+      "original_label": "thread_top",
+      "split": "test",
+      "count": 23,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "tile",
+      "original_label": "glue_strip",
+      "split": "test",
+      "count": 18,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "tile",
+      "original_label": "oil",
+      "split": "test",
+      "count": 18,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "tile",
+      "original_label": "rough",
+      "split": "test",
+      "count": 15,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "toothbrush",
+      "original_label": "defective",
+      "split": "test",
+      "count": 30,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "MVTec AD official test/defective split."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "inclusion",
+      "split": "test",
+      "count": 45,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; inclusion class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "pitted_surface",
+      "split": "test",
+      "count": 45,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; pitted_surface class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "rolled-in_scale",
+      "split": "test",
+      "count": 45,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; rolled-in_scale class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "inclusion",
+      "split": "train",
+      "count": 210,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; inclusion class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "pitted_surface",
+      "split": "train",
+      "count": 210,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; pitted_surface class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "rolled-in_scale",
+      "split": "train",
+      "count": 210,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; rolled-in_scale class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "inclusion",
+      "split": "val",
+      "count": 45,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; inclusion class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "pitted_surface",
+      "split": "val",
+      "count": 45,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; pitted_surface class."
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "rolled-in_scale",
+      "split": "val",
+      "count": 45,
+      "mapping_status": "NO_MAPPING",
+      "provenance": "NEU surface defect classification dataset; rolled-in_scale class."
+    }
+  ],
+  "excluded_review_breakdown": [
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "crease",
+      "mapping_status": "NOT_EQUIVALENT",
+      "split": "test",
+      "count": 9,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "rolled_pit",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "test",
+      "count": 6,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "crease",
+      "mapping_status": "NOT_EQUIVALENT",
+      "split": "train",
+      "count": 35,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "rolled_pit",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "train",
+      "count": 24,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "crease",
+      "mapping_status": "NOT_EQUIVALENT",
+      "split": "val",
+      "count": 7,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "GC10-DET",
+      "product": "steel_surface",
+      "original_label": "rolled_pit",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "val",
+      "count": 5,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Break",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "test",
+      "count": 43,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Uneven",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "test",
+      "count": 52,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Break",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "val",
+      "count": 42,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "MT",
+      "product": "magnetic_tile",
+      "original_label": "MT_Uneven",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "val",
+      "count": 51,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "leather",
+      "original_label": "cut",
+      "mapping_status": "NOT_EQUIVALENT",
+      "split": "test",
+      "count": 19,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "MVTecAD",
+      "product": "tile",
+      "original_label": "gray_stroke",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "test",
+      "count": 16,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "crazing",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "test",
+      "count": 45,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "patches",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "test",
+      "count": 45,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "crazing",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "train",
+      "count": 210,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "patches",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "train",
+      "count": 210,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "crazing",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "val",
+      "count": 45,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    },
+    {
+      "dataset": "NEU-CLS",
+      "product": "steel_surface",
+      "original_label": "patches",
+      "mapping_status": "POSSIBLE_BUT_REQUIRES_REVIEW",
+      "split": "val",
+      "count": 45,
+      "reason": "Mapping status requires review or is not equivalent; excluded to prevent label contamination"
+    }
+  ],
+  "integrity_and_leakage_findings": {
+    "all_files_exist_on_disk": true,
+    "missing_file_count": 0,
+    "duplicate_source_paths": 0,
+    "duplicate_sample_ids": 0,
+    "surface_mt_contamination_detected": false,
+    "content_hash_collision_count": 1,
+    "content_hash_collisions": [
+      {
+        "hash": "24f39e0f91f95e4c785052ac4d3e49a6",
+        "count": 2,
+        "records": [
+          {
+            "dataset": "NEU-CLS",
+            "product": "steel_surface",
+            "original_label": "patches",
+            "target_label": null,
+            "role": "classifier_review",
+            "split": "train",
+            "filename": "patches_101.jpg",
+            "path": "D:/datasets/defect_dataset_workspace/sources/NEU-CLS/train/train/images/patches_101.jpg"
+          },
+          {
+            "dataset": "NEU-CLS",
+            "product": "steel_surface",
+            "original_label": "patches",
+            "target_label": null,
+            "role": "classifier_review",
+            "split": "train",
+            "filename": "patches_105.jpg",
+            "path": "D:/datasets/defect_dataset_workspace/sources/NEU-CLS/train/train/images/patches_105.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "split_assessment": {
+    "is_existing_split_suitable": false,
+    "direct_splits": {
+      "Discoloration": {
+        "test": 202,
+        "train": 826,
+        "val": 176
+      },
+      "Crack": {
+        "test": 113,
+        "val": 28
+      },
+      "Scratch": {
+        "test": 164,
+        "train": 210,
+        "val": 45
+      }
+    },
+    "root_cause": "Existing manifest split was constructed for unsupervised anomaly detection benchmarks (PatchCore). In MVTecAD, all defect images are placed into 'test' split. In MT, defects are in 'val' and 'test'. Consequently, 'Crack' has exactly 0 images in the manifest 'train' split, and MVTecAD has 0 defect images in 'train'. Supervised training on the raw manifest splits would result in catastrophic class absence.",
+    "recommendation": "Implement a dedicated, deterministic supervised classifier partition (e.g. 70% train, 15% val, 15% test) stratified across (Target Class, Source Dataset, Product/Category), with strict leak-free isolation."
+  },
+  "class_imbalance_analysis": {
+    "direct_ratios": {
+      "discoloration_to_crack": 8.54,
+      "scratch_to_crack": 2.97
+    },
+    "risk": "Severe class imbalance: Crack has only 141 images, whereas Discoloration has 1,204 and UNKNOWN has 2,870. Naive training will cause strong majority bias toward Discoloration/UNKNOWN. Mitigation requires class-balanced sampling, focal loss, or stratified downsampling of the UNKNOWN class."
+  },
+  "domain_and_source_risks": [
+    "Cross-dataset domain shift: Grayscale sheet metal (NEU/GC10) vs dark ferrite tile (MT) vs RGB objects (MVTecAD).",
+    "Annotation scale disparity: Full-tile classification (MT, NEU) vs bounding-box extracted crops (GC10) vs localized masks (MVTecAD).",
+    "Small sample size for Crack (141 images across 5 distinct products)."
+  ],
+  "dataset_policy_recommendations": {
+    "eligible_sources": [
+      "Approved Scratch: NEU-CLS (300) + MVTecAD capsule, metal_nut, pill, screw (119) = 419 images",
+      "Approved Crack: MT MT_Crack (57) + MVTecAD capsule, hazelnut, pill, tile (84) = 141 images",
+      "Approved Discoloration: GC10-DET oil_spot, silk_spot, water_spot (1,182) + MVTecAD metal_nut color (22) = 1,204 images",
+      "Approved UNKNOWN: Stratified subset of 2,870 unknown_defect_source images (curated to ~300-500 images to balance classes)"
+    ],
+    "strict_exclusions": [
+      "All 909 classifier_review images (crazing, patches, MT_Break, MT_Uneven, rolled_pit, crease, leather/cut, tile/gray_stroke)",
+      "All 4,217 normal reference images (used only in Stage 1 PatchCore)",
+      "Surface/Magnetic-Tile-Defect and defect-categories directories (contaminated)"
+    ],
+    "recommended_split_strategy": "Dedicated stratified 70/15/15 partition by (Target Class, Dataset, Category)"
+  }
+}

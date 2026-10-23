@@ -1,0 +1,119 @@
+{
+  "msp_operating_point": {
+    "threshold": 0.5,
+    "cm": {
+      "Crack": {
+        "Crack": 6,
+        "Discoloration": 1
+      },
+      "Discoloration": {
+        "Discoloration": 7
+      },
+      "Scratch": {
+        "Scratch": 7,
+        "UNKNOWN": 1,
+        "Discoloration": 1
+      },
+      "combined": {
+        "Scratch": 4,
+        "Crack": 7,
+        "Discoloration": 4,
+        "UNKNOWN": 2
+      },
+      "contamination": {
+        "Crack": 7,
+        "Scratch": 6,
+        "UNKNOWN": 8
+      },
+      "faulty_imprint": {
+        "UNKNOWN": 2,
+        "Crack": 6,
+        "Scratch": 10,
+        "Discoloration": 1
+      },
+      "pill_type": {
+        "Crack": 1,
+        "Scratch": 3,
+        "Discoloration": 4,
+        "UNKNOWN": 1
+      }
+    }
+  },
+  "temp_operating_point": {
+    "threshold": 0.5,
+    "cm": {
+      "Crack": {
+        "Crack": 6,
+        "Discoloration": 1
+      },
+      "Discoloration": {
+        "Discoloration": 7
+      },
+      "Scratch": {
+        "Scratch": 7,
+        "UNKNOWN": 1,
+        "Discoloration": 1
+      },
+      "combined": {
+        "Scratch": 2,
+        "Crack": 7,
+        "Discoloration": 4,
+        "UNKNOWN": 4
+      },
+      "contamination": {
+        "Crack": 7,
+        "Scratch": 5,
+        "UNKNOWN": 9
+      },
+      "faulty_imprint": {
+        "UNKNOWN": 3,
+        "Crack": 6,
+        "Scratch": 10
+      },
+      "pill_type": {
+        "Crack": 1,
+        "Scratch": 3,
+        "Discoloration": 4,
+        "UNKNOWN": 1
+      }
+    }
+  },
+  "dist_operating_point": {
+    "threshold": 0.75,
+    "cm": {
+      "Crack": {
+        "Crack": 6,
+        "Discoloration": 1
+      },
+      "Discoloration": {
+        "Discoloration": 6,
+        "UNKNOWN": 1
+      },
+      "Scratch": {
+        "Scratch": 8,
+        "Discoloration": 1
+      },
+      "combined": {
+        "Scratch": 3,
+        "Crack": 7,
+        "Discoloration": 4,
+        "UNKNOWN": 3
+      },
+      "contamination": {
+        "Crack": 9,
+        "Scratch": 9,
+        "Discoloration": 1,
+        "UNKNOWN": 2
+      },
+      "faulty_imprint": {
+        "Discoloration": 2,
+        "Crack": 7,
+        "Scratch": 10
+      },
+      "pill_type": {
+        "UNKNOWN": 7,
+        "Scratch": 2
+      }
+    }
+  }
+}

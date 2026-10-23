@@ -1,0 +1,628 @@
+{
+  "random_seed": 42,
+  "timestamp": "2026-10-03T04:37:12.117870+00:00",
+  "total_images": 2183,
+  "split_counts": {
+    "train": 1505,
+    "val": 333,
+    "test": 345
+  },
+  "split_percentages": {
+    "train": 68.94,
+    "val": 15.25,
+    "test": 15.8
+  },
+  "target_class_counts": {
+    "Scratch": {
+      "train": 293,
+      "val": 63,
+      "test": 63,
+      "total": 419
+    },
+    "Crack": {
+      "train": 97,
+      "val": 22,
+      "test": 22,
+      "total": 141
+    },
+    "Discoloration": {
+      "train": 844,
+      "val": 180,
+      "test": 180,
+      "total": 1204
+    },
+    "UNKNOWN": {
+      "train": 271,
+      "val": 68,
+      "test": 80,
+      "total": 419
+    }
+  },
+  "source_dataset_counts": {
+    "GC10-DET": {
+      "train": 898,
+      "val": 192,
+      "test": 192,
+      "total": 1282
+    },
+    "MT": {
+      "train": 83,
+      "val": 19,
+      "test": 19,
+      "total": 121
+    },
+    "MVTecAD": {
+      "train": 239,
+      "val": 62,
+      "test": 74,
+      "total": 375
+    },
+    "NEU-CLS": {
+      "train": 285,
+      "val": 60,
+      "test": 60,
+      "total": 405
+    }
+  },
+  "dataset_target_split_counts": {
+    "GC10-DET": {
+      "UNKNOWN": {
+        "train": 70,
+        "val": 15,
+        "test": 15
+      },
+      "Discoloration": {
+        "train": 828,
+        "val": 177,
+        "test": 177
+      }
+    },
+    "MT": {
+      "UNKNOWN": {
+        "train": 44,
+        "val": 10,
+        "test": 10
+      },
+      "Crack": {
+        "train": 39,
+        "val": 9,
+        "test": 9
+      }
+    },
+    "MVTecAD": {
+      "UNKNOWN": {
+        "train": 82,
+        "val": 28,
+        "test": 40
+      },
+      "Crack": {
+        "train": 58,
+        "val": 13,
+        "test": 13
+      },
+      "Scratch": {
+        "train": 83,
+        "val": 18,
+        "test": 18
+      },
+      "Discoloration": {
+        "train": 16,
+        "val": 3,
+        "test": 3
+      }
+    },
+    "NEU-CLS": {
+      "UNKNOWN": {
+        "train": 75,
+        "val": 15,
+        "test": 15
+      },
+      "Scratch": {
+        "train": 210,
+        "val": 45,
+        "test": 45
+      }
+    }
+  },
+  "product_target_split_counts": {
+    "bottle": {
+      "UNKNOWN": {
+        "train": 8,
+        "val": 2,
+        "test": 3
+      }
+    },
+    "cable": {
+      "UNKNOWN": {
+        "train": 7,
+        "val": 2,
+        "test": 4
+      }
+    },
+    "capsule": {
+      "Crack": {
+        "train": 17,
+        "val": 3,
+        "test": 3
+      },
+      "UNKNOWN": {
+        "train": 7,
+        "val": 3,
+        "test": 3
+      },
+      "Scratch": {
+        "train": 17,
+        "val": 3,
+        "test": 3
+      }
+    },
+    "carpet": {
+      "UNKNOWN": {
+        "train": 6,
+        "val": 2,
+        "test": 5
+      }
+    },
+    "grid": {
+      "UNKNOWN": {
+        "train": 7,
+        "val": 2,
+        "test": 4
+      }
+    },
+    "hazelnut": {
+      "Crack": {
+        "train": 12,
+        "val": 3,
+        "test": 3
+      },
+      "UNKNOWN": {
+        "train": 8,
+        "val": 2,
+        "test": 3
+      }
+    },
+    "leather": {
+      "UNKNOWN": {
+        "train": 6,
+        "val": 3,
+        "test": 3
+      }
+    },
+    "magnetic_tile": {
+      "UNKNOWN": {
+        "train": 44,
+        "val": 10,
+        "test": 10
+      },
+      "Crack": {
+        "train": 39,
+        "val": 9,
+        "test": 9
+      }
+    },
+    "metal_nut": {
+      "UNKNOWN": {
+        "train": 8,
+        "val": 2,
+        "test": 2
+      },
+      "Discoloration": {
+        "train": 16,
+        "val": 3,
+        "test": 3
+      },
+      "Scratch": {
+        "train": 17,
+        "val": 3,
+        "test": 3
+      }
+    },
+    "pill": {
+      "UNKNOWN": {
+        "train": 5,
+        "val": 2,
+        "test": 5
+      },
+      "Crack": {
+        "train": 18,
+        "val": 4,
+        "test": 4
+      },
+      "Scratch": {
+        "train": 16,
+        "val": 4,
+        "test": 4
+      }
+    },
+    "screw": {
+      "UNKNOWN": {
+        "train": 6,
+        "val": 3,
+        "test": 3
+      },
+      "Scratch": {
+        "train": 33,
+        "val": 8,
+        "test": 8
+      }
+    },
+    "steel_surface": {
+      "UNKNOWN": {
+        "train": 145,
+        "val": 30,
+        "test": 30
+      },
+      "Discoloration": {
+        "train": 828,
+        "val": 177,
+        "test": 177
+      },
+      "Scratch": {
+        "train": 210,
+        "val": 45,
+        "test": 45
+      }
+    },
+    "tile": {
+      "Crack": {
+        "train": 11,
+        "val": 3,
+        "test": 3
+      },
+      "UNKNOWN": {
+        "train": 6,
+        "val": 3,
+        "test": 3
+      }
+    },
+    "toothbrush": {
+      "UNKNOWN": {
+        "train": 8,
+        "val": 2,
+        "test": 2
+      }
+    }
+  },
+  "unknown_subset_policy": {
+    "total_unknown_selected": 419,
+    "total_unknown_available": 2870,
+    "policy_description": "Selected 419 images exactly matching Scratch count to maintain class balance: GC10 (100: 20 per 5 categories), MT (64: 32 Blowhole + 32 Fray), NEU (105: 35 per 3 categories), MVTecAD (150: across 12 products).",
+    "selection_counts_by_category": [
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "crescent_gap",
+        "count": 20
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "inclusion",
+        "count": 20
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "punching_hole",
+        "count": 20
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "waist_folding",
+        "count": 20
+      },
+      {
+        "dataset": "GC10-DET",
+        "product": "steel_surface",
+        "original_label": "welding_line",
+        "count": 20
+      },
+      {
+        "dataset": "MT",
+        "product": "magnetic_tile",
+        "original_label": "MT_Blowhole",
+        "count": 32
+      },
+      {
+        "dataset": "MT",
+        "product": "magnetic_tile",
+        "original_label": "MT_Fray",
+        "count": 32
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "bottle",
+        "original_label": "broken_large",
+        "count": 7
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "bottle",
+        "original_label": "broken_small",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "bottle",
+        "original_label": "contamination",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "bent_wire",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "cable_swap",
+        "count": 1
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "combined",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "cut_inner_insulation",
+        "count": 1
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "cut_outer_insulation",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "missing_cable",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "cable",
+        "original_label": "poke_insulation",
+        "count": 1
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "capsule",
+        "original_label": "faulty_imprint",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "capsule",
+        "original_label": "poke",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "capsule",
+        "original_label": "squeeze",
+        "count": 6
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "carpet",
+        "original_label": "color",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "carpet",
+        "original_label": "cut",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "carpet",
+        "original_label": "hole",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "carpet",
+        "original_label": "metal_contamination",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "carpet",
+        "original_label": "thread",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "grid",
+        "original_label": "bent",
+        "count": 5
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "grid",
+        "original_label": "broken",
+        "count": 1
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "grid",
+        "original_label": "glue",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "grid",
+        "original_label": "metal_contamination",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "grid",
+        "original_label": "thread",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "hazelnut",
+        "original_label": "cut",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "hazelnut",
+        "original_label": "hole",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "hazelnut",
+        "original_label": "print",
+        "count": 7
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "leather",
+        "original_label": "color",
+        "count": 1
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "leather",
+        "original_label": "fold",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "leather",
+        "original_label": "glue",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "leather",
+        "original_label": "poke",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "metal_nut",
+        "original_label": "bent",
+        "count": 6
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "metal_nut",
+        "original_label": "flip",
+        "count": 6
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "color",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "combined",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "contamination",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "faulty_imprint",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "pill",
+        "original_label": "pill_type",
+        "count": 2
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "screw",
+        "original_label": "manipulated_front",
+        "count": 6
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "screw",
+        "original_label": "thread_side",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "screw",
+        "original_label": "thread_top",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "tile",
+        "original_label": "glue_strip",
+        "count": 3
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "tile",
+        "original_label": "oil",
+        "count": 4
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "tile",
+        "original_label": "rough",
+        "count": 5
+      },
+      {
+        "dataset": "MVTecAD",
+        "product": "toothbrush",
+        "original_label": "defective",
+        "count": 12
+      },
+      {
+        "dataset": "NEU-CLS",
+        "product": "steel_surface",
+        "original_label": "inclusion",
+        "count": 35
+      },
+      {
+        "dataset": "NEU-CLS",
+        "product": "steel_surface",
+        "original_label": "pitted_surface",
+        "count": 35
+      },
+      {
+        "dataset": "NEU-CLS",
+        "product": "steel_surface",
+        "original_label": "rolled-in_scale",
+        "count": 35
+      }
+    ]
+  },
+  "leakage_checks": {
+    "path_overlap_train_val": 0,
+    "path_overlap_train_test": 0,
+    "path_overlap_val_test": 0,
+    "sample_id_overlap_train_val": 0,
+    "sample_id_overlap_train_test": 0,
+    "sample_id_overlap_val_test": 0,
+    "content_hash_leakage_count": 0,
+    "strict_leakage_free": true
+  }
+}

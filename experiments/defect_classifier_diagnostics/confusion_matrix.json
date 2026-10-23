@@ -1,0 +1,35 @@
+{
+  "labels": [
+    "Scratch",
+    "Crack",
+    "Discoloration",
+    "UNKNOWN"
+  ],
+  "matrix": [
+    [
+      58,
+      5,
+      0,
+      0
+    ],
+    [
+      2,
+      19,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      174,
+      6
+    ],
+    [
+      5,
+      6,
+      3,
+      66
+    ]
+  ],
+  "description": "rows=true class, cols=predicted class"
+}

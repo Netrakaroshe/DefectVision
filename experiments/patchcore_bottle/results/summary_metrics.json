@@ -1,0 +1,26 @@
+{
+  "dataset": "MVTecAD/bottle",
+  "fit_time_seconds": 12.85,
+  "inference_time_seconds": 34.99,
+  "inference_ms_per_image": 421.55,
+  "normal_validation": {
+    "count": 20,
+    "min": 29.46169662475586,
+    "max": 39.360530853271484,
+    "mean": 33.27067203521729,
+    "median": 33.4200439453125,
+    "std": 2.2251848395441844
+  },
+  "defective_validation": {
+    "count": 63,
+    "min": 41.73768997192383,
+    "max": 79.01293182373047,
+    "mean": 62.39942193409753,
+    "median": 63.95865249633789,
+    "std": 7.980207080179488
+  },
+  "image_auroc": 1.0,
+  "separation_margin (min_defect - max_normal)": 2.377159,
+  "perfect_separation": true,
+  "experiment_status": "PASS"
+}

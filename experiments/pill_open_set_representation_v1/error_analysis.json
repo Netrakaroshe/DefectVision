@@ -1,0 +1,1193 @@
+{
+  "external_supported_errors": {
+    "variant_a": [
+      {
+        "filename": "020.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\62a89037902a_020.png",
+        "true_label": "Crack",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.7595494389533997,
+          "correct": false
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8966612815856934,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.357615202665329,
+          "correct": false
+        }
+      },
+      {
+        "filename": "016.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\978a46d6d2e0_016.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.6837618947029114,
+          "correct": false
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8543141484260559,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.36505791544914246,
+          "correct": false
+        }
+      }
+    ],
+    "variant_b": [
+      {
+        "filename": "015.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\587aecd38103_015.png",
+        "true_label": "Crack",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.5978984832763672,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.5067034363746643,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4264986217021942,
+          "correct": true
+        }
+      },
+      {
+        "filename": "017.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\db046c65c2a8_017.png",
+        "true_label": "Crack",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.5224754214286804,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.5589437484741211,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.3683873414993286,
+          "correct": true
+        }
+      },
+      {
+        "filename": "020.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\62a89037902a_020.png",
+        "true_label": "Crack",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.7595494389533997,
+          "correct": false
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8966612815856934,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.357615202665329,
+          "correct": false
+        }
+      },
+      {
+        "filename": "015.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f9308a371770_015.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.4717048704624176,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.4960716962814331,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4030820429325104,
+          "correct": false
+        }
+      },
+      {
+        "filename": "016.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\978a46d6d2e0_016.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.6837618947029114,
+          "correct": false
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8543141484260559,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.36505791544914246,
+          "correct": false
+        }
+      }
+    ],
+    "variant_c": [
+      {
+        "filename": "018.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\ceb5ca2cc4da_018.png",
+        "true_label": "Crack",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.6142266392707825,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.48134845495224,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.536870002746582,
+          "correct": false
+        }
+      },
+      {
+        "filename": "020.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\62a89037902a_020.png",
+        "true_label": "Crack",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.7595494389533997,
+          "correct": false
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8966612815856934,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.357615202665329,
+          "correct": false
+        }
+      },
+      {
+        "filename": "012.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f8ba8e76b6d5_012.png",
+        "true_label": "Discoloration",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.6706726551055908,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.45265311002731323,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4113929271697998,
+          "correct": false
+        }
+      },
+      {
+        "filename": "013.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\73547f2ea377_013.png",
+        "true_label": "Discoloration",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.8708468079566956,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8868911266326904,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3931819796562195,
+          "correct": false
+        }
+      },
+      {
+        "filename": "016.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\d4c57e3c2c81_016.png",
+        "true_label": "Discoloration",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.739342987537384,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.7826999425888062,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.42337357997894287,
+          "correct": false
+        }
+      },
+      {
+        "filename": "018.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\122d4517c881_018.png",
+        "true_label": "Discoloration",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.8421074748039246,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.6523597836494446,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.4432962238788605,
+          "correct": false
+        }
+      },
+      {
+        "filename": "019.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\07ccb9dc6746_019.png",
+        "true_label": "Discoloration",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.8049549460411072,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.7412251830101013,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.48562565445899963,
+          "correct": false
+        }
+      },
+      {
+        "filename": "020.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\732fe02d6c2b_020.png",
+        "true_label": "Discoloration",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.973612904548645,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.9549687504768372,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3647860288619995,
+          "correct": false
+        }
+      },
+      {
+        "filename": "000.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\d436bf43e10b_000.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8575761914253235,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.6459317207336426,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.35882362723350525,
+          "correct": false
+        }
+      },
+      {
+        "filename": "001.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\424d0bc915dd_001.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.547723114490509,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.5888496041297913,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4567728638648987,
+          "correct": false
+        }
+      },
+      {
+        "filename": "002.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\1423430c3662_002.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.7440844774246216,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.6823417544364929,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4872945547103882,
+          "correct": false
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\a754f7f6cff0_003.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.7316494584083557,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.6599835157394409,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4497935473918915,
+          "correct": false
+        }
+      },
+      {
+        "filename": "012.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\de34068b2403_012.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.9500507712364197,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.8166583776473999,
+          "correct": true
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.3421441316604614,
+          "correct": false
+        }
+      },
+      {
+        "filename": "015.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\f9308a371770_015.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.4717048704624176,
+          "correct": true
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.4960716962814331,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4030820429325104,
+          "correct": false
+        }
+      },
+      {
+        "filename": "016.png",
+        "image_path": "D:\\DefectVision\\data\\app_storage\\uploads\\pill2\\978a46d6d2e0_016.png",
+        "true_label": "Scratch",
+        "is_supported": true,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.6837618947029114,
+          "correct": false
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8543141484260559,
+          "correct": false
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.36505791544914246,
+          "correct": false
+        }
+      }
+    ]
+  },
+  "openset_high_confidence_false_accepts": {
+    "variant_a_msp_gt_08": [
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\002.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.9264093637466431,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8126010298728943,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.3596702516078949,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\003.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.9119645953178406,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8861035704612732,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.4668646454811096,
+          "correct": null
+        }
+      },
+      {
+        "filename": "009.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\009.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.9867286086082458,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.9236056804656982,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.41044238209724426,
+          "correct": null
+        }
+      },
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\002.png",
+        "true_label": "contamination",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.9517723917961121,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.9281465411186218,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3846648633480072,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\003.png",
+        "true_label": "contamination",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.8989652395248413,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.8622890114784241,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.45145779848098755,
+          "correct": null
+        }
+      },
+      {
+        "filename": "016.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\016.png",
+        "true_label": "contamination",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.8410036563873291,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.7935423254966736,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.5118356943130493,
+          "correct": null
+        }
+      },
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\002.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.88401859998703,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.9179961085319519,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3585124611854553,
+          "correct": null
+        }
+      },
+      {
+        "filename": "004.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\004.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8665290474891663,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.7689383029937744,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.43736329674720764,
+          "correct": null
+        }
+      },
+      {
+        "filename": "007.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\007.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.881726861000061,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.8373672962188721,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.3761270344257355,
+          "correct": null
+        }
+      },
+      {
+        "filename": "010.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\010.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.942419707775116,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.9009714126586914,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.37556856870651245,
+          "correct": null
+        }
+      },
+      {
+        "filename": "011.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\011.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.9786289930343628,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.9192273020744324,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.35411107540130615,
+          "correct": null
+        }
+      },
+      {
+        "filename": "013.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\013.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8913774490356445,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.899067759513855,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3573637008666992,
+          "correct": null
+        }
+      },
+      {
+        "filename": "015.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\015.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8065246343612671,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.7347018122673035,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.40016981959342957,
+          "correct": null
+        }
+      },
+      {
+        "filename": "016.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\016.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8077998161315918,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.5530517101287842,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.500971794128418,
+          "correct": null
+        }
+      },
+      {
+        "filename": "018.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\018.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8149576187133789,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.528998076915741,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.38670822978019714,
+          "correct": null
+        }
+      },
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\002.png",
+        "true_label": "pill_type",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.8155604004859924,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.7106024622917175,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.5069122910499573,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\003.png",
+        "true_label": "pill_type",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.8433225750923157,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8038429617881775,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.45244523882865906,
+          "correct": null
+        }
+      },
+      {
+        "filename": "006.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\006.png",
+        "true_label": "pill_type",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8549543023109436,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.889646053314209,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.4861435890197754,
+          "correct": null
+        }
+      }
+    ],
+    "variant_b_msp_gt_08": [
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\002.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.9264093637466431,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8126010298728943,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.3596702516078949,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\003.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.9119645953178406,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8861035704612732,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.4668646454811096,
+          "correct": null
+        }
+      },
+      {
+        "filename": "005.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\005.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.7574276328086853,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.8879432678222656,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.4006374478340149,
+          "correct": null
+        }
+      },
+      {
+        "filename": "009.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\009.png",
+        "true_label": "combined",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.9867286086082458,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.9236056804656982,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.41044238209724426,
+          "correct": null
+        }
+      },
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\002.png",
+        "true_label": "contamination",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.9517723917961121,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.9281465411186218,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3846648633480072,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\003.png",
+        "true_label": "contamination",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.8989652395248413,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.8622890114784241,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.45145779848098755,
+          "correct": null
+        }
+      },
+      {
+        "filename": "002.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\002.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.88401859998703,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Crack",
+          "msp": 0.9179961085319519,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3585124611854553,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\003.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.5923004746437073,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.8029475212097168,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.42011329531669617,
+          "correct": null
+        }
+      },
+      {
+        "filename": "005.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\005.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.5327907204627991,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.815366804599762,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3710380792617798,
+          "correct": null
+        }
+      },
+      {
+        "filename": "007.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\007.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.881726861000061,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.8373672962188721,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.3761270344257355,
+          "correct": null
+        }
+      },
+      {
+        "filename": "010.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\010.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.942419707775116,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.9009714126586914,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Crack",
+          "msp": 0.37556856870651245,
+          "correct": null
+        }
+      },
+      {
+        "filename": "011.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\011.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.9786289930343628,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.9192273020744324,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.35411107540130615,
+          "correct": null
+        }
+      },
+      {
+        "filename": "013.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\013.png",
+        "true_label": "faulty_imprint",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8913774490356445,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.899067759513855,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Scratch",
+          "msp": 0.3573637008666992,
+          "correct": null
+        }
+      },
+      {
+        "filename": "000.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\000.png",
+        "true_label": "pill_type",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Crack",
+          "msp": 0.6087501645088196,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.8769137859344482,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.4959915578365326,
+          "correct": null
+        }
+      },
+      {
+        "filename": "003.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\003.png",
+        "true_label": "pill_type",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Discoloration",
+          "msp": 0.8433225750923157,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Discoloration",
+          "msp": 0.8038429617881775,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.45244523882865906,
+          "correct": null
+        }
+      },
+      {
+        "filename": "006.png",
+        "image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\006.png",
+        "true_label": "pill_type",
+        "is_supported": false,
+        "variant_a": {
+          "pred": "Scratch",
+          "msp": 0.8549543023109436,
+          "correct": null
+        },
+        "variant_b": {
+          "pred": "Scratch",
+          "msp": 0.889646053314209,
+          "correct": null
+        },
+        "variant_c": {
+          "pred": "Discoloration",
+          "msp": 0.4861435890197754,
+          "correct": null
+        }
+      }
+    ],
+    "variant_c_msp_gt_08": []
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "GC10-DET": {
+    "n": 192,
+    "accuracy": 0.953125,
+    "macro_f1": 0.421738,
+    "class_distribution": {
+      "UNKNOWN": 15,
+      "Discoloration": 177
+    },
+    "per_class": {
+      "Scratch": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Crack": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Discoloration": {
+        "precision": 0.982857,
+        "recall": 0.971751,
+        "f1": 0.977273
+      },
+      "UNKNOWN": {
+        "precision": 0.6875,
+        "recall": 0.733333,
+        "f1": 0.709677
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        172,
+        5
+      ],
+      [
+        1,
+        0,
+        3,
+        11
+      ]
+    ]
+  },
+  "MT": {
+    "n": 19,
+    "accuracy": 0.947368,
+    "macro_f1": 0.473389,
+    "class_distribution": {
+      "UNKNOWN": 10,
+      "Crack": 9
+    },
+    "per_class": {
+      "Scratch": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Crack": {
+        "precision": 1.0,
+        "recall": 0.888889,
+        "f1": 0.941176
+      },
+      "Discoloration": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "UNKNOWN": {
+        "precision": 0.909091,
+        "recall": 1.0,
+        "f1": 0.952381
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "MVTecAD": {
+    "n": 74,
+    "accuracy": 0.756757,
+    "macro_f1": 0.744086,
+    "class_distribution": {
+      "UNKNOWN": 40,
+      "Crack": 13,
+      "Scratch": 18,
+      "Discoloration": 3
+    },
+    "per_class": {
+      "Scratch": {
+        "precision": 0.684211,
+        "recall": 0.722222,
+        "f1": 0.702703
+      },
+      "Crack": {
+        "precision": 0.5,
+        "recall": 0.846154,
+        "f1": 0.628571
+      },
+      "Discoloration": {
+        "precision": 1.0,
+        "recall": 0.666667,
+        "f1": 0.8
+      },
+      "UNKNOWN": {
+        "precision": 0.967742,
+        "recall": 0.75,
+        "f1": 0.84507
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        5,
+        0,
+        0
+      ],
+      [
+        2,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        4,
+        6,
+        0,
+        30
+      ]
+    ]
+  },
+  "NEU-CLS": {
+    "n": 60,
+    "accuracy": 1.0,
+    "macro_f1": 0.5,
+    "class_distribution": {
+      "UNKNOWN": 15,
+      "Scratch": 45
+    },
+    "per_class": {
+      "Scratch": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Crack": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Discoloration": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "UNKNOWN": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        45,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15
+      ]
+    ]
+  }
+}

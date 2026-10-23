@@ -1,0 +1,42 @@
+{
+  "experiment_name": "Phase 8.3E Controlled Open-Set Rejection Benchmark",
+  "date": "2026-10-05",
+  "base_classifier": "D:/DefectVision/experiments/pill_roi_classifier_v2/best_pill_roi_classifier.pt",
+  "patchcore_model": "D:/DefectVision/data/app_storage/products/pill2/models/pill2_patchcore.ckpt",
+  "dataset": {
+    "known_benchmark": {
+      "source": "Phase 8.3D external 23 pill defects",
+      "counts": {
+        "Scratch": 9,
+        "Crack": 7,
+        "Discoloration": 7,
+        "total": 23
+      }
+    },
+    "unsupported_benchmark": {
+      "source": "MVTecAD pill non-target defect categories",
+      "counts": {
+        "contamination": 21,
+        "faulty_imprint": 19,
+        "combined": 17,
+        "pill_type": 9,
+        "total": 66
+      }
+    }
+  },
+  "methods_evaluated": [
+    "Maximum Softmax Probability (MSP)",
+    "Temperature-Scaled Softmax (T=1.1414 fitted on val set)",
+    "Penultimate Feature Distance (Cosine affinity to training centroids)"
+  ],
+  "roi_parameters": {
+    "resolution": [
+      800,
+      800
+    ],
+    "gaussian_kernel": 15,
+    "gaussian_sigma": 4.0,
+    "threshold_factor": 0.8,
+    "padding_ratio": 0.25
+  }
+}

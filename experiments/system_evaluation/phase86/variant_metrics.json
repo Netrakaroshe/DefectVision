@@ -1,0 +1,1951 @@
+{
+  "variant_a": {
+    "variant_id": "variant_a",
+    "variant_name": "Variant A (Frozen Baseline)",
+    "backbone": "wide_resnet50_2",
+    "layers": [
+      "layer2",
+      "layer3"
+    ],
+    "image_size": [
+      256,
+      256
+    ],
+    "use_aligned": false,
+    "model_param_count": 24862528,
+    "memory_bank_shape": [
+      819,
+      1536
+    ],
+    "calibrated_threshold": 43.5951,
+    "ref_stats": {
+      "mean": 30.517625617980958,
+      "std_sample": 4.357458917724936,
+      "std_pop": 4.133848497186915,
+      "scores": [
+        29.4061,
+        28.1721,
+        28.2035,
+        27.9244,
+        37.3152,
+        27.39,
+        27.8977,
+        39.8532,
+        29.6118,
+        29.4023
+      ]
+    },
+    "metrics": {
+      "auroc": 0.9451121794871794,
+      "sensitivity": 0.75,
+      "specificity": 0.9615384615384616,
+      "fpr": 0.038461538461538464,
+      "tp": 72,
+      "tn": 25,
+      "fp": 1,
+      "fn": 24,
+      "score_margin": -8.077766418457031
+    },
+    "threshold_independent_roc": {
+      "auroc": 0.9451121794871794,
+      "tpr_at_0_fpr": 0.0,
+      "tpr_at_4_fpr": 0.8020833333333334,
+      "tpr_at_10_fpr": 0.875
+    },
+    "score_distributions": {
+      "normals": {
+        "count": 26,
+        "min": 35.52912902832031,
+        "p10": 36.320072174072266,
+        "p25": 37.28792953491211,
+        "p50": 39.09577560424805,
+        "p75": 40.13277053833008,
+        "p90": 41.68961715698242,
+        "max": 45.56498718261719,
+        "mean": 39.04929087712215,
+        "std": 2.317441847471076
+      },
+      "all_defects": {
+        "count": 96,
+        "min": 37.487220764160156,
+        "p10": 41.36277389526367,
+        "p25": 43.709678649902344,
+        "p50": 46.58578872680664,
+        "p75": 50.553826332092285,
+        "p90": 52.924625396728516,
+        "max": 62.50434494018555,
+        "mean": 47.0262203613917,
+        "std": 4.741455724653509
+      },
+      "false_negatives": {
+        "count": 24,
+        "min": 37.487220764160156,
+        "p10": 38.48495025634766,
+        "p25": 40.32636070251465,
+        "p50": 42.10165977478027,
+        "p75": 42.689409255981445,
+        "p90": 43.043600463867186,
+        "max": 43.40398406982422,
+        "mean": 41.36371453603109,
+        "std": 1.7662266091057222
+      }
+    },
+    "category_sensitivity": {
+      "color": {
+        "total": 10,
+        "detected": 7,
+        "sensitivity": 0.7,
+        "score_stats": {
+          "count": 10,
+          "min": 41.931583404541016,
+          "p10": 42.601004409790036,
+          "p25": 43.140915870666504,
+          "p50": 48.181251525878906,
+          "p75": 51.77376651763916,
+          "p90": 52.62202415466309,
+          "max": 53.7113151550293,
+          "mean": 47.67870025634765,
+          "std": 4.529555452902282
+        }
+      },
+      "combined": {
+        "total": 17,
+        "detected": 15,
+        "sensitivity": 0.8823529411764706,
+        "score_stats": {
+          "count": 17,
+          "min": 40.02894592285156,
+          "p10": 42.69391708374023,
+          "p25": 46.44758224487305,
+          "p50": 48.468570709228516,
+          "p75": 52.73563766479492,
+          "p90": 56.423866271972656,
+          "max": 57.699642181396484,
+          "mean": 49.432005040785846,
+          "std": 5.322584106782542
+        }
+      },
+      "contamination": {
+        "total": 21,
+        "detected": 15,
+        "sensitivity": 0.7142857142857143,
+        "score_stats": {
+          "count": 21,
+          "min": 38.01068878173828,
+          "p10": 41.84674835205078,
+          "p25": 42.731483459472656,
+          "p50": 46.19344711303711,
+          "p75": 50.801021575927734,
+          "p90": 53.15238571166992,
+          "max": 62.50434494018555,
+          "mean": 47.29373023623512,
+          "std": 5.684246629741844
+        }
+      },
+      "crack": {
+        "total": 10,
+        "detected": 7,
+        "sensitivity": 0.7,
+        "score_stats": {
+          "count": 10,
+          "min": 37.487220764160156,
+          "p10": 37.874904251098634,
+          "p25": 41.123005867004395,
+          "p50": 45.34909629821777,
+          "p75": 46.46235752105713,
+          "p90": 47.37562255859375,
+          "max": 47.933631896972656,
+          "mean": 43.84780654907227,
+          "std": 3.894757729878702
+        }
+      },
+      "faulty_imprint": {
+        "total": 19,
+        "detected": 10,
+        "sensitivity": 0.5263157894736842,
+        "score_stats": {
+          "count": 19,
+          "min": 39.59156036376953,
+          "p10": 40.84903564453125,
+          "p25": 42.466888427734375,
+          "p50": 43.81157684326172,
+          "p75": 46.73318862915039,
+          "p90": 47.74422836303711,
+          "max": 49.81315994262695,
+          "mean": 44.27524285567434,
+          "std": 2.8851105403988595
+        }
+      },
+      "pill_type": {
+        "total": 9,
+        "detected": 9,
+        "sensitivity": 1.0,
+        "score_stats": {
+          "count": 9,
+          "min": 49.482120513916016,
+          "p10": 49.59269790649414,
+          "p25": 50.82981491088867,
+          "p50": 51.422603607177734,
+          "p75": 51.70624542236328,
+          "p90": 53.12706985473633,
+          "max": 53.1808967590332,
+          "mean": 51.32717725965712,
+          "std": 1.2965161289279357
+        }
+      },
+      "scratch": {
+        "total": 10,
+        "detected": 9,
+        "sensitivity": 0.9,
+        "score_stats": {
+          "count": 10,
+          "min": 43.40398406982422,
+          "p10": 45.06241149902344,
+          "p25": 45.3692569732666,
+          "p50": 45.66552543640137,
+          "p75": 46.54008865356445,
+          "p90": 49.3120002746582,
+          "max": 49.363258361816406,
+          "mean": 46.25654563903809,
+          "std": 1.8383804404945963
+        }
+      }
+    },
+    "phase85_fn_recovery": {
+      "total_phase85_fns": 24,
+      "recovered_count": 0,
+      "recovered_samples": [],
+      "still_missed_count": 24,
+      "still_missed_samples": [
+        "color_014.png",
+        "color_017.png",
+        "color_024.png",
+        "combined_006.png",
+        "combined_007.png",
+        "contamination_005.png",
+        "contamination_009.png",
+        "contamination_010.png",
+        "contamination_013.png",
+        "contamination_019.png",
+        "contamination_020.png",
+        "crack_013.png",
+        "crack_014.png",
+        "crack_016.png",
+        "faulty_imprint_000.png",
+        "faulty_imprint_003.png",
+        "faulty_imprint_004.png",
+        "faulty_imprint_005.png",
+        "faulty_imprint_008.png",
+        "faulty_imprint_009.png",
+        "faulty_imprint_011.png",
+        "faulty_imprint_013.png",
+        "faulty_imprint_014.png",
+        "scratch_004.png"
+      ],
+      "newly_lost_count": 0,
+      "newly_lost_samples": []
+    },
+    "localization_metrics": {
+      "evaluated_count": 96,
+      "mean_coverage": 0.7467345588625589,
+      "mean_iou_box": 0.35981408332128434,
+      "mean_purity": 0.2851839441980935,
+      "peak_on_defect_rate": 0.6666666666666666
+    },
+    "resources": {
+      "latency": {
+        "mean_ms": 39.76212120056152,
+        "std_ms": 2.3563669778035634,
+        "p50_ms": 39.25534439086914,
+        "p90_ms": 40.60027313232422,
+        "p95_ms": 43.170096206665036,
+        "max_ms": 54.21903991699219
+      },
+      "peak_vram_mb": 138.16552734375,
+      "fitting_time_sec": 0.0
+    },
+    "false_negative_list": [
+      {
+        "category": "faulty_imprint",
+        "filename": "000.png",
+        "score": 39.59156036376953,
+        "margin": -4.003539636230471
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "003.png",
+        "score": 42.46397018432617,
+        "margin": -1.1311298156738303
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "004.png",
+        "score": 42.46980667114258,
+        "margin": -1.125293328857424
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "005.png",
+        "score": 40.78515625,
+        "margin": -2.809943750000002
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "008.png",
+        "score": 43.10432052612305,
+        "margin": -0.4907794738769553
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "009.png",
+        "score": 43.23817443847656,
+        "margin": -0.3569255615234397
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "011.png",
+        "score": 42.90021896362305,
+        "margin": -0.6948810363769553
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "013.png",
+        "score": 40.86500549316406,
+        "margin": -2.7300945068359397
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "014.png",
+        "score": 42.27173614501953,
+        "margin": -1.323363854980471
+      },
+      {
+        "category": "contamination",
+        "filename": "005.png",
+        "score": 42.545650482177734,
+        "margin": -1.0494495178222678
+      },
+      {
+        "category": "contamination",
+        "filename": "009.png",
+        "score": 40.425498962402344,
+        "margin": -3.1696010375976584
+      },
+      {
+        "category": "contamination",
+        "filename": "010.png",
+        "score": 41.84674835205078,
+        "margin": -1.748351647949221
+      },
+      {
+        "category": "contamination",
+        "filename": "013.png",
+        "score": 42.731483459472656,
+        "margin": -0.8636165405273459
+      },
+      {
+        "category": "contamination",
+        "filename": "019.png",
+        "score": 42.275108337402344,
+        "margin": -1.3199916625976584
+      },
+      {
+        "category": "contamination",
+        "filename": "020.png",
+        "score": 38.01068878173828,
+        "margin": -5.584411218261721
+      },
+      {
+        "category": "color",
+        "filename": "014.png",
+        "score": 42.675384521484375,
+        "margin": -0.9197154785156272
+      },
+      {
+        "category": "color",
+        "filename": "017.png",
+        "score": 41.931583404541016,
+        "margin": -1.6635165954589866
+      },
+      {
+        "category": "color",
+        "filename": "024.png",
+        "score": 42.901920318603516,
+        "margin": -0.6931796813964866
+      },
+      {
+        "category": "crack",
+        "filename": "013.png",
+        "score": 39.97820281982422,
+        "margin": -3.6168971801757834
+      },
+      {
+        "category": "crack",
+        "filename": "014.png",
+        "score": 37.487220764160156,
+        "margin": -6.107879235839846
+      },
+      {
+        "category": "crack",
+        "filename": "016.png",
+        "score": 37.9179801940918,
+        "margin": -5.677119805908205
+      },
+      {
+        "category": "combined",
+        "filename": "006.png",
+        "score": 40.87879943847656,
+        "margin": -2.7163005615234397
+      },
+      {
+        "category": "combined",
+        "filename": "007.png",
+        "score": 40.02894592285156,
+        "margin": -3.5661540771484397
+      },
+      {
+        "category": "scratch",
+        "filename": "004.png",
+        "score": 43.40398406982422,
+        "margin": -0.19111593017578343
+      }
+    ]
+  },
+  "variant_b": {
+    "variant_id": "variant_b",
+    "variant_name": "Variant B (Multi-Scale CNN)",
+    "backbone": "wide_resnet50_2",
+    "layers": [
+      "layer1",
+      "layer2",
+      "layer3"
+    ],
+    "image_size": [
+      256,
+      256
+    ],
+    "use_aligned": false,
+    "model_param_count": 24862528,
+    "memory_bank_shape": [
+      3276,
+      1792
+    ],
+    "calibrated_threshold": 51.398634236853084,
+    "ref_stats": {
+      "mean": 27.596661186218263,
+      "std_sample": 7.933991016878274,
+      "std_pop": 7.52684476459523,
+      "scores": [
+        23.134,
+        43.0989,
+        23.1311,
+        42.1035,
+        24.5914,
+        24.9221,
+        24.2786,
+        23.7182,
+        23.4104,
+        23.5784
+      ]
+    },
+    "metrics": {
+      "auroc": 0.9399038461538461,
+      "sensitivity": 0.3125,
+      "specificity": 1.0,
+      "fpr": 0.0,
+      "tp": 30,
+      "tn": 26,
+      "fp": 0,
+      "fn": 66,
+      "score_margin": -8.33493423461914
+    },
+    "threshold_independent_roc": {
+      "auroc": 0.9399038461538461,
+      "tpr_at_0_fpr": 0.0,
+      "tpr_at_4_fpr": 0.8333333333333334,
+      "tpr_at_10_fpr": 0.8333333333333334
+    },
+    "score_distributions": {
+      "normals": {
+        "count": 26,
+        "min": 37.58900833129883,
+        "p10": 38.32510566711426,
+        "p25": 39.60525417327881,
+        "p50": 40.12496566772461,
+        "p75": 42.76654815673828,
+        "p90": 43.50958061218262,
+        "max": 47.57101821899414,
+        "mean": 40.93510084885817,
+        "std": 2.337614039899091
+      },
+      "all_defects": {
+        "count": 96,
+        "min": 39.236083984375,
+        "p10": 42.967369079589844,
+        "p25": 45.25589466094971,
+        "p50": 48.323646545410156,
+        "p75": 52.27599239349365,
+        "p90": 55.27973175048828,
+        "max": 65.88912200927734,
+        "mean": 48.872793992360435,
+        "std": 5.102142450612336
+      },
+      "false_negatives": {
+        "count": 66,
+        "min": 39.236083984375,
+        "p10": 42.190185546875,
+        "p25": 44.09545612335205,
+        "p50": 46.21443176269531,
+        "p75": 48.377387046813965,
+        "p90": 49.577213287353516,
+        "max": 51.13026809692383,
+        "mean": 46.079535108624086,
+        "std": 2.821548522770328
+      }
+    },
+    "category_sensitivity": {
+      "color": {
+        "total": 10,
+        "detected": 6,
+        "sensitivity": 0.6,
+        "score_stats": {
+          "count": 10,
+          "min": 45.31771469116211,
+          "p10": 45.74878044128418,
+          "p25": 47.53301239013672,
+          "p50": 53.21805381774902,
+          "p75": 54.543880462646484,
+          "p90": 55.734917068481444,
+          "max": 59.52431106567383,
+          "mean": 51.6547435760498,
+          "std": 4.694797131378562
+        }
+      },
+      "combined": {
+        "total": 17,
+        "detected": 8,
+        "sensitivity": 0.47058823529411764,
+        "score_stats": {
+          "count": 17,
+          "min": 42.2142219543457,
+          "p10": 45.20573043823242,
+          "p25": 48.35203552246094,
+          "p50": 49.745513916015625,
+          "p75": 55.15392303466797,
+          "p90": 59.34458999633789,
+          "max": 60.70109558105469,
+          "mean": 51.43389129638672,
+          "std": 5.43200580238236
+        }
+      },
+      "contamination": {
+        "total": 21,
+        "detected": 6,
+        "sensitivity": 0.2857142857142857,
+        "score_stats": {
+          "count": 21,
+          "min": 41.19133377075195,
+          "p10": 42.00141906738281,
+          "p25": 45.0704345703125,
+          "p50": 48.38583755493164,
+          "p75": 51.62165451049805,
+          "p90": 54.79134750366211,
+          "max": 65.88912200927734,
+          "mean": 48.796535310291105,
+          "std": 5.824224374070356
+        }
+      },
+      "crack": {
+        "total": 10,
+        "detected": 0,
+        "sensitivity": 0.0,
+        "score_stats": {
+          "count": 10,
+          "min": 39.236083984375,
+          "p10": 40.03310432434082,
+          "p25": 43.18484973907471,
+          "p50": 46.03907775878906,
+          "p75": 47.68095111846924,
+          "p90": 48.36585578918457,
+          "max": 49.91107940673828,
+          "mean": 45.155982208251956,
+          "std": 3.554066538973593
+        }
+      },
+      "faulty_imprint": {
+        "total": 19,
+        "detected": 1,
+        "sensitivity": 0.05263157894736842,
+        "score_stats": {
+          "count": 19,
+          "min": 41.386451721191406,
+          "p10": 42.67234420776367,
+          "p25": 43.24457359313965,
+          "p50": 45.46702194213867,
+          "p75": 47.61279487609863,
+          "p90": 49.372074127197266,
+          "max": 52.049076080322266,
+          "mean": 45.68531879625822,
+          "std": 2.993458511044373
+        }
+      },
+      "pill_type": {
+        "total": 9,
+        "detected": 9,
+        "sensitivity": 1.0,
+        "score_stats": {
+          "count": 9,
+          "min": 52.19113540649414,
+          "p10": 52.28441543579102,
+          "p25": 52.796390533447266,
+          "p50": 54.36345672607422,
+          "p75": 55.24559020996094,
+          "p90": 55.63711318969727,
+          "max": 55.66557693481445,
+          "mean": 54.006058586968315,
+          "std": 1.373473931871276
+        }
+      },
+      "scratch": {
+        "total": 10,
+        "detected": 0,
+        "sensitivity": 0.0,
+        "score_stats": {
+          "count": 10,
+          "min": 44.219566345214844,
+          "p10": 44.68507080078125,
+          "p25": 45.71241092681885,
+          "p50": 46.43857192993164,
+          "p75": 48.1868839263916,
+          "p90": 50.30462112426758,
+          "max": 50.76747512817383,
+          "mean": 47.05019874572754,
+          "std": 2.1977017606332203
+        }
+      }
+    },
+    "phase85_fn_recovery": {
+      "total_phase85_fns": 24,
+      "recovered_count": 0,
+      "recovered_samples": [],
+      "still_missed_count": 24,
+      "still_missed_samples": [
+        "color_014.png",
+        "color_017.png",
+        "color_024.png",
+        "combined_006.png",
+        "combined_007.png",
+        "contamination_005.png",
+        "contamination_009.png",
+        "contamination_010.png",
+        "contamination_013.png",
+        "contamination_019.png",
+        "contamination_020.png",
+        "crack_013.png",
+        "crack_014.png",
+        "crack_016.png",
+        "faulty_imprint_000.png",
+        "faulty_imprint_003.png",
+        "faulty_imprint_004.png",
+        "faulty_imprint_005.png",
+        "faulty_imprint_008.png",
+        "faulty_imprint_009.png",
+        "faulty_imprint_011.png",
+        "faulty_imprint_013.png",
+        "faulty_imprint_014.png",
+        "scratch_004.png"
+      ],
+      "newly_lost_count": 42,
+      "newly_lost_samples": [
+        "color_015.png",
+        "combined_000.png",
+        "combined_001.png",
+        "combined_004.png",
+        "combined_005.png",
+        "combined_008.png",
+        "combined_010.png",
+        "combined_015.png",
+        "contamination_000.png",
+        "contamination_001.png",
+        "contamination_002.png",
+        "contamination_004.png",
+        "contamination_006.png",
+        "contamination_007.png",
+        "contamination_012.png",
+        "contamination_014.png",
+        "contamination_017.png",
+        "crack_012.png",
+        "crack_015.png",
+        "crack_017.png",
+        "crack_018.png",
+        "crack_019.png",
+        "crack_020.png",
+        "crack_021.png",
+        "faulty_imprint_001.png",
+        "faulty_imprint_002.png",
+        "faulty_imprint_006.png",
+        "faulty_imprint_007.png",
+        "faulty_imprint_012.png",
+        "faulty_imprint_015.png",
+        "faulty_imprint_016.png",
+        "faulty_imprint_017.png",
+        "faulty_imprint_018.png",
+        "scratch_000.png",
+        "scratch_001.png",
+        "scratch_002.png",
+        "scratch_003.png",
+        "scratch_012.png",
+        "scratch_013.png",
+        "scratch_014.png",
+        "scratch_015.png",
+        "scratch_016.png"
+      ]
+    },
+    "localization_metrics": {
+      "evaluated_count": 96,
+      "mean_coverage": 0.6347997059170857,
+      "mean_iou_box": 0.2241508686795263,
+      "mean_purity": 0.28417162029476445,
+      "peak_on_defect_rate": 0.375
+    },
+    "resources": {
+      "latency": {
+        "mean_ms": 304.8502508544922,
+        "std_ms": 19.10143073970649,
+        "p50_ms": 297.9652862548828,
+        "p90_ms": 327.24867858886716,
+        "p95_ms": 340.16152038574216,
+        "max_ms": 382.90460205078125
+      },
+      "peak_vram_mb": 607.0361328125,
+      "fitting_time_sec": 9.195709466934204
+    },
+    "false_negative_list": [
+      {
+        "category": "faulty_imprint",
+        "filename": "000.png",
+        "score": 41.386451721191406,
+        "margin": -10.012182515661678
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "001.png",
+        "score": 47.26420974731445,
+        "margin": -4.134424489538631
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "002.png",
+        "score": 47.45442199707031,
+        "margin": -3.9442122397827717
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "003.png",
+        "score": 43.50163269042969,
+        "margin": -7.897001546423397
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "004.png",
+        "score": 42.1661491394043,
+        "margin": -9.232485097448787
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "005.png",
+        "score": 43.15814971923828,
+        "margin": -8.240484517614803
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "006.png",
+        "score": 48.65125274658203,
+        "margin": -2.747381490271053
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "007.png",
+        "score": 49.04360580444336,
+        "margin": -2.355028432409725
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "008.png",
+        "score": 44.56275939941406,
+        "margin": -6.835874837439022
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "009.png",
+        "score": 44.432586669921875,
+        "margin": -6.966047566931209
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "011.png",
+        "score": 43.330997467041016,
+        "margin": -8.067636769812069
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "012.png",
+        "score": 45.640419006347656,
+        "margin": -5.758215230505428
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "013.png",
+        "score": 42.798892974853516,
+        "margin": -8.599741261999569
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "014.png",
+        "score": 43.046504974365234,
+        "margin": -8.35212926248785
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "015.png",
+        "score": 45.60980987548828,
+        "margin": -5.788824361364803
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "016.png",
+        "score": 45.46702194213867,
+        "margin": -5.931612294714412
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "017.png",
+        "score": 50.68594741821289,
+        "margin": -0.7126868186401936
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "018.png",
+        "score": 47.77116775512695,
+        "margin": -3.627466481726131
+      },
+      {
+        "category": "contamination",
+        "filename": "000.png",
+        "score": 46.27262496948242,
+        "margin": -5.126009267370662
+      },
+      {
+        "category": "contamination",
+        "filename": "001.png",
+        "score": 46.703453063964844,
+        "margin": -4.69518117288824
+      },
+      {
+        "category": "contamination",
+        "filename": "002.png",
+        "score": 48.850799560546875,
+        "margin": -2.547834676306209
+      },
+      {
+        "category": "contamination",
+        "filename": "004.png",
+        "score": 46.42112731933594,
+        "margin": -4.977506917517147
+      },
+      {
+        "category": "contamination",
+        "filename": "005.png",
+        "score": 43.66166687011719,
+        "margin": -7.736967366735897
+      },
+      {
+        "category": "contamination",
+        "filename": "006.png",
+        "score": 46.30748748779297,
+        "margin": -5.091146749060115
+      },
+      {
+        "category": "contamination",
+        "filename": "007.png",
+        "score": 49.2391357421875,
+        "margin": -2.159498494665584
+      },
+      {
+        "category": "contamination",
+        "filename": "009.png",
+        "score": 42.00141906738281,
+        "margin": -9.397215169470272
+      },
+      {
+        "category": "contamination",
+        "filename": "010.png",
+        "score": 43.56089782714844,
+        "margin": -7.837736409704647
+      },
+      {
+        "category": "contamination",
+        "filename": "012.png",
+        "score": 48.38583755493164,
+        "margin": -3.0127966819214436
+      },
+      {
+        "category": "contamination",
+        "filename": "013.png",
+        "score": 45.0704345703125,
+        "margin": -6.328199666540584
+      },
+      {
+        "category": "contamination",
+        "filename": "014.png",
+        "score": 49.956722259521484,
+        "margin": -1.4419119773315998
+      },
+      {
+        "category": "contamination",
+        "filename": "017.png",
+        "score": 51.13026809692383,
+        "margin": -0.26836613992925606
+      },
+      {
+        "category": "contamination",
+        "filename": "019.png",
+        "score": 41.76772689819336,
+        "margin": -9.630907338659725
+      },
+      {
+        "category": "contamination",
+        "filename": "020.png",
+        "score": 41.19133377075195,
+        "margin": -10.207300466101131
+      },
+      {
+        "category": "color",
+        "filename": "014.png",
+        "score": 48.51507568359375,
+        "margin": -2.883558553259334
+      },
+      {
+        "category": "color",
+        "filename": "015.png",
+        "score": 45.79667663574219,
+        "margin": -5.601957601110897
+      },
+      {
+        "category": "color",
+        "filename": "017.png",
+        "score": 45.31771469116211,
+        "margin": -6.080919545690975
+      },
+      {
+        "category": "color",
+        "filename": "024.png",
+        "score": 47.205657958984375,
+        "margin": -4.192976277868709
+      },
+      {
+        "category": "crack",
+        "filename": "012.png",
+        "score": 49.91107940673828,
+        "margin": -1.487554830114803
+      },
+      {
+        "category": "crack",
+        "filename": "013.png",
+        "score": 42.88823318481445,
+        "margin": -8.510401052038631
+      },
+      {
+        "category": "crack",
+        "filename": "014.png",
+        "score": 39.236083984375,
+        "margin": -12.162550252478084
+      },
+      {
+        "category": "crack",
+        "filename": "015.png",
+        "score": 44.07469940185547,
+        "margin": -7.323934834997615
+      },
+      {
+        "category": "crack",
+        "filename": "016.png",
+        "score": 40.12166213989258,
+        "margin": -11.276972096960506
+      },
+      {
+        "category": "crack",
+        "filename": "017.png",
+        "score": 47.83403015136719,
+        "margin": -3.5646040854858967
+      },
+      {
+        "category": "crack",
+        "filename": "018.png",
+        "score": 47.073646545410156,
+        "margin": -4.324987691442928
+      },
+      {
+        "category": "crack",
+        "filename": "019.png",
+        "score": 47.22171401977539,
+        "margin": -4.176920217077694
+      },
+      {
+        "category": "crack",
+        "filename": "020.png",
+        "score": 45.00450897216797,
+        "margin": -6.394125264685115
+      },
+      {
+        "category": "crack",
+        "filename": "021.png",
+        "score": 48.19416427612305,
+        "margin": -3.2044699607300373
+      },
+      {
+        "category": "combined",
+        "filename": "000.png",
+        "score": 48.35203552246094,
+        "margin": -3.0465987143921467
+      },
+      {
+        "category": "combined",
+        "filename": "001.png",
+        "score": 49.408912658691406,
+        "margin": -1.989721578161678
+      },
+      {
+        "category": "combined",
+        "filename": "004.png",
+        "score": 48.45120620727539,
+        "margin": -2.9474280295776936
+      },
+      {
+        "category": "combined",
+        "filename": "005.png",
+        "score": 44.1577262878418,
+        "margin": -7.240907949011287
+      },
+      {
+        "category": "combined",
+        "filename": "006.png",
+        "score": 42.2142219543457,
+        "margin": -9.184412282507381
+      },
+      {
+        "category": "combined",
+        "filename": "007.png",
+        "score": 45.90439987182617,
+        "margin": -5.494234365026912
+      },
+      {
+        "category": "combined",
+        "filename": "008.png",
+        "score": 48.295257568359375,
+        "margin": -3.103376668493709
+      },
+      {
+        "category": "combined",
+        "filename": "010.png",
+        "score": 49.745513916015625,
+        "margin": -1.6531203208374592
+      },
+      {
+        "category": "combined",
+        "filename": "015.png",
+        "score": 49.33019256591797,
+        "margin": -2.0684416709351154
+      },
+      {
+        "category": "scratch",
+        "filename": "000.png",
+        "score": 50.76747512817383,
+        "margin": -0.6311591086792561
+      },
+      {
+        "category": "scratch",
+        "filename": "001.png",
+        "score": 46.1071662902832,
+        "margin": -5.291467946569881
+      },
+      {
+        "category": "scratch",
+        "filename": "002.png",
+        "score": 46.1562385559082,
+        "margin": -5.242395680944881
+      },
+      {
+        "category": "scratch",
+        "filename": "003.png",
+        "score": 46.72090530395508,
+        "margin": -4.677728932898006
+      },
+      {
+        "category": "scratch",
+        "filename": "004.png",
+        "score": 44.736793518066406,
+        "margin": -6.661840718786678
+      },
+      {
+        "category": "scratch",
+        "filename": "012.png",
+        "score": 44.219566345214844,
+        "margin": -7.17906789163824
+      },
+      {
+        "category": "scratch",
+        "filename": "013.png",
+        "score": 50.25319290161133,
+        "margin": -1.145441335241756
+      },
+      {
+        "category": "scratch",
+        "filename": "014.png",
+        "score": 45.58082580566406,
+        "margin": -5.817808431189022
+      },
+      {
+        "category": "scratch",
+        "filename": "015.png",
+        "score": 47.56596755981445,
+        "margin": -3.832666677038631
+      },
+      {
+        "category": "scratch",
+        "filename": "016.png",
+        "score": 48.393856048583984,
+        "margin": -3.0047781882691
+      }
+    ]
+  },
+  "variant_c": {
+    "variant_id": "variant_c",
+    "variant_name": "Variant C (DINOv2 Dense ViT)",
+    "backbone": "vit_small_patch14_dinov2",
+    "layers": [
+      "blocks.8",
+      "blocks.11"
+    ],
+    "image_size": [
+      224,
+      224
+    ],
+    "use_aligned": false,
+    "model_param_count": 22056192,
+    "memory_bank_shape": [
+      204,
+      768
+    ],
+    "calibrated_threshold": 35.59922526071375,
+    "ref_stats": {
+      "mean": 30.02752552032471,
+      "std_sample": 1.857233246796349,
+      "std_pop": 1.7619261618198243,
+      "scores": [
+        33.4681,
+        28.8016,
+        29.3247,
+        30.4944,
+        28.6713,
+        33.1673,
+        28.249,
+        28.8795,
+        29.1279,
+        30.0914
+      ]
+    },
+    "metrics": {
+      "auroc": 0.8717948717948718,
+      "sensitivity": 0.7916666666666666,
+      "specificity": 0.8076923076923077,
+      "fpr": 0.19230769230769232,
+      "tp": 76,
+      "tn": 21,
+      "fp": 5,
+      "fn": 20,
+      "score_margin": -13.147317886352539
+    },
+    "threshold_independent_roc": {
+      "auroc": 0.8717948717948718,
+      "tpr_at_0_fpr": 0.0,
+      "tpr_at_4_fpr": 0.6770833333333334,
+      "tpr_at_10_fpr": 0.6875
+    },
+    "score_distributions": {
+      "normals": {
+        "count": 26,
+        "min": 29.246835708618164,
+        "p10": 30.897735595703125,
+        "p25": 32.425551414489746,
+        "p50": 33.07451629638672,
+        "p75": 34.91500663757324,
+        "p90": 38.28875541687012,
+        "max": 43.41876983642578,
+        "mean": 33.9631404876709,
+        "std": 3.159581338989091
+      },
+      "all_defects": {
+        "count": 96,
+        "min": 30.271451950073242,
+        "p10": 33.8145637512207,
+        "p25": 36.77896308898926,
+        "p50": 42.056819915771484,
+        "p75": 47.84715461730957,
+        "p90": 54.10538291931152,
+        "max": 70.68049621582031,
+        "mean": 43.12585840622584,
+        "std": 8.194750766050385
+      },
+      "false_negatives": {
+        "count": 20,
+        "min": 30.271451950073242,
+        "p10": 31.80815715789795,
+        "p25": 32.11555480957031,
+        "p50": 33.8145637512207,
+        "p75": 34.839969635009766,
+        "p90": 35.542328643798825,
+        "max": 35.597755432128906,
+        "mean": 33.56476888656616,
+        "std": 1.5603226367819811
+      }
+    },
+    "category_sensitivity": {
+      "color": {
+        "total": 10,
+        "detected": 1,
+        "sensitivity": 0.1,
+        "score_stats": {
+          "count": 10,
+          "min": 31.329429626464844,
+          "p10": 31.80815715789795,
+          "p25": 32.16668367385864,
+          "p50": 33.69578552246094,
+          "p75": 35.11953067779541,
+          "p90": 35.693695068359375,
+          "max": 36.966941833496094,
+          "mean": 33.738572692871095,
+          "std": 1.8344121796640296
+        }
+      },
+      "combined": {
+        "total": 17,
+        "detected": 17,
+        "sensitivity": 1.0,
+        "score_stats": {
+          "count": 17,
+          "min": 37.51700973510742,
+          "p10": 38.569880676269534,
+          "p25": 41.46348190307617,
+          "p50": 43.50690460205078,
+          "p75": 48.279598236083984,
+          "p90": 52.190127563476565,
+          "max": 55.04384994506836,
+          "mean": 44.82396608240464,
+          "std": 5.3676954673419806
+        }
+      },
+      "contamination": {
+        "total": 21,
+        "detected": 18,
+        "sensitivity": 0.8571428571428571,
+        "score_stats": {
+          "count": 21,
+          "min": 32.016048431396484,
+          "p10": 35.597755432128906,
+          "p25": 37.981143951416016,
+          "p50": 40.90205001831055,
+          "p75": 50.91972732543945,
+          "p90": 54.12359619140625,
+          "max": 58.95567321777344,
+          "mean": 44.1260617574056,
+          "std": 8.030072399141048
+        }
+      },
+      "crack": {
+        "total": 10,
+        "detected": 6,
+        "sensitivity": 0.6,
+        "score_stats": {
+          "count": 10,
+          "min": 30.271451950073242,
+          "p10": 32.953202629089354,
+          "p25": 35.027889251708984,
+          "p50": 39.61903381347656,
+          "p75": 44.74537944793701,
+          "p90": 47.9067798614502,
+          "max": 49.74073791503906,
+          "mean": 39.959898948669434,
+          "std": 6.802715505365309
+        }
+      },
+      "faulty_imprint": {
+        "total": 19,
+        "detected": 16,
+        "sensitivity": 0.8421052631578947,
+        "score_stats": {
+          "count": 19,
+          "min": 32.14872360229492,
+          "p10": 33.979234313964845,
+          "p25": 38.19899940490723,
+          "p50": 40.72784423828125,
+          "p75": 44.469703674316406,
+          "p90": 47.493568420410156,
+          "max": 55.051631927490234,
+          "mean": 41.52536412289268,
+          "std": 5.762649780284598
+        }
+      },
+      "pill_type": {
+        "total": 9,
+        "detected": 9,
+        "sensitivity": 1.0,
+        "score_stats": {
+          "count": 9,
+          "min": 39.48458480834961,
+          "p10": 40.05649642944336,
+          "p25": 42.883243560791016,
+          "p50": 51.054622650146484,
+          "p75": 52.76829147338867,
+          "p90": 58.80336227416992,
+          "max": 60.79001998901367,
+          "mean": 48.994481828477646,
+          "std": 7.877758386891372
+        }
+      },
+      "scratch": {
+        "total": 10,
+        "detected": 9,
+        "sensitivity": 0.9,
+        "score_stats": {
+          "count": 10,
+          "min": 34.6414680480957,
+          "p10": 37.78719367980957,
+          "p25": 41.462541580200195,
+          "p50": 43.67271614074707,
+          "p75": 54.22935962677002,
+          "p90": 68.11069107055664,
+          "max": 70.68049621582031,
+          "mean": 48.45107154846191,
+          "std": 12.446785835053321
+        }
+      }
+    },
+    "phase85_fn_recovery": {
+      "total_phase85_fns": 24,
+      "recovered_count": 13,
+      "recovered_samples": [
+        "combined_006.png",
+        "combined_007.png",
+        "contamination_010.png",
+        "contamination_019.png",
+        "contamination_020.png",
+        "faulty_imprint_003.png",
+        "faulty_imprint_004.png",
+        "faulty_imprint_005.png",
+        "faulty_imprint_008.png",
+        "faulty_imprint_011.png",
+        "faulty_imprint_013.png",
+        "faulty_imprint_014.png",
+        "scratch_004.png"
+      ],
+      "still_missed_count": 11,
+      "still_missed_samples": [
+        "color_014.png",
+        "color_017.png",
+        "color_024.png",
+        "contamination_005.png",
+        "contamination_009.png",
+        "contamination_013.png",
+        "crack_013.png",
+        "crack_014.png",
+        "crack_016.png",
+        "faulty_imprint_000.png",
+        "faulty_imprint_009.png"
+      ],
+      "newly_lost_count": 9,
+      "newly_lost_samples": [
+        "color_012.png",
+        "color_013.png",
+        "color_015.png",
+        "color_016.png",
+        "color_018.png",
+        "color_020.png",
+        "crack_015.png",
+        "faulty_imprint_015.png",
+        "scratch_001.png"
+      ]
+    },
+    "localization_metrics": {
+      "evaluated_count": 96,
+      "mean_coverage": 0.7307348580419557,
+      "mean_iou_box": 0.3106693644994227,
+      "mean_purity": 0.24467670798240052,
+      "peak_on_defect_rate": 0.6041666666666666
+    },
+    "resources": {
+      "latency": {
+        "mean_ms": 86.51847351074218,
+        "std_ms": 3.150135282063206,
+        "p50_ms": 85.99348831176758,
+        "p90_ms": 88.99932556152343,
+        "p95_ms": 91.58668403625488,
+        "max_ms": 102.60185241699219
+      },
+      "peak_vram_mb": 133.017578125,
+      "fitting_time_sec": 17.734809398651123
+    },
+    "false_negative_list": [
+      {
+        "category": "faulty_imprint",
+        "filename": "000.png",
+        "score": 33.980533599853516,
+        "margin": -1.618691660860236
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "009.png",
+        "score": 32.14872360229492,
+        "margin": -3.4505016584188297
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "015.png",
+        "score": 33.974037170410156,
+        "margin": -1.6251880903035953
+      },
+      {
+        "category": "contamination",
+        "filename": "005.png",
+        "score": 34.800514221191406,
+        "margin": -0.7987110395223453
+      },
+      {
+        "category": "contamination",
+        "filename": "009.png",
+        "score": 32.016048431396484,
+        "margin": -3.583176829317267
+      },
+      {
+        "category": "contamination",
+        "filename": "013.png",
+        "score": 35.597755432128906,
+        "margin": -0.0014698285848453452
+      },
+      {
+        "category": "color",
+        "filename": "012.png",
+        "score": 33.854434967041016,
+        "margin": -1.744790293672736
+      },
+      {
+        "category": "color",
+        "filename": "013.png",
+        "score": 31.329429626464844,
+        "margin": -4.269795634248908
+      },
+      {
+        "category": "color",
+        "filename": "014.png",
+        "score": 35.552223205566406,
+        "margin": -0.047002055147345345
+      },
+      {
+        "category": "color",
+        "filename": "015.png",
+        "score": 31.86134910583496,
+        "margin": -3.7378761548787907
+      },
+      {
+        "category": "color",
+        "filename": "016.png",
+        "score": 33.616878509521484,
+        "margin": -1.9823467511922672
+      },
+      {
+        "category": "color",
+        "filename": "017.png",
+        "score": 35.541229248046875,
+        "margin": -0.057996012666876595
+      },
+      {
+        "category": "color",
+        "filename": "018.png",
+        "score": 31.88909339904785,
+        "margin": -3.7101318616659
+      },
+      {
+        "category": "color",
+        "filename": "020.png",
+        "score": 32.999454498291016,
+        "margin": -2.599770762422736
+      },
+      {
+        "category": "color",
+        "filename": "024.png",
+        "score": 33.77469253540039,
+        "margin": -1.824532725313361
+      },
+      {
+        "category": "crack",
+        "filename": "013.png",
+        "score": 30.271451950073242,
+        "margin": -5.327773310640509
+      },
+      {
+        "category": "crack",
+        "filename": "014.png",
+        "score": 35.236549377441406,
+        "margin": -0.36267588327234535
+      },
+      {
+        "category": "crack",
+        "filename": "015.png",
+        "score": 34.958335876464844,
+        "margin": -0.6408893842489078
+      },
+      {
+        "category": "crack",
+        "filename": "016.png",
+        "score": 33.25117492675781,
+        "margin": -2.348050333955939
+      },
+      {
+        "category": "scratch",
+        "filename": "001.png",
+        "score": 34.6414680480957,
+        "margin": -0.9577572126180485
+      }
+    ]
+  },
+  "variant_d": {
+    "variant_id": "variant_d",
+    "variant_name": "Variant D (Aligned Baseline)",
+    "backbone": "wide_resnet50_2",
+    "layers": [
+      "layer2",
+      "layer3"
+    ],
+    "image_size": [
+      256,
+      256
+    ],
+    "use_aligned": true,
+    "model_param_count": 24862528,
+    "memory_bank_shape": [
+      819,
+      1536
+    ],
+    "calibrated_threshold": 44.11955032984377,
+    "ref_stats": {
+      "mean": 30.74560680389404,
+      "std_sample": 4.457981175316576,
+      "std_pop": 4.229212284046435,
+      "scores": [
+        41.0352,
+        28.394,
+        28.3048,
+        28.226,
+        36.808,
+        28.7175,
+        28.5644,
+        28.9263,
+        28.3223,
+        30.1576
+      ]
+    },
+    "metrics": {
+      "auroc": 0.9346955128205128,
+      "sensitivity": 0.7291666666666666,
+      "specificity": 0.9615384615384616,
+      "fpr": 0.038461538461538464,
+      "tp": 70,
+      "tn": 25,
+      "fp": 1,
+      "fn": 26,
+      "score_margin": -8.840526580810547
+    },
+    "threshold_independent_roc": {
+      "auroc": 0.9346955128205128,
+      "tpr_at_0_fpr": 0.0,
+      "tpr_at_4_fpr": 0.7604166666666666,
+      "tpr_at_10_fpr": 0.8125
+    },
+    "score_distributions": {
+      "normals": {
+        "count": 26,
+        "min": 35.836814880371094,
+        "p10": 36.30735969543457,
+        "p25": 37.336228370666504,
+        "p50": 38.41600799560547,
+        "p75": 41.32600116729736,
+        "p90": 42.458757400512695,
+        "max": 45.697139739990234,
+        "mean": 39.24004319997934,
+        "std": 2.619968990935908
+      },
+      "all_defects": {
+        "count": 96,
+        "min": 36.85661315917969,
+        "p10": 41.30924034118652,
+        "p25": 43.900712966918945,
+        "p50": 46.71566581726074,
+        "p75": 50.25073528289795,
+        "p90": 52.88201713562012,
+        "max": 63.69264221191406,
+        "mean": 47.149644335110985,
+        "std": 4.732962626170785
+      },
+      "false_negatives": {
+        "count": 26,
+        "min": 36.85661315917969,
+        "p10": 39.11711502075195,
+        "p25": 40.95552158355713,
+        "p50": 42.07556915283203,
+        "p75": 43.27108383178711,
+        "p90": 43.75821876525879,
+        "max": 44.023624420166016,
+        "mean": 41.70794575030987,
+        "std": 1.9263054235392358
+      }
+    },
+    "category_sensitivity": {
+      "color": {
+        "total": 10,
+        "detected": 6,
+        "sensitivity": 0.6,
+        "score_stats": {
+          "count": 10,
+          "min": 42.00300979614258,
+          "p10": 42.021514892578125,
+          "p25": 42.24516677856445,
+          "p50": 47.57882881164551,
+          "p75": 51.85025501251221,
+          "p90": 52.75806846618652,
+          "max": 52.96440887451172,
+          "mean": 47.259338760375975,
+          "std": 4.761156032412499
+        }
+      },
+      "combined": {
+        "total": 17,
+        "detected": 14,
+        "sensitivity": 0.8235294117647058,
+        "score_stats": {
+          "count": 17,
+          "min": 39.8750114440918,
+          "p10": 42.77358627319336,
+          "p25": 46.490726470947266,
+          "p50": 49.249977111816406,
+          "p75": 52.871131896972656,
+          "p90": 56.247979736328126,
+          "max": 57.3277587890625,
+          "mean": 49.58207657757927,
+          "std": 5.24337353089731
+        }
+      },
+      "contamination": {
+        "total": 21,
+        "detected": 15,
+        "sensitivity": 0.7142857142857143,
+        "score_stats": {
+          "count": 21,
+          "min": 39.6663703918457,
+          "p10": 41.12649917602539,
+          "p25": 43.80376434326172,
+          "p50": 46.90543746948242,
+          "p75": 50.216346740722656,
+          "p90": 52.89290237426758,
+          "max": 63.69264221191406,
+          "mean": 47.448369707380024,
+          "std": 5.643952106187043
+        }
+      },
+      "crack": {
+        "total": 10,
+        "detected": 7,
+        "sensitivity": 0.7,
+        "score_stats": {
+          "count": 10,
+          "min": 36.85661315917969,
+          "p10": 37.63332252502441,
+          "p25": 41.961520195007324,
+          "p50": 44.311445236206055,
+          "p75": 46.73317813873291,
+          "p90": 47.16141319274902,
+          "max": 48.849857330322266,
+          "mean": 43.79193229675293,
+          "std": 4.018272036557263
+        }
+      },
+      "faulty_imprint": {
+        "total": 19,
+        "detected": 10,
+        "sensitivity": 0.5263157894736842,
+        "score_stats": {
+          "count": 19,
+          "min": 38.5678596496582,
+          "p10": 41.37564392089844,
+          "p25": 43.1444206237793,
+          "p50": 44.129173278808594,
+          "p75": 46.48209571838379,
+          "p90": 48.073596191406246,
+          "max": 50.47114181518555,
+          "mean": 44.70948209260639,
+          "std": 2.9578573818692626
+        }
+      },
+      "pill_type": {
+        "total": 9,
+        "detected": 9,
+        "sensitivity": 1.0,
+        "score_stats": {
+          "count": 9,
+          "min": 49.675697326660156,
+          "p10": 49.700923156738284,
+          "p25": 50.92686462402344,
+          "p50": 51.425289154052734,
+          "p75": 52.372215270996094,
+          "p90": 52.987588500976564,
+          "max": 53.013885498046875,
+          "mean": 51.51605139838325,
+          "std": 1.252592700639699
+        }
+      },
+      "scratch": {
+        "total": 10,
+        "detected": 9,
+        "sensitivity": 0.9,
+        "score_stats": {
+          "count": 10,
+          "min": 43.71267318725586,
+          "p10": 45.00596656799316,
+          "p25": 45.233397483825684,
+          "p50": 46.28099250793457,
+          "p75": 46.80604362487793,
+          "p90": 48.45896492004395,
+          "max": 49.55271911621094,
+          "mean": 46.34174575805664,
+          "std": 1.6725881661396718
+        }
+      }
+    },
+    "phase85_fn_recovery": {
+      "total_phase85_fns": 24,
+      "recovered_count": 2,
+      "recovered_samples": [
+        "contamination_019.png",
+        "faulty_imprint_008.png"
+      ],
+      "still_missed_count": 22,
+      "still_missed_samples": [
+        "color_014.png",
+        "color_017.png",
+        "color_024.png",
+        "combined_006.png",
+        "combined_007.png",
+        "contamination_005.png",
+        "contamination_009.png",
+        "contamination_010.png",
+        "contamination_013.png",
+        "contamination_020.png",
+        "crack_013.png",
+        "crack_014.png",
+        "crack_016.png",
+        "faulty_imprint_000.png",
+        "faulty_imprint_003.png",
+        "faulty_imprint_004.png",
+        "faulty_imprint_005.png",
+        "faulty_imprint_009.png",
+        "faulty_imprint_011.png",
+        "faulty_imprint_013.png",
+        "faulty_imprint_014.png",
+        "scratch_004.png"
+      ],
+      "newly_lost_count": 4,
+      "newly_lost_samples": [
+        "color_015.png",
+        "combined_005.png",
+        "contamination_004.png",
+        "faulty_imprint_012.png"
+      ]
+    },
+    "localization_metrics": {
+      "evaluated_count": 96,
+      "mean_coverage": 0.7096946821725679,
+      "mean_iou_box": 0.34612813367693634,
+      "mean_purity": 0.2912174161672901,
+      "peak_on_defect_rate": 0.6666666666666666
+    },
+    "resources": {
+      "latency": {
+        "mean_ms": 128.45616409301758,
+        "std_ms": 7.1855885847788805,
+        "p50_ms": 126.8169937133789,
+        "p90_ms": 136.92451171875,
+        "p95_ms": 143.70512084960936,
+        "max_ms": 151.34970092773438
+      },
+      "peak_vram_mb": 223.037109375,
+      "fitting_time_sec": 4.070041179656982
+    },
+    "false_negative_list": [
+      {
+        "category": "faulty_imprint",
+        "filename": "000.png",
+        "score": 38.5678596496582,
+        "margin": -5.551690680185565
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "003.png",
+        "score": 43.39774703979492,
+        "margin": -0.7218032900488467
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "004.png",
+        "score": 42.89109420776367,
+        "margin": -1.2284561220800967
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "005.png",
+        "score": 41.42803955078125,
+        "margin": -2.6915107790625186
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "009.png",
+        "score": 43.66742706298828,
+        "margin": -0.4521232668554873
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "011.png",
+        "score": 43.70846939086914,
+        "margin": -0.41108093897462794
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "012.png",
+        "score": 43.93302917480469,
+        "margin": -0.18652115503908107
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "013.png",
+        "score": 41.16606140136719,
+        "margin": -2.953488928476581
+      },
+      {
+        "category": "faulty_imprint",
+        "filename": "014.png",
+        "score": 42.40352249145508,
+        "margin": -1.7160278383886904
+      },
+      {
+        "category": "contamination",
+        "filename": "004.png",
+        "score": 43.80376434326172,
+        "margin": -0.3157859865820498
+      },
+      {
+        "category": "contamination",
+        "filename": "005.png",
+        "score": 42.324462890625,
+        "margin": -1.7950874392187686
+      },
+      {
+        "category": "contamination",
+        "filename": "009.png",
+        "score": 41.12649917602539,
+        "margin": -2.993051153818378
+      },
+      {
+        "category": "contamination",
+        "filename": "010.png",
+        "score": 40.79376983642578,
+        "margin": -3.3257804934179873
+      },
+      {
+        "category": "contamination",
+        "filename": "013.png",
+        "score": 42.49984359741211,
+        "margin": -1.6197067324316592
+      },
+      {
+        "category": "contamination",
+        "filename": "020.png",
+        "score": 39.6663703918457,
+        "margin": -4.453179937998065
+      },
+      {
+        "category": "color",
+        "filename": "014.png",
+        "score": 42.0235710144043,
+        "margin": -2.0959793154394717
+      },
+      {
+        "category": "color",
+        "filename": "015.png",
+        "score": 42.00300979614258,
+        "margin": -2.1165405337011904
+      },
+      {
+        "category": "color",
+        "filename": "017.png",
+        "score": 42.127567291259766,
+        "margin": -1.991983038584003
+      },
+      {
+        "category": "color",
+        "filename": "024.png",
+        "score": 42.597965240478516,
+        "margin": -1.521585089365253
+      },
+      {
+        "category": "crack",
+        "filename": "013.png",
+        "score": 41.1904411315918,
+        "margin": -2.9291091982519717
+      },
+      {
+        "category": "crack",
+        "filename": "014.png",
+        "score": 36.85661315917969,
+        "margin": -7.262937170664081
+      },
+      {
+        "category": "crack",
+        "filename": "016.png",
+        "score": 37.71962356567383,
+        "margin": -6.39992676416994
+      },
+      {
+        "category": "combined",
+        "filename": "005.png",
+        "score": 44.023624420166016,
+        "margin": -0.09592590967775294
+      },
+      {
+        "category": "combined",
+        "filename": "006.png",
+        "score": 40.898529052734375,
+        "margin": -3.2210212771093936
+      },
+      {
+        "category": "combined",
+        "filename": "007.png",
+        "score": 39.8750114440918,
+        "margin": -4.244538885751972
+      },
+      {
+        "category": "scratch",
+        "filename": "004.png",
+        "score": 43.71267318725586,
+        "margin": -0.4068771425879092
+      }
+    ]
+  }
+}

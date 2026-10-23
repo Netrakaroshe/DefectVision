@@ -1,0 +1,749 @@
+[
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/000.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 32.89782,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/normal/norm_000.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/001.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 33.690884,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/normal/norm_001.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/002.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 33.624062,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/normal/norm_002.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/003.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 33.712421,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/normal/norm_003.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/004.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 35.714996,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/normal/norm_004.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/005.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 30.056997,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/006.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 31.712643,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/007.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 34.529716,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/008.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 31.464077,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/009.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 35.722767,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/010.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 31.453074,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/011.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 33.216026,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/012.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 34.293488,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/013.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 30.273865,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/014.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 29.461697,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/015.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 34.947777,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/016.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 33.752499,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/017.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 32.367062,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/018.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 39.360531,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/good/019.png",
+    "split": "test",
+    "ground_truth_status": "normal",
+    "defect_type": "good",
+    "anomaly_score": 33.161041,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/000.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 69.294525,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_large_000.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/001.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 66.168869,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_large_001.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/002.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 64.314949,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_large_002.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/003.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 67.84005,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_large_003.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/004.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 70.780457,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/005.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 62.342545,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/006.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 70.925034,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/007.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 61.221333,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/008.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 64.136612,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/009.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 63.744591,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/010.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 66.545906,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/011.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 55.158894,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/012.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 67.68856,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/013.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 65.274513,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/014.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 63.904373,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/015.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 67.000641,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/016.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 64.962837,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/017.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 69.18576,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/018.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 67.224205,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_large/019.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_large",
+    "anomaly_score": 65.627274,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/000.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 51.036144,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_small_000.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/001.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 63.383194,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_small_001.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/002.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 65.098351,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_small_002.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/003.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 63.35355,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/broken_small_003.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/004.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 67.436279,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/005.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 55.046593,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/006.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 64.422165,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/007.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 61.608776,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/008.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 55.523846,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/009.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 61.987331,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/010.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 66.997246,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/011.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 54.101875,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/012.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 63.688644,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/013.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 63.160439,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/014.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 52.565155,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/015.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 61.883457,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/016.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 62.277008,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/017.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 69.634796,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/018.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 68.787247,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/019.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 66.712517,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/020.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 68.663681,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/broken_small/021.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "broken_small",
+    "anomaly_score": 63.460323,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/000.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 62.027199,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/contamination_000.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/001.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 51.976959,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/contamination_001.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/002.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 53.911362,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/contamination_002.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/003.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 41.73769,
+    "anomalib_pred_label": false,
+    "heatmap_path": "D:/DefectVision/experiments/patchcore_bottle/heatmaps/defective/contamination_003.png"
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/004.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 46.016495,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/005.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 67.78167,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/006.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 65.6978,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/007.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 79.012932,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/008.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 59.722878,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/009.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 63.419346,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/010.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 64.405937,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/011.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 53.209049,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/012.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 45.405708,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/013.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 70.885017,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/014.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 70.036369,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/015.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 63.958652,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/016.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 43.578663,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/017.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 77.186913,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/018.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 73.99527,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/019.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 43.450367,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  },
+  {
+    "image_path": "D:/datasets/defect_dataset_workspace/sources/MVTecAD/bottle/test/contamination/020.png",
+    "split": "test",
+    "ground_truth_status": "defective",
+    "defect_type": "contamination",
+    "anomaly_score": 49.576763,
+    "anomalib_pred_label": false,
+    "heatmap_path": null
+  }
+]

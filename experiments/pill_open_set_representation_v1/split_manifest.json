@@ -1,0 +1,248 @@
+{
+  "note": "OFFLINE EXPERIMENT \u2014 NOT PRODUCTION. Exact sample-level isolation.",
+  "supported_counts": {
+    "train": 31,
+    "val": 6,
+    "internal_test": 0
+  },
+  "supported_splits": {
+    "train": [
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      }
+    ],
+    "val": [
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      },
+      {
+        "sample_id": null,
+        "label": null,
+        "image_path": null,
+        "roi_path": null
+      }
+    ],
+    "internal_test": []
+  },
+  "external_supported_benchmark_count": 23,
+  "external_supported_benchmark_manifest": "scratch/phase83c_results/roi_audit.json",
+  "untouched_evaluation_outliers_count": 66,
+  "untouched_evaluation_outliers_categories": {
+    "contamination": 21,
+    "faulty_imprint": 19,
+    "combined": 17,
+    "pill_type": 9
+  },
+  "regularization_outlier_crops_count": 15,
+  "regularization_outlier_source": "defect-free normal pill reference images from calibration pool (strictly isolated from test defects)"
+}

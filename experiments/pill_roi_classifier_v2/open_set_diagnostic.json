@@ -1,0 +1,860 @@
+[
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\000.png",
+    "filename": "000.png",
+    "original_label": "combined",
+    "patchcore_score": 46.29281234741211,
+    "predicted_class": "Scratch",
+    "confidence": 0.6264097690582275,
+    "probabilities": {
+      "Scratch": 0.6264097690582275,
+      "Crack": 0.35083481669425964,
+      "Discoloration": 0.022755462676286697
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\001.png",
+    "filename": "001.png",
+    "original_label": "combined",
+    "patchcore_score": 49.38371658325195,
+    "predicted_class": "Crack",
+    "confidence": 0.7758825421333313,
+    "probabilities": {
+      "Scratch": 0.11977509409189224,
+      "Crack": 0.7758825421333313,
+      "Discoloration": 0.10434234887361526
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\002.png",
+    "filename": "002.png",
+    "original_label": "combined",
+    "patchcore_score": 52.73563766479492,
+    "predicted_class": "Discoloration",
+    "confidence": 0.9264093637466431,
+    "probabilities": {
+      "Scratch": 0.02760317735373974,
+      "Crack": 0.045987486839294434,
+      "Discoloration": 0.9264093637466431
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\003.png",
+    "filename": "003.png",
+    "original_label": "combined",
+    "patchcore_score": 56.323883056640625,
+    "predicted_class": "Discoloration",
+    "confidence": 0.9119645953178406,
+    "probabilities": {
+      "Scratch": 0.022758981212973595,
+      "Crack": 0.0652763620018959,
+      "Discoloration": 0.9119645953178406
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\004.png",
+    "filename": "004.png",
+    "original_label": "combined",
+    "patchcore_score": 47.47216033935547,
+    "predicted_class": "Crack",
+    "confidence": 0.5300617218017578,
+    "probabilities": {
+      "Scratch": 0.4404962360858917,
+      "Crack": 0.5300617218017578,
+      "Discoloration": 0.029442092403769493
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\005.png",
+    "filename": "005.png",
+    "original_label": "combined",
+    "patchcore_score": 43.903995513916016,
+    "predicted_class": "Crack",
+    "confidence": 0.7574276328086853,
+    "probabilities": {
+      "Scratch": 0.21728530526161194,
+      "Crack": 0.7574276328086853,
+      "Discoloration": 0.025287097319960594
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\006.png",
+    "filename": "006.png",
+    "original_label": "combined",
+    "patchcore_score": 40.87879943847656,
+    "predicted_class": "Crack",
+    "confidence": 0.5339654088020325,
+    "probabilities": {
+      "Scratch": 0.4517584443092346,
+      "Crack": 0.5339654088020325,
+      "Discoloration": 0.014276189729571342
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\007.png",
+    "filename": "007.png",
+    "original_label": "combined",
+    "patchcore_score": 40.02894592285156,
+    "predicted_class": "Scratch",
+    "confidence": 0.511835515499115,
+    "probabilities": {
+      "Scratch": 0.511835515499115,
+      "Crack": 0.33695948123931885,
+      "Discoloration": 0.15120501816272736
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\008.png",
+    "filename": "008.png",
+    "original_label": "combined",
+    "patchcore_score": 48.34270477294922,
+    "predicted_class": "Scratch",
+    "confidence": 0.4169096052646637,
+    "probabilities": {
+      "Scratch": 0.4169096052646637,
+      "Crack": 0.4124920070171356,
+      "Discoloration": 0.17059843242168427
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\009.png",
+    "filename": "009.png",
+    "original_label": "combined",
+    "patchcore_score": 51.9290771484375,
+    "predicted_class": "Discoloration",
+    "confidence": 0.9867286086082458,
+    "probabilities": {
+      "Scratch": 0.004764995537698269,
+      "Crack": 0.00850644800812006,
+      "Discoloration": 0.9867286086082458
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\010.png",
+    "filename": "010.png",
+    "original_label": "combined",
+    "patchcore_score": 46.44758224487305,
+    "predicted_class": "Scratch",
+    "confidence": 0.5015708804130554,
+    "probabilities": {
+      "Scratch": 0.5015708804130554,
+      "Crack": 0.18443366885185242,
+      "Discoloration": 0.31399551033973694
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\011.png",
+    "filename": "011.png",
+    "original_label": "combined",
+    "patchcore_score": 50.59834671020508,
+    "predicted_class": "Scratch",
+    "confidence": 0.6994709372520447,
+    "probabilities": {
+      "Scratch": 0.6994709372520447,
+      "Crack": 0.23441936075687408,
+      "Discoloration": 0.06610976159572601
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\012.png",
+    "filename": "012.png",
+    "original_label": "combined",
+    "patchcore_score": 48.468570709228516,
+    "predicted_class": "Crack",
+    "confidence": 0.7357816696166992,
+    "probabilities": {
+      "Scratch": 0.24392637610435486,
+      "Crack": 0.7357816696166992,
+      "Discoloration": 0.02029191143810749
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\013.png",
+    "filename": "013.png",
+    "original_label": "combined",
+    "patchcore_score": 56.5738410949707,
+    "predicted_class": "Crack",
+    "confidence": 0.6964142918586731,
+    "probabilities": {
+      "Scratch": 0.2953064441680908,
+      "Crack": 0.6964142918586731,
+      "Discoloration": 0.008279270492494106
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\014.png",
+    "filename": "014.png",
+    "original_label": "combined",
+    "patchcore_score": 57.699642181396484,
+    "predicted_class": "Crack",
+    "confidence": 0.6585702300071716,
+    "probabilities": {
+      "Scratch": 0.025983156636357307,
+      "Crack": 0.6585702300071716,
+      "Discoloration": 0.3154465854167938
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\015.png",
+    "filename": "015.png",
+    "original_label": "combined",
+    "patchcore_score": 47.08375930786133,
+    "predicted_class": "Discoloration",
+    "confidence": 0.591685950756073,
+    "probabilities": {
+      "Scratch": 0.2505933344364166,
+      "Crack": 0.15772071480751038,
+      "Discoloration": 0.591685950756073
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\combined\\016.png",
+    "filename": "016.png",
+    "original_label": "combined",
+    "patchcore_score": 56.18061065673828,
+    "predicted_class": "Crack",
+    "confidence": 0.4520345628261566,
+    "probabilities": {
+      "Scratch": 0.4504908621311188,
+      "Crack": 0.4520345628261566,
+      "Discoloration": 0.09747456014156342
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\000.png",
+    "filename": "000.png",
+    "original_label": "contamination",
+    "patchcore_score": 44.59855270385742,
+    "predicted_class": "Crack",
+    "confidence": 0.5226075053215027,
+    "probabilities": {
+      "Scratch": 0.07683044672012329,
+      "Crack": 0.5226075053215027,
+      "Discoloration": 0.4005620777606964
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\001.png",
+    "filename": "001.png",
+    "original_label": "contamination",
+    "patchcore_score": 47.383766174316406,
+    "predicted_class": "Scratch",
+    "confidence": 0.6536433696746826,
+    "probabilities": {
+      "Scratch": 0.6536433696746826,
+      "Crack": 0.2227722704410553,
+      "Discoloration": 0.12358434498310089
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\002.png",
+    "filename": "002.png",
+    "original_label": "contamination",
+    "patchcore_score": 50.53898620605469,
+    "predicted_class": "Crack",
+    "confidence": 0.9517723917961121,
+    "probabilities": {
+      "Scratch": 0.036051247268915176,
+      "Crack": 0.9517723917961121,
+      "Discoloration": 0.012176395393908024
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\003.png",
+    "filename": "003.png",
+    "original_label": "contamination",
+    "patchcore_score": 62.50434494018555,
+    "predicted_class": "Crack",
+    "confidence": 0.8989652395248413,
+    "probabilities": {
+      "Scratch": 0.03492479398846626,
+      "Crack": 0.8989652395248413,
+      "Discoloration": 0.06610996276140213
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\004.png",
+    "filename": "004.png",
+    "original_label": "contamination",
+    "patchcore_score": 43.949893951416016,
+    "predicted_class": "Crack",
+    "confidence": 0.5592580437660217,
+    "probabilities": {
+      "Scratch": 0.2371356338262558,
+      "Crack": 0.5592580437660217,
+      "Discoloration": 0.20360635221004486
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\005.png",
+    "filename": "005.png",
+    "original_label": "contamination",
+    "patchcore_score": 42.545650482177734,
+    "predicted_class": "Crack",
+    "confidence": 0.4172319173812866,
+    "probabilities": {
+      "Scratch": 0.3839015066623688,
+      "Crack": 0.4172319173812866,
+      "Discoloration": 0.1988665759563446
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\006.png",
+    "filename": "006.png",
+    "original_label": "contamination",
+    "patchcore_score": 46.19344711303711,
+    "predicted_class": "Scratch",
+    "confidence": 0.49851536750793457,
+    "probabilities": {
+      "Scratch": 0.49851536750793457,
+      "Crack": 0.47761934995651245,
+      "Discoloration": 0.02386533096432686
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\007.png",
+    "filename": "007.png",
+    "original_label": "contamination",
+    "patchcore_score": 49.159141540527344,
+    "predicted_class": "Crack",
+    "confidence": 0.42905163764953613,
+    "probabilities": {
+      "Scratch": 0.4240627586841583,
+      "Crack": 0.42905163764953613,
+      "Discoloration": 0.14688560366630554
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\008.png",
+    "filename": "008.png",
+    "original_label": "contamination",
+    "patchcore_score": 44.28396224975586,
+    "predicted_class": "Scratch",
+    "confidence": 0.5023606419563293,
+    "probabilities": {
+      "Scratch": 0.5023606419563293,
+      "Crack": 0.23427116870880127,
+      "Discoloration": 0.2633681893348694
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\009.png",
+    "filename": "009.png",
+    "original_label": "contamination",
+    "patchcore_score": 40.425498962402344,
+    "predicted_class": "Discoloration",
+    "confidence": 0.4202502965927124,
+    "probabilities": {
+      "Scratch": 0.24815873801708221,
+      "Crack": 0.3315909206867218,
+      "Discoloration": 0.4202502965927124
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\010.png",
+    "filename": "010.png",
+    "original_label": "contamination",
+    "patchcore_score": 41.84674835205078,
+    "predicted_class": "Crack",
+    "confidence": 0.7822271585464478,
+    "probabilities": {
+      "Scratch": 0.12223975360393524,
+      "Crack": 0.7822271585464478,
+      "Discoloration": 0.0955331027507782
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\011.png",
+    "filename": "011.png",
+    "original_label": "contamination",
+    "patchcore_score": 52.15346145629883,
+    "predicted_class": "Scratch",
+    "confidence": 0.534599244594574,
+    "probabilities": {
+      "Scratch": 0.534599244594574,
+      "Crack": 0.37705478072166443,
+      "Discoloration": 0.08834601938724518
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\012.png",
+    "filename": "012.png",
+    "original_label": "contamination",
+    "patchcore_score": 46.16654968261719,
+    "predicted_class": "Scratch",
+    "confidence": 0.44876059889793396,
+    "probabilities": {
+      "Scratch": 0.44876059889793396,
+      "Crack": 0.303300142288208,
+      "Discoloration": 0.24793924391269684
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\013.png",
+    "filename": "013.png",
+    "original_label": "contamination",
+    "patchcore_score": 42.731483459472656,
+    "predicted_class": "Scratch",
+    "confidence": 0.6744920015335083,
+    "probabilities": {
+      "Scratch": 0.6744920015335083,
+      "Crack": 0.3015470504760742,
+      "Discoloration": 0.023960916325449944
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\014.png",
+    "filename": "014.png",
+    "original_label": "contamination",
+    "patchcore_score": 48.66336441040039,
+    "predicted_class": "Crack",
+    "confidence": 0.528448760509491,
+    "probabilities": {
+      "Scratch": 0.05762939900159836,
+      "Crack": 0.528448760509491,
+      "Discoloration": 0.4139218330383301
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\015.png",
+    "filename": "015.png",
+    "original_label": "contamination",
+    "patchcore_score": 51.39521408081055,
+    "predicted_class": "Crack",
+    "confidence": 0.4694124460220337,
+    "probabilities": {
+      "Scratch": 0.36640259623527527,
+      "Crack": 0.4694124460220337,
+      "Discoloration": 0.16418492794036865
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\016.png",
+    "filename": "016.png",
+    "original_label": "contamination",
+    "patchcore_score": 54.38906478881836,
+    "predicted_class": "Crack",
+    "confidence": 0.8410036563873291,
+    "probabilities": {
+      "Scratch": 0.14971838891506195,
+      "Crack": 0.8410036563873291,
+      "Discoloration": 0.009277917444705963
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\017.png",
+    "filename": "017.png",
+    "original_label": "contamination",
+    "patchcore_score": 50.801021575927734,
+    "predicted_class": "Scratch",
+    "confidence": 0.7685189247131348,
+    "probabilities": {
+      "Scratch": 0.7685189247131348,
+      "Crack": 0.169088214635849,
+      "Discoloration": 0.06239284947514534
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\018.png",
+    "filename": "018.png",
+    "original_label": "contamination",
+    "patchcore_score": 53.15238571166992,
+    "predicted_class": "Scratch",
+    "confidence": 0.3617304265499115,
+    "probabilities": {
+      "Scratch": 0.3617304265499115,
+      "Crack": 0.3299199044704437,
+      "Discoloration": 0.3083496391773224
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\019.png",
+    "filename": "019.png",
+    "original_label": "contamination",
+    "patchcore_score": 42.275108337402344,
+    "predicted_class": "Scratch",
+    "confidence": 0.7676562070846558,
+    "probabilities": {
+      "Scratch": 0.7676562070846558,
+      "Crack": 0.22249849140644073,
+      "Discoloration": 0.009845303371548653
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\contamination\\020.png",
+    "filename": "020.png",
+    "original_label": "contamination",
+    "patchcore_score": 38.01068878173828,
+    "predicted_class": "Crack",
+    "confidence": 0.49263739585876465,
+    "probabilities": {
+      "Scratch": 0.14426203072071075,
+      "Crack": 0.49263739585876465,
+      "Discoloration": 0.36310049891471863
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\000.png",
+    "filename": "000.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 39.59156036376953,
+    "predicted_class": "Discoloration",
+    "confidence": 0.4547293484210968,
+    "probabilities": {
+      "Scratch": 0.21823440492153168,
+      "Crack": 0.32703617215156555,
+      "Discoloration": 0.4547293484210968
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\001.png",
+    "filename": "001.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 43.85791778564453,
+    "predicted_class": "Crack",
+    "confidence": 0.6067264080047607,
+    "probabilities": {
+      "Scratch": 0.3125596046447754,
+      "Crack": 0.6067264080047607,
+      "Discoloration": 0.08071394264698029
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\002.png",
+    "filename": "002.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 46.82799530029297,
+    "predicted_class": "Crack",
+    "confidence": 0.88401859998703,
+    "probabilities": {
+      "Scratch": 0.07648418843746185,
+      "Crack": 0.88401859998703,
+      "Discoloration": 0.03949717432260513
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\003.png",
+    "filename": "003.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 42.46397018432617,
+    "predicted_class": "Scratch",
+    "confidence": 0.5923004746437073,
+    "probabilities": {
+      "Scratch": 0.5923004746437073,
+      "Crack": 0.3322952687740326,
+      "Discoloration": 0.07540430873632431
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\004.png",
+    "filename": "004.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 42.46980667114258,
+    "predicted_class": "Scratch",
+    "confidence": 0.8665290474891663,
+    "probabilities": {
+      "Scratch": 0.8665290474891663,
+      "Crack": 0.08566047996282578,
+      "Discoloration": 0.047810498625040054
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\005.png",
+    "filename": "005.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 40.78515625,
+    "predicted_class": "Crack",
+    "confidence": 0.5327907204627991,
+    "probabilities": {
+      "Scratch": 0.42953115701675415,
+      "Crack": 0.5327907204627991,
+      "Discoloration": 0.03767809644341469
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\006.png",
+    "filename": "006.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 46.63838195800781,
+    "predicted_class": "Crack",
+    "confidence": 0.5678861737251282,
+    "probabilities": {
+      "Scratch": 0.3512896001338959,
+      "Crack": 0.5678861737251282,
+      "Discoloration": 0.08082418143749237
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\007.png",
+    "filename": "007.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 47.27191162109375,
+    "predicted_class": "Scratch",
+    "confidence": 0.881726861000061,
+    "probabilities": {
+      "Scratch": 0.881726861000061,
+      "Crack": 0.07393525540828705,
+      "Discoloration": 0.04433797672390938
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\008.png",
+    "filename": "008.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 43.10432052612305,
+    "predicted_class": "Crack",
+    "confidence": 0.5412067770957947,
+    "probabilities": {
+      "Scratch": 0.4190886616706848,
+      "Crack": 0.5412067770957947,
+      "Discoloration": 0.039704494178295135
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\009.png",
+    "filename": "009.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 43.23817443847656,
+    "predicted_class": "Discoloration",
+    "confidence": 0.5037394762039185,
+    "probabilities": {
+      "Scratch": 0.07094615697860718,
+      "Crack": 0.42531436681747437,
+      "Discoloration": 0.5037394762039185
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\010.png",
+    "filename": "010.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 49.81315994262695,
+    "predicted_class": "Scratch",
+    "confidence": 0.942419707775116,
+    "probabilities": {
+      "Scratch": 0.942419707775116,
+      "Crack": 0.029484344646334648,
+      "Discoloration": 0.028095919638872147
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\011.png",
+    "filename": "011.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 42.90021896362305,
+    "predicted_class": "Scratch",
+    "confidence": 0.9786289930343628,
+    "probabilities": {
+      "Scratch": 0.9786289930343628,
+      "Crack": 0.014310402795672417,
+      "Discoloration": 0.0070606404915452
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\012.png",
+    "filename": "012.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 43.81157684326172,
+    "predicted_class": "Crack",
+    "confidence": 0.451347291469574,
+    "probabilities": {
+      "Scratch": 0.36409616470336914,
+      "Crack": 0.451347291469574,
+      "Discoloration": 0.18455655872821808
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\013.png",
+    "filename": "013.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 40.86500549316406,
+    "predicted_class": "Scratch",
+    "confidence": 0.8913774490356445,
+    "probabilities": {
+      "Scratch": 0.8913774490356445,
+      "Crack": 0.0831722840666771,
+      "Discoloration": 0.025450218468904495
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\014.png",
+    "filename": "014.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 42.27173614501953,
+    "predicted_class": "Crack",
+    "confidence": 0.6046099662780762,
+    "probabilities": {
+      "Scratch": 0.28784140944480896,
+      "Crack": 0.6046099662780762,
+      "Discoloration": 0.10754863917827606
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\015.png",
+    "filename": "015.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 44.76227569580078,
+    "predicted_class": "Scratch",
+    "confidence": 0.8065246343612671,
+    "probabilities": {
+      "Scratch": 0.8065246343612671,
+      "Crack": 0.16651779413223267,
+      "Discoloration": 0.026957541704177856
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\016.png",
+    "filename": "016.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 43.8351936340332,
+    "predicted_class": "Scratch",
+    "confidence": 0.8077998161315918,
+    "probabilities": {
+      "Scratch": 0.8077998161315918,
+      "Crack": 0.13604746758937836,
+      "Discoloration": 0.05615260824561119
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\017.png",
+    "filename": "017.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 49.63349533081055,
+    "predicted_class": "Scratch",
+    "confidence": 0.6483339071273804,
+    "probabilities": {
+      "Scratch": 0.6483339071273804,
+      "Crack": 0.1749536693096161,
+      "Discoloration": 0.17671246826648712
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\faulty_imprint\\018.png",
+    "filename": "018.png",
+    "original_label": "faulty_imprint",
+    "patchcore_score": 47.0877571105957,
+    "predicted_class": "Scratch",
+    "confidence": 0.8149576187133789,
+    "probabilities": {
+      "Scratch": 0.8149576187133789,
+      "Crack": 0.15277959406375885,
+      "Discoloration": 0.03226282820105553
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\000.png",
+    "filename": "000.png",
+    "original_label": "pill_type",
+    "patchcore_score": 51.51828384399414,
+    "predicted_class": "Crack",
+    "confidence": 0.6087501645088196,
+    "probabilities": {
+      "Scratch": 0.38693904876708984,
+      "Crack": 0.6087501645088196,
+      "Discoloration": 0.00431077741086483
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\001.png",
+    "filename": "001.png",
+    "original_label": "pill_type",
+    "patchcore_score": 53.11361312866211,
+    "predicted_class": "Scratch",
+    "confidence": 0.7258188724517822,
+    "probabilities": {
+      "Scratch": 0.7258188724517822,
+      "Crack": 0.25116750597953796,
+      "Discoloration": 0.023013558238744736
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\002.png",
+    "filename": "002.png",
+    "original_label": "pill_type",
+    "patchcore_score": 51.70624542236328,
+    "predicted_class": "Discoloration",
+    "confidence": 0.8155604004859924,
+    "probabilities": {
+      "Scratch": 0.07509969174861908,
+      "Crack": 0.1093398928642273,
+      "Discoloration": 0.8155604004859924
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\003.png",
+    "filename": "003.png",
+    "original_label": "pill_type",
+    "patchcore_score": 51.422603607177734,
+    "predicted_class": "Discoloration",
+    "confidence": 0.8433225750923157,
+    "probabilities": {
+      "Scratch": 0.08547835797071457,
+      "Crack": 0.07119905203580856,
+      "Discoloration": 0.8433225750923157
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\004.png",
+    "filename": "004.png",
+    "original_label": "pill_type",
+    "patchcore_score": 50.82981491088867,
+    "predicted_class": "Discoloration",
+    "confidence": 0.7910677790641785,
+    "probabilities": {
+      "Scratch": 0.09032510966062546,
+      "Crack": 0.11860702186822891,
+      "Discoloration": 0.7910677790641785
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\005.png",
+    "filename": "005.png",
+    "original_label": "pill_type",
+    "patchcore_score": 49.62034225463867,
+    "predicted_class": "Scratch",
+    "confidence": 0.5869809985160828,
+    "probabilities": {
+      "Scratch": 0.5869809985160828,
+      "Crack": 0.4038167893886566,
+      "Discoloration": 0.009202146902680397
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\006.png",
+    "filename": "006.png",
+    "original_label": "pill_type",
+    "patchcore_score": 53.1808967590332,
+    "predicted_class": "Scratch",
+    "confidence": 0.8549543023109436,
+    "probabilities": {
+      "Scratch": 0.8549543023109436,
+      "Crack": 0.11631698906421661,
+      "Discoloration": 0.028728654608130455
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\007.png",
+    "filename": "007.png",
+    "original_label": "pill_type",
+    "patchcore_score": 49.482120513916016,
+    "predicted_class": "Discoloration",
+    "confidence": 0.5610102415084839,
+    "probabilities": {
+      "Scratch": 0.12375087291002274,
+      "Crack": 0.3152388632297516,
+      "Discoloration": 0.5610102415084839
+    }
+  },
+  {
+    "source_image_path": "D:\\datasets\\defect_dataset_workspace\\sources\\MVTecAD\\pill\\test\\pill_type\\008.png",
+    "filename": "008.png",
+    "original_label": "pill_type",
+    "patchcore_score": 51.070674896240234,
+    "predicted_class": "Crack",
+    "confidence": 0.44603779911994934,
+    "probabilities": {
+      "Scratch": 0.15723012387752533,
+      "Crack": 0.44603779911994934,
+      "Discoloration": 0.39673206210136414
+    }
+  }
+]
